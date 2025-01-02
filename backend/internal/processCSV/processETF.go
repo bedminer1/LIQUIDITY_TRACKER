@@ -3,6 +3,7 @@ package processcsv
 import (
 	"encoding/csv"
 	"os"
+	"path/filepath"
 	"strconv"
 	"strings"
 
@@ -33,6 +34,7 @@ func ParseEtfCsv(filePath string) ([]models.Record, error) {
 			break
 		}
 
+		fileName := filepath.Base(filePath)
 		// Parse relevant fields
 		date := line[0] + "T00:00:00Z"
 		volume, err := parseFloatWithComma(line[5])
@@ -43,25 +45,20 @@ func ParseEtfCsv(filePath string) ([]models.Record, error) {
 		if err != nil {
 			bidAskSpreadPercent = 0.0 // Default to 0 if invalid
 		}
-		high, err := parseFloatWithComma(line[3])
+		bidPrice, err := parseFloatWithComma(line[1])
 		if err != nil {
-			high = 0.0 // Default to 0 if invalid
-		}
-		low, err := parseFloatWithComma(line[2])
-		if err != nil {
-			low = 0.0 // Default to 0 if invalid
+			bidPrice = 0.0 // Default to 0 if invalid
 		}
 
 		// Convert bid-ask spread percentage to actual value
 		bidAskSpread := bidAskSpreadPercent / 100.0
 
 		records = append(records, models.Record{
-			AssetType:    "ETF",
-			Timestamp:         date,
+			AssetType:    "ETF_" + fileName[:3],
+			Timestamp:    date,
 			BidAskSpread: bidAskSpread,
 			Volume:       volume,
-			High:         high,
-			Low:          low,
+			BidPrice:     bidPrice,
 		})
 	}
 	return records, nil

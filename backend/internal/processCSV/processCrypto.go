@@ -3,6 +3,7 @@ package processcsv
 import (
 	"bufio"
 	"os"
+	"path/filepath"
 	"regexp"
 	"strconv"
 	"strings"
@@ -48,6 +49,7 @@ func ParseCryptoTxt(filePath string) ([]models.Record, error) {
 
 	// Regular expression to split by arbitrary whitespace
 	re := regexp.MustCompile(`\s+`)
+	assetName := strings.ToUpper(filepath.Base(filePath)[:3])
 
 	var records []models.Record
 	scanner := bufio.NewScanner(file)
@@ -76,19 +78,16 @@ func ParseCryptoTxt(filePath string) ([]models.Record, error) {
 		bidPrice, _ := strconv.ParseFloat(fields[1], 64)
 		askPrice, _ := strconv.ParseFloat(fields[3], 64)
 		volume, _ := strconv.ParseFloat(fields[8], 64)
-		high, _ := strconv.ParseFloat(fields[9], 64)
-		low, _ := strconv.ParseFloat(fields[10], 64)
 
 		// Calculate bid-ask spread
 		bidAskSpread := askPrice - bidPrice
 
 		records = append(records, models.Record{
-			AssetType:    "Crypto",
+			AssetType:    "Crypto_" + assetName,
 			Timestamp:    timestamp.String(),
 			BidAskSpread: bidAskSpread,
 			Volume:       volume,
-			High:         high,
-			Low:          low,
+			BidPrice:         bidPrice,
 		})
 	}
 
