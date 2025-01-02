@@ -13,28 +13,29 @@ Trading Volume Prediction:
 
 Identifies potential volume drops with precise time predictions.
 Offers actionable steps to counteract liquidity impacts.
+
 2. Liquidity Shortfall Alerts
-Real-time alerts highlight critical shortfalls across monitored assets.
-Alerts include:
-Severity of the shortfall.
-Timeframe for the predicted shortfall.
-Recommended actions to address the issue.
+- Real-time alerts highlight critical shortfalls across monitored assets.
+- Alerts include:
+- Severity of the shortfall.
+- Timeframe for the predicted shortfall.
+- Recommended actions to address the issue.
+
 3. Comprehensive Liquidity Metrics
-Displays recent liquidity shortfalls with:
-Frequency of occurrences.
-Severity levels categorized as high, medium, or low.
-Recommendations for mitigation.
+- Displays recent liquidity shortfalls with:
+- Frequency of occurrences.
+- Severity levels categorized as high, medium, or low.
+- Recommendations for mitigation.
+
 4. Fraud Detection Integration
-Analyzes data streams for fraudulent activity patterns.
-Flags high-risk transactions with detailed reasons for detection.
+- Analyzes data streams for fraudulent activity patterns.
+- Flags high-risk transactions with detailed reasons for detection.
+
 5. Visual Insights
 Dynamic visualizations for:
-Predicted vs. actual bid-ask spreads.
-Predicted vs. actual trading volumes.
-A summary section highlighting:
-Shortfall frequencies.
-Severity trends.
-Actionable recommendations.
-6. User-Friendly Interface
-A clean and intuitive design built with SvelteKit and Skeleton UI.
-Customizable widgets to fit specific user needs.
+- Predicted vs. actual bid-ask spreads.
+- Predicted vs. actual trading volumes.
+- A summary section highlighting:
+    Shortfall frequencies.
+    Severity trends.
+    Actionable recommendations.
