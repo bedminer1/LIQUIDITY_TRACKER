@@ -29,20 +29,44 @@ func insertRecords(db *gorm.DB, records []models.Record) error {
 	return nil
 }
 
+
 func main() {
 	db := initDB()
-	cryptoRecords, err := processcsv.ParseCryptoTxt("../../data/crypto_data/btcusd.txt")
-	if err != nil {
-		log.Fatal("Error parsing crypto CSV:", err)
+	records := []models.Record{}
+
+	etfFileNames := []string{
+		"EMB_data.csv",
+		"HYG_data.csv",
+		"LQD_data.csv",
+		"TLT_data.csv",
+	}
+	cryptoFileNames := []string{
+		"btcusd.txt",
+		"ethusd.txt",
+		"xrpusd.txt",
+	}
+	etfPrefix := "../../data/etf_data/"
+	cryptoPrefix := "../../data/crypto_data/"
+
+	for _, cryptoFileName := range cryptoFileNames {
+		filePath := cryptoPrefix + cryptoFileName
+		cryptoRecords, err := processcsv.ParseCryptoTxt(filePath)
+		if err != nil {
+			log.Fatal("Error parsing crypto CSV:", err)
+		}
+		records = append(records, cryptoRecords...)
 	}
 
-	etfRecords, err := processcsv.ParseEtfCsv("../../data/etf_data/EMB_data.csv")
-	if err != nil {
-		log.Fatal("Error parsing ETF CSV:", err)
+	for _, etfFileName := range etfFileNames {
+		filePath := etfPrefix + etfFileName
+		etfRecords, err := processcsv.ParseEtfCsv(filePath)
+		if err != nil {
+			log.Fatal("Error parsing ETF CSV:", err)
+		}
+		records = append(records, etfRecords...)
 	}
 
-	allRecords := append(cryptoRecords, etfRecords...)
-	if err := insertRecords(db, allRecords); err != nil {
+	if err := insertRecords(db, records); err != nil {
 		log.Fatal("Error inserting records into database:", err)
 	}
 
