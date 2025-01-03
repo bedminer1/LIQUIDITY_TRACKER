@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/bedminer1/liquidity_tracker/internal/models"
 )
@@ -37,6 +38,8 @@ func ParseEtfCsv(filePath string) ([]models.Record, error) {
 		fileName := filepath.Base(filePath)
 		// Parse relevant fields
 		date := line[0] + "T00:00:00Z"
+		parsedDate, _ := time.Parse("02.01.2006T15:04:05Z", date)
+		
 		volume, err := parseFloatWithComma(line[5])
 		if err != nil {
 			volume = 0.0 // Default to 0 if invalid
@@ -55,7 +58,7 @@ func ParseEtfCsv(filePath string) ([]models.Record, error) {
 
 		records = append(records, models.Record{
 			AssetType:    "ETF_" + fileName[:3],
-			Timestamp:    date,
+			Timestamp:    parsedDate.Format("2006-01-02T15:04:05Z"),
 			BidAskSpread: bidAskSpread,
 			Volume:       volume,
 			BidPrice:     bidPrice,

@@ -84,7 +84,7 @@ func ParseCryptoTxt(filePath string) ([]models.Record, error) {
 
 		records = append(records, models.Record{
 			AssetType:    "Crypto_" + assetName,
-			Timestamp:    timestamp.String(),
+			Timestamp:    timestamp.Format("2006-01-02T15:04:05Z"),
 			BidAskSpread: bidAskSpread,
 			Volume:       volume,
 			BidPrice:         bidPrice,
