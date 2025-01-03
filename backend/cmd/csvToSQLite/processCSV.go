@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"sync"
 
 	"github.com/bedminer1/liquidity_tracker/internal/models"
 	processcsv "github.com/bedminer1/liquidity_tracker/internal/processCSV"
@@ -48,24 +49,65 @@ func main() {
 	etfPrefix := "../../data/etf_data/"
 	cryptoPrefix := "../../data/crypto_data/"
 
+	var wg sync.WaitGroup
+	recordChan := make(chan []models.Record, len(etfFileNames)+len(cryptoFileNames))
+	errChan := make(chan error, len(etfFileNames)+len(cryptoFileNames))
+
 	for _, cryptoFileName := range cryptoFileNames {
-		filePath := cryptoPrefix + cryptoFileName
-		cryptoRecords, err := processcsv.ParseCryptoTxt(filePath)
-		if err != nil {
-			log.Fatal("Error parsing crypto CSV:", err)
-		}
-		records = append(records, cryptoRecords...)
+		wg.Add(1)
+		go func(fileName string) {
+			defer wg.Done()
+
+			filePath := cryptoPrefix + fileName
+			cryptoRecords, err := processcsv.ParseCryptoTxt(filePath)
+			if err != nil {
+				errChan <- err
+				return
+			}
+			recordChan <- cryptoRecords
+		}(cryptoFileName)
 	}
 
 	for _, etfFileName := range etfFileNames {
-		filePath := etfPrefix + etfFileName
-		etfRecords, err := processcsv.ParseEtfCsv(filePath)
-		if err != nil {
-			log.Fatal("Error parsing ETF CSV:", err)
-		}
-		records = append(records, etfRecords...)
+		wg.Add(1)
+		go func(fileName string) {
+			defer wg.Done()
+
+			filePath := etfPrefix + fileName
+			etfRecords, err := processcsv.ParseEtfCsv(filePath)
+			if err != nil {
+				errChan <- err
+				return
+			}
+			recordChan <- etfRecords
+		}(etfFileName)
 	}
 
+	go func() {
+		wg.Wait()
+		close(recordChan)
+		close(errChan)
+	}()
+
+	for {
+		select {
+		case rec, ok := <-recordChan:
+			if ok {
+				records = append(records, rec...)
+			}
+		case err, ok := <-errChan:
+			if ok {
+				log.Fatal("Error processing file:", err)
+			}
+		default:
+			// Exit loop when all channels are closed
+			if len(recordChan) == 0 && len(errChan) == 0 {
+				goto DONE
+			}
+		}
+	}
+
+DONE:
 	if err := insertRecords(db, records); err != nil {
 		log.Fatal("Error inserting records into database:", err)
 	}
