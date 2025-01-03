@@ -58,7 +58,7 @@ func ParseEtfCsv(filePath string) ([]models.Record, error) {
 
 		records = append(records, models.Record{
 			AssetType:    "ETF_" + fileName[:3],
-			Timestamp:    parsedDate.Format("2006-01-02T15:04:05Z"),
+			Timestamp:    parsedDate,
 			BidAskSpread: bidAskSpread,
 			Volume:       volume,
 			BidPrice:     bidPrice,

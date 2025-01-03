@@ -55,7 +55,7 @@ func AssessLiquidity(currentRecords, predictions []models.Record, windowSize int
 		volumeMA := movingAverage(volumeWindow)
 		spreadMA := movingAverage(spreadWindow)
 
-		isHighRisk := spreadPercentage > 1.75*spreadMA && record.Volume < 0.4*volumeMA
+		isHighRisk := spreadPercentage > 1.75*spreadMA && record.Volume < 0.5*volumeMA
 		isModerateRisk := spreadPercentage > 1.3*spreadMA || record.Volume < 0.6*volumeMA
 
 		if isHighRisk {
@@ -81,7 +81,7 @@ func AssessLiquidity(currentRecords, predictions []models.Record, windowSize int
 	report.HighRiskCount = currentHighRiskCount + predictedHighRiskCount
 	report.ModerateRiskCount = currentModerateRiskCount + predictedModerateRiskCount
 
-	// split into current n predicted
+	// split into current n predicted records
 	report.CurrentWarnings = currentWarnings
 	report.PredictedWarnings = predictedWarnings
 	report.CurrentHighRiskCount = currentHighRiskCount
