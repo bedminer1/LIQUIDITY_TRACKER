@@ -31,7 +31,7 @@ def create_sequences(data, sequence_length):
     return np.array(sequences, dtype=object)
 
 # Function to train the model
-def train_model(db_file, model_file=None, sequence_length=10, epochs=10, batch_size=32):
+def train_model(db_file, model_file, sequence_length, epochs, batch_size):
     # Step 1: Load the data
     data = load_data(db_file)
 
@@ -59,7 +59,7 @@ def train_model(db_file, model_file=None, sequence_length=10, epochs=10, batch_s
     X_test, X_val, Y_test, Y_val = train_test_split(X_temp, Y_temp, test_size=0.5, random_state=42)
 
     # Step 6: Check if there's an existing model to continue training
-    if model_file and os.path.exists(model_file):
+    if os.path.exists("trained_model.keras"):
         model = load_model(model_file)
         print("Loaded existing model.")
     else:
@@ -79,9 +79,8 @@ def train_model(db_file, model_file=None, sequence_length=10, epochs=10, batch_s
     mse = mean_squared_error(Y_test, predictions)
     print(f"Model Mean Squared Error on Test Data: {mse}")
 
-    # Step 9: Save the model
-    model.save('trained_model.h5')
-    print("Model saved as 'trained_model.h5'.")
+    # Step 9: Save the model in Keras .h5 format
+    model.save('trained_model.keras')
+    print("Model saved as 'trained_model.keras'.")
 
-train_model(r"D:\Coding\LIQUIDITY_TRACKER\backend\market_data.db", model_file=None, sequence_length=10, epochs=10, batch_size=32)
-
+train_model(r"..\backend\market_data.db", model_file='trained_model.keras', sequence_length=10, epochs=10, batch_size=32)

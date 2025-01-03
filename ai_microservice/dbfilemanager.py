@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect(r"D:\Coding\LIQUIDITY_TRACKER\backend\market_data.db")
+conn = sqlite3.connect(r"..\backend\market_data.db")
 cursor = conn.cursor()
 
 query = "select distinct asset_type from records"
