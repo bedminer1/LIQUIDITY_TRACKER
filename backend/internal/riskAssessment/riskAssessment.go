@@ -8,7 +8,7 @@ import (
 
 func AssessLiquidity(currentRecords, predictions []models.Record, windowSize int) models.LiquidityReport {
 	var report models.LiquidityReport
-	report.AssetType = predictions[0].AssetType
+	if len(currentRecords) > 0 { report.AssetType = currentRecords[0].AssetType }
 
 	allRecords := append(currentRecords, predictions...)
 
@@ -41,9 +41,8 @@ func AssessLiquidity(currentRecords, predictions []models.Record, windowSize int
 		isPrediction := idx >= len(currentRecords)
 
 		// Calculate severity
-		spreadPercentage := record.BidAskSpread / record.BidPrice
 		volumeWindow = append(volumeWindow, record.Volume)
-		spreadWindow = append(spreadWindow, spreadPercentage)
+		spreadWindow = append(spreadWindow, record.BidAskSpread)
 
 		if len(volumeWindow) > windowSize {
 			volumeWindow = volumeWindow[1:]
@@ -55,18 +54,18 @@ func AssessLiquidity(currentRecords, predictions []models.Record, windowSize int
 		volumeMA := movingAverage(volumeWindow)
 		spreadMA := movingAverage(spreadWindow)
 
-		isHighRisk := spreadPercentage > 1.75*spreadMA && record.Volume < 0.5*volumeMA
-		isModerateRisk := spreadPercentage > 1.3*spreadMA || record.Volume < 0.6*volumeMA
+		isHighRisk := record.BidAskSpread > 3.0*spreadMA || record.Volume < 0.4*volumeMA
+		isModerateRisk := record.BidAskSpread > 1.2*spreadMA || record.Volume < 0.7*volumeMA
 
 		if isHighRisk {
 			if isPrediction {
 				predictedHighRiskCount++
-				predictedWarnings = append(predictedWarnings, fmt.Sprintf("Predicted high risk for %s at %s: Spread=%.2f%% (MA=%.2f%%), Volume=%.0f (MA=%.0f)",
-					record.AssetType, record.Timestamp, spreadPercentage*100, spreadMA*100, record.Volume, volumeMA))
+				predictedWarnings = append(predictedWarnings, fmt.Sprintf("Predicted high risk for %s at %s: Spread=%.2f (MA=%.2f), Volume=%.0f (MA=%.0f)",
+					record.AssetType, record.Timestamp, record.BidAskSpread, spreadMA, record.Volume, volumeMA))
 			} else {
 				currentHighRiskCount++
-				currentWarnings = append(currentWarnings, fmt.Sprintf("Current high risk for %s at %s: Spread=%.2f%% (MA=%.2f%%), Volume=%.0f (MA=%.0f)",
-					record.AssetType, record.Timestamp, spreadPercentage*100, spreadMA*100, record.Volume, volumeMA))
+				currentWarnings = append(currentWarnings, fmt.Sprintf("Current high risk for %s at %s: Spread=%.2f (MA=%.2f), Volume=%.0f (MA=%.0f)",
+					record.AssetType, record.Timestamp, record.BidAskSpread, spreadMA, record.Volume, volumeMA))
 			}
 		} else if isModerateRisk {
 			if isPrediction {

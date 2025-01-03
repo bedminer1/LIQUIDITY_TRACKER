@@ -39,24 +39,28 @@ func main() {
 		"LQD_data.csv",
 		"TLT_data.csv",
 	}
-	cryptoFileNames := []string{
-		"btcusd.txt",
-		"ethusd.txt",
-		"xrpusd.txt",
-	}
 	etfPrefix := "../../data/etf_data/"
-	cryptoPrefix := "../../data/crypto_data/"
 
-	for _, cryptoFileName := range cryptoFileNames {
-		filePath := cryptoPrefix + cryptoFileName
-		cryptoRecords, err := processcsv.ParseCryptoTxt(filePath)
-		if err != nil {
-			log.Fatal("Error parsing crypto CSV:", err)
-		}
-		records = append(records, cryptoRecords...)
-	}
+	// ABANDONED CRYPTO ANALYSIS 
+
+	// cryptoFileNames := []string{
+	// 	"btcusd.txt",
+	// 	"ethusd.txt",
+	// 	"xrpusd.txt",
+	// }
+	// cryptoPrefix := "../../data/crypto_data/"
+
+	// for _, cryptoFileName := range cryptoFileNames {
+	// 	filePath := cryptoPrefix + cryptoFileName
+	// 	cryptoRecords, err := processcsv.ParseCryptoTxt(filePath)
+	// 	if err != nil {
+	// 		log.Fatal("Error parsing crypto CSV:", err)
+	// 	}
+	// 	records = append(records, cryptoRecords...)
+	// }
 
 	for _, etfFileName := range etfFileNames {
+		log.Printf("Transfer %s file", etfFileName)
 		filePath := etfPrefix + etfFileName
 		etfRecords, err := processcsv.ParseEtfCsv(filePath)
 		if err != nil {

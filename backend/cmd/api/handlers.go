@@ -48,6 +48,7 @@ func (h *handler) handleGetReport(c echo.Context) error {
 		date, _ := time.Parse("01.02.2006", dateStr)
 		return date
 	}
+	// mock data
 	predictions := []models.Record{
 		{AssetType: "ETF", Timestamp: parseDate("12.04.2013"), BidAskSpread: 0.0176, Volume: 806282, BidPrice: 120.6972},
 		{AssetType: "ETF", Timestamp: parseDate("15.04.2013"), BidAskSpread: 0.0504, Volume: 462017, BidPrice: 120.51},

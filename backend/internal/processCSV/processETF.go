@@ -27,6 +27,8 @@ func ParseEtfCsv(filePath string) ([]models.Record, error) {
 	reader := csv.NewReader(file)
 	reader.Comma = ';' // ETF files use semicolons as delimiters
 	reader.Read()      // Skip the header row
+	fileName := filepath.Base(filePath)
+	assetType := "ETF_" + fileName[:3]
 
 	var records []models.Record
 	for {
@@ -34,30 +36,25 @@ func ParseEtfCsv(filePath string) ([]models.Record, error) {
 		if err != nil {
 			break
 		}
-
-		fileName := filepath.Base(filePath)
 		// Parse relevant fields
 		date := line[0] + "T00:00:00Z"
 		parsedDate, _ := time.Parse("02.01.2006T15:04:05Z", date)
 		
 		volume, err := parseFloatWithComma(line[5])
 		if err != nil {
-			volume = 0.0 // Default to 0 if invalid
+			volume = 0.0
 		}
-		bidAskSpreadPercent, err := parseFloatWithComma(line[6])
+		bidAskSpread, err := parseFloatWithComma(line[6])
 		if err != nil {
-			bidAskSpreadPercent = 0.0 // Default to 0 if invalid
+			continue // skip when it's NA
 		}
 		bidPrice, err := parseFloatWithComma(line[1])
 		if err != nil {
-			bidPrice = 0.0 // Default to 0 if invalid
+			continue
 		}
 
-		// Convert bid-ask spread percentage to actual value
-		bidAskSpread := bidAskSpreadPercent / 100.0
-
 		records = append(records, models.Record{
-			AssetType:    "ETF_" + fileName[:3],
+			AssetType:    assetType,
 			Timestamp:    parsedDate,
 			BidAskSpread: bidAskSpread,
 			Volume:       volume,
