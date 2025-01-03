@@ -10,10 +10,14 @@ type Record struct {
 }
 
 type LiquidityReport struct {
-	AssetType         string   `json:"asset_type"`
-	TotalRecords      int      `json:"total_records"`
-	HighRiskCount     int      `json:"high_risk_count"`
-	ModerateRiskCount int      `json:"moderate_risk_count"`
-	LowRiskCount      int      `json:"low_risk_count"`
-	Warnings          []string `json:"warnings"`
+	AssetType                  string   `json:"asset_type"`
+	TotalRecords               int      `json:"total_records"`
+	HighRiskCount              int      `json:"high_risk_count"`
+	ModerateRiskCount          int      `json:"moderate_risk_count"`
+	CurrentWarnings            []string `json:"current_warnings"`
+	PredictedWarnings          []string `json:"predicted_warnings"`
+	CurrentHighRiskCount       int      `json:"current_high_risk_count"`
+	PredictedHighRiskCount     int      `json:"predicted_high_risk_count"`
+	CurrentModerateRiskCount   int      `json:"current_moderate_risk_count"`
+	PredictedModerateRiskCount int      `json:"predicted_moderate_risk_count"`
 }
