@@ -25,6 +25,26 @@ func initHandler() *handler {
 	return &handler{DB: db}
 }
 
+func (h *handler) handleGetRecords(c echo.Context) error {
+	asset := c.QueryParam("asset")
+	start := c.QueryParam("start")
+	startTime, err := time.Parse("2006-01-02", start)
+	if err != nil {
+		return fmt.Errorf("invalid 'start' date format, use YYYY-MM")
+	}
+	end := c.QueryParam("end")
+	endTime, err := time.Parse("2006-01-02", end)
+	if err != nil {
+		return fmt.Errorf("invalid 'end' date format, use YYYY-MM")
+	}
+	records := []models.Record{}
+	h.DB.Where("asset_type = ? AND timestamp BETWEEN ? AND ?", asset, startTime, endTime).Find(&records)
+
+	return c.JSON(200, echo.Map{
+		"records": records,
+	})
+}
+
 func (h *handler) handleGetReport(c echo.Context) error {
 	// handle queries
 	asset := c.QueryParam("asset")
