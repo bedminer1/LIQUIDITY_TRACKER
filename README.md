@@ -33,8 +33,10 @@ The StableTide backend provides the following endpoints for interacting with the
 - **Description**: Get AI-generated predictions for specified assets based on historical data.
 - **Query Parameters**:
   - `asset`: Asset type (e.g., "ETF", "Crypto").
-  - `time_to_predict`: Duration to predict into the future (in seconds).
-  - `time_interval`: Time interval between predictions (in seconds).
+  - `start`: Start date of data to be used for predictions in `YYYY-MM-DD` format.
+  - `end`: End date of data to be used for predictions in `YYYY-MM-DD` format.
+  - `time_to_predict`: Duration to predict into the future.
+  - `time_interval`: Time interval between predictions.
 
 Example Request:
     GET /predictions?asset=ETF_HYG&time_to_predict=3600&time_interval=300
@@ -62,7 +64,10 @@ Example Request:
   ```
 
 2. **AI Microservice**:
-- Ensure Python is installed.
+- - Activate the virtual environment:
+  ```bash
+  source .venv/bin/activate
+  ```
 - Start the microservice:
   ```bash
   python ai_microservice.py
