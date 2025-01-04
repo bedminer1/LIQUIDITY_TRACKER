@@ -1,42 +1,85 @@
-### About
-The Liquidity Tracker Dashboard is a cutting-edge solution designed for financial institutions and asset managers to monitor and predict liquidity risks. Leveraging AI and data analytics, this tool provides actionable insights by predicting bid-ask spread spikes, trading volume drops, and other critical liquidity metrics. The system empowers users to make informed decisions and mitigate liquidity shortfalls with timely recommendations.
+# StableTide
 
-This project was built as part of a fintech hackathon to showcase an innovative approach to real-time liquidity management. The dashboard integrates predictions, alerts, and summaries in an intuitive interface to enhance decision-making efficiency.
+StableTide is a powerful tool designed to monitor and assess liquidity risks for various financial assets, including tokenized assets and ETFs. It leverages AI-powered predictions to identify potential liquidity shortfalls and provide actionable insights for risk management.
 
-### Features
-1. Predictive Liquidity Monitoring
-Bid-Ask Spread Prediction:
+## About
 
-Alerts users when bid-ask spreads are predicted to spike within a specified time frame.
-Recommendations for mitigating spread risks are provided in real-time.
-Trading Volume Prediction:
+StableTide integrates a Go backend, a Python-based AI microservice, and a user-friendly front-end dashboard to streamline the monitoring and prediction of liquidity metrics. It works by analyzing bid-ask spreads, trading volumes, and other market data to assess potential risks and generate predictive insights.
 
-Identifies potential volume drops with precise time predictions.
-Offers actionable steps to counteract liquidity impacts.
+### Key Features:
+- **Real-Time(TODO) Data Analysis**: Fetch and process records for various assets.
+- **AI-Driven Predictions**: Utilize LSTM models to forecast future liquidity conditions.
+- **Customizable Reports**: Generate detailed reports on current and predicted liquidity risks.
 
-2. Liquidity Shortfall Alerts
-- Real-time alerts highlight critical shortfalls across monitored assets.
-- Alerts include:
-- Severity of the shortfall.
-- Timeframe for the predicted shortfall.
-- Recommended actions to address the issue.
+## How to Use
 
-3. Comprehensive Liquidity Metrics
-- Displays recent liquidity shortfalls with:
-- Frequency of occurrences.
-- Severity levels categorized as high, medium, or low.
-- Recommendations for mitigation.
+### API Endpoints
 
-4. Fraud Detection Integration
-- Analyzes data streams for fraudulent activity patterns.
-- Flags high-risk transactions with detailed reasons for detection.
+The StableTide backend provides the following endpoints for interacting with the system:
 
-5. Visual Insights
-Dynamic visualizations for:
-- Predicted vs. actual bid-ask spreads.
-- Predicted vs. actual trading volumes.
-- A summary section highlighting:
-    Shortfall frequencies.
-    Severity trends.
-    Actionable recommendations.
+1. **Fetch Records**:
+   - **Path**: `/records`
+   - **Description**: Retrieve historical market data for specified assets.
+   - **Query Parameters**:
+     - `asset`: Asset type (e.g., "ETF", "Crypto").
+     - `start`: Start date in `YYYY-MM-DD` format.
+     - `end`: End date in `YYYY-MM-DD` format.
 
+   Example Request:
+    GET /records?asset=ETF_EMB&start=2023-01-01&end=2023-12-31
+
+2. **Fetch Predictions**:
+- **Path**: `/predictions`
+- **Description**: Get AI-generated predictions for specified assets based on historical data.
+- **Query Parameters**:
+  - `asset`: Asset type (e.g., "ETF", "Crypto").
+  - `time_to_predict`: Duration to predict into the future (in seconds).
+  - `time_interval`: Time interval between predictions (in seconds).
+
+Example Request:
+    GET /predictions?asset=ETF_HYG&time_to_predict=3600&time_interval=300
+
+
+3. **Generate Reports**:
+- **Path**: `/report`
+- **Description**: Generate a comprehensive report on liquidity risks, combining current data and AI predictions.
+- **Query Parameters**:
+  - `asset`: Asset type (e.g., "ETF", "Crypto").
+  - `start`: Start date in `YYYY-MM-DD` format.
+  - `end`: End date in `YYYY-MM-DD` format.
+
+Example Request:
+    GET /report?asset=ETF_LQD&start=2023-01-01&end=2023-12-31
+
+### Running the Application
+
+1. **Backend Setup**:
+- Ensure Go is installed.
+- Run the backend server:
+  ```bash
+  cd backend/cmd/api
+  go run .
+  ```
+
+2. **AI Microservice**:
+- Ensure Python is installed.
+- Start the microservice:
+  ```bash
+  python ai_microservice.py
+  ```
+
+3. **Frontend**:
+- Navigate to the `frontend` folder.
+- Run the development server:
+  ```bash
+  npm run dev
+  ```
+
+### Requirements
+
+- Python 3.10-3.11
+- Go 1.19+
+- Node.js 16+
+- TensorFlow and supporting libraries installed in the Python environment.
+
+---
