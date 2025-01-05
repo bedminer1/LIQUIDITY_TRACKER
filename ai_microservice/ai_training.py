@@ -1,7 +1,6 @@
 import sqlite3  # To connect to our .db file
 import pandas as pd  # To manage our data easily like a table
 import numpy as np  # For numerical operations
-import matplotlib.pyplot as plt  # To make pretty graphs
 from sklearn.preprocessing import MinMaxScaler  # To scale data for LSTM
 from tensorflow.keras.models import Sequential, load_model  # To build and load the LSTM model
 from tensorflow.keras.layers import LSTM, Dense  # LSTM layers

@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.models import load_model
+from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 
 # Initialize Flask app
@@ -35,12 +36,17 @@ def predict():
 
     # Use the last `window_size` rows as the input for predictions
     last_known_data = df[["bid_ask_spread", "volume", "bid_price"]].iloc[-window_size:].values
-    future_data = [last_known_data]
 
-    # Generate future timestamps
+    # Scale the input data using the same scaler from training
+    scaler.fit(last_known_data)  # Fit scaler on the current batch of data
+    last_known_data_scaled = scaler.transform(last_known_data)
+    future_data = [last_known_data_scaled]
+
+
+   # Generate future timestamps
     start_time = pd.to_datetime(df["timestamp"].iloc[-1])
-    time_interval = data[0].get("time_interval", 86400)  # Default time interval in days
-    time_to_predict = data[0].get("time_to_predict", 604800)  # Default prediction duration 1 week
+    time_interval = data[0].get("time_interval", 86400)  # Default interval in seconds
+    time_to_predict = data[0].get("time_to_predict", 604800)  # Default prediction duration (1 week)
     future_timestamps = [
         start_time + pd.to_timedelta(i * time_interval, unit="s")
         for i in range(1, int(time_to_predict / time_interval) + 1)
@@ -49,14 +55,16 @@ def predict():
     # Generate predictions sequentially
     predictions = []
     for _ in range(len(future_timestamps)):
-        pred = model.predict(np.expand_dims(future_data[-1], axis=0))  # Predict using the last window
-        predictions.append(pred[0])
+        pred_scaled = model.predict(np.expand_dims(future_data[-1], axis=0))  # Predict with scaled data
+        predictions.append(pred_scaled[0])
         # Append new prediction to future_data and maintain rolling window
-        future_data.append(np.vstack([future_data[-1][1:], pred[0]]))
+        future_data.append(np.vstack([future_data[-1][1:], pred_scaled[0]]))
 
-    # Format the predictions as a list of dictionaries
+    # Rescale predictions back to the original scale
+    predictions_rescaled = scaler.inverse_transform(predictions)
+
     predicted_records = []
-    for timestamp, pred in zip(future_timestamps, predictions):
+    for timestamp, pred in zip(future_timestamps, predictions_rescaled):
         predicted_records.append({
             "asset_type": asset_type,
             "timestamp": timestamp.isoformat(),
