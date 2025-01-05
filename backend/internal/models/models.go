@@ -23,3 +23,15 @@ type LiquidityReport struct {
 	CurrentModerateRiskCount   int      `json:"current_moderate_risk_count"`
 	PredictedModerateRiskCount int      `json:"predicted_moderate_risk_count"`
 }
+
+type TransactionRecord struct {
+	ID                           uint    `gorm:"primaryKey" json:"id,omitempty"` // Primary key
+	DistanceFromHome             float64 `json:"distance_from_home"`             // Distance from home
+	DistanceFromLastTransaction  float64 `json:"distance_from_last_transaction"` // Distance from the last transaction
+	RatioToMedianPurchasePrice   float64 `json:"ratio_to_median_purchase_price"` // Ratio to median purchase price
+	RepeatRetailer               bool    `json:"repeat_retailer"`                // Is it a repeat retailer?
+	UsedChip                     bool    `json:"used_chip"`                      // Was a chip used?
+	UsedPinNumber                bool    `json:"used_pin_number"`                // Was a PIN used?
+	OnlineOrder                  bool    `json:"online_order"`                   // Was it an online order?
+	Fraud                        bool    `json:"fraud"`                          // Is it a fraudulent transaction?
+}

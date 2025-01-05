@@ -64,7 +64,7 @@ Example Request:
   ```
 
 2. **AI Microservice**:
-- - Activate the virtual environment:
+- Activate the virtual environment:
   ```bash
   source .venv/bin/activate
   ```
