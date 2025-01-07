@@ -1,7 +1,11 @@
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
+
+load_dotenv("secrets.env")
 
 client = OpenAI(
-    api_key = "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"
+    api_key = os.getenv("OPENAI_API_KEY")
 )
 
 prompt = "How to create a python code that links to chat gpt?"
