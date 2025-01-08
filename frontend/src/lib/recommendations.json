@@ -1,0 +1,2436 @@
+{
+  "analysis": "<h2>Trends Analysis</h2>\n<p>The liquidity report indicates a significant liquidity shortfall with a current value of 49, suggesting a recurring pattern of insufficient liquidity. Analyzing this interval, it appears that the frequency of shortfalls could be increasing as the current value indicates a near-threshold state which, if not addressed, may lead to exacerbated liquidity challenges. The report demonstrates a sporadic nature of liquidity surpluses indicating inconsistent liquidity management which, if continued, may result in volatility for the tokenized assets. Maintaining an ongoing observation for fluctuations in liquidity needs can help the institution avert potential risks.</p>\n<ol>\n    <li>Reallocate a portion of the tokenized assets into more liquid investment vehicles or stablecoins to ensure better accessibility and mitigate potential shortfalls.</li>\n    <li>Engage with liquidity providers to establish liquidity lines or support agreements that can be drawn upon during periods of identified shortfalls.</li>\n</ol>",
+  "historical_data": [
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-15T00:00:00Z",
+      "bid_ask_spread": 0.0119,
+      "volume": 17888585,
+      "bid_price": 85.2
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-16T00:00:00Z",
+      "bid_ask_spread": 0.0119,
+      "volume": 11965652,
+      "bid_price": 84.86
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-17T00:00:00Z",
+      "bid_ask_spread": 0.0119,
+      "volume": 12017624,
+      "bid_price": 84.63
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-18T00:00:00Z",
+      "bid_ask_spread": 0.0119,
+      "volume": 17781837,
+      "bid_price": 84.63
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-21T00:00:00Z",
+      "bid_ask_spread": 0.0119,
+      "volume": 11581632,
+      "bid_price": 85.31
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-22T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 16648052,
+      "bid_price": 85.94
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-23T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 10662934,
+      "bid_price": 85.62
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-24T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 10662934,
+      "bid_price": 85.62
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-25T00:00:00Z",
+      "bid_ask_spread": 0.0121,
+      "volume": 2009630,
+      "bid_price": 85.73
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-28T00:00:00Z",
+      "bid_ask_spread": 0.0119,
+      "volume": 16897356,
+      "bid_price": 85.72
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-29T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 9164012,
+      "bid_price": 85.61
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-11-30T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 15211276,
+      "bid_price": 85.65
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-01T00:00:00Z",
+      "bid_ask_spread": 0.0119,
+      "volume": 18249412,
+      "bid_price": 84.87
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-02T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 9360396,
+      "bid_price": 85.38
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-05T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 9782060,
+      "bid_price": 85.6
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-06T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 16090631,
+      "bid_price": 86.03
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-07T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 20886382,
+      "bid_price": 86.46
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-08T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 10782102,
+      "bid_price": 86.45
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-09T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 6463369,
+      "bid_price": 86.49
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-12T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 8457086,
+      "bid_price": 86.37
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-13T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 10739171,
+      "bid_price": 86.58
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-14T00:00:00Z",
+      "bid_ask_spread": 0.0122,
+      "volume": 15672431,
+      "bid_price": 85.93
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-15T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 11221733,
+      "bid_price": 85.97
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-16T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 15722155,
+      "bid_price": 86.05
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-19T00:00:00Z",
+      "bid_ask_spread": 0.0119,
+      "volume": 5897912,
+      "bid_price": 86.27
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-20T00:00:00Z",
+      "bid_ask_spread": 0.0119,
+      "volume": 11072391,
+      "bid_price": 86.39
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-21T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 17461370,
+      "bid_price": 86.54
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-22T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 8507586,
+      "bid_price": 86.44
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-23T00:00:00Z",
+      "bid_ask_spread": 0.0121,
+      "volume": 4230488,
+      "bid_price": 86.6
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-26T00:00:00Z",
+      "bid_ask_spread": 0.0121,
+      "volume": 4230488,
+      "bid_price": 86.6
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-27T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 5840557,
+      "bid_price": 86.52
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-28T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 6961239,
+      "bid_price": 86.4
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-29T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 3794317,
+      "bid_price": 86.52
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2016-12-30T00:00:00Z",
+      "bid_ask_spread": 0.0119,
+      "volume": 7513353,
+      "bid_price": 86.55
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-02T00:00:00Z",
+      "bid_ask_spread": 0.0119,
+      "volume": 7513353,
+      "bid_price": 86.55
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-03T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 14050110,
+      "bid_price": 86.91
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-04T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 11912356,
+      "bid_price": 87.38
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-05T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 10458576,
+      "bid_price": 87.25
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-06T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 6836425,
+      "bid_price": 87.23
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-09T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 6648800,
+      "bid_price": 87.21
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-10T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 11777036,
+      "bid_price": 87.22
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-11T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 11914198,
+      "bid_price": 87.27
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-12T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 12512336,
+      "bid_price": 87.29
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-13T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 8861000,
+      "bid_price": 87.32
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-16T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 8861000,
+      "bid_price": 87.32
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-17T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 8632992,
+      "bid_price": 87.23
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-18T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 12715522,
+      "bid_price": 87.31
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-19T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 10703218,
+      "bid_price": 87.03
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-20T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 9262045,
+      "bid_price": 87.2
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-23T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 13561337,
+      "bid_price": 87.2
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-24T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 7490480,
+      "bid_price": 87.26
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-25T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 8953850,
+      "bid_price": 87.57
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-26T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 7443934,
+      "bid_price": 87.53
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-27T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 7888096,
+      "bid_price": 87.61
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-30T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 7637643,
+      "bid_price": 87.43
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-01-31T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 12249410,
+      "bid_price": 87.34
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-01T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 12489406,
+      "bid_price": 87.28
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-02T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 10886152,
+      "bid_price": 87.33
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-03T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 12674010,
+      "bid_price": 87.48
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-06T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 7004913,
+      "bid_price": 87.42
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-07T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 11170169,
+      "bid_price": 87.29
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-08T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 11107338,
+      "bid_price": 87.35
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-09T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 7292625,
+      "bid_price": 87.47
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-10T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 5471840,
+      "bid_price": 87.53
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-13T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7477229,
+      "bid_price": 87.66
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-14T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 8785033,
+      "bid_price": 87.72
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-15T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 10582848,
+      "bid_price": 87.75
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-16T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 8917822,
+      "bid_price": 87.68
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-17T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 6247292,
+      "bid_price": 87.77
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-20T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 6247292,
+      "bid_price": 87.77
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-21T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 10437839,
+      "bid_price": 88.06
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-22T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 10963609,
+      "bid_price": 88.1
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-23T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 8150235,
+      "bid_price": 88.18
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-24T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 8390174,
+      "bid_price": 88.25
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-27T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 5693266,
+      "bid_price": 88.36
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-02-28T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 5868410,
+      "bid_price": 88.29
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-01T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 10612121,
+      "bid_price": 88.23
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-02T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9192988,
+      "bid_price": 87.95
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-03T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 15059268,
+      "bid_price": 87.99
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-06T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 17066261,
+      "bid_price": 87.71
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-07T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 17023119,
+      "bid_price": 87.14
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-08T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 22433548,
+      "bid_price": 86.56
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-09T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 21260679,
+      "bid_price": 86.33
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-10T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 20643900,
+      "bid_price": 86.3
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-13T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 13512329,
+      "bid_price": 86.37
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-14T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 12808513,
+      "bid_price": 86.11
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-15T00:00:00Z",
+      "bid_ask_spread": 0.0121,
+      "volume": 19654552,
+      "bid_price": 87.3
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-16T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 15807608,
+      "bid_price": 87.05
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-17T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 9984523,
+      "bid_price": 87.08
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-20T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 12220551,
+      "bid_price": 87.0034
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-21T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 16918166,
+      "bid_price": 86.29
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-22T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 14054593,
+      "bid_price": 86.5
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-23T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 10618853,
+      "bid_price": 86.53
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-24T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 8920814,
+      "bid_price": 86.83
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-27T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 7788653,
+      "bid_price": 86.74
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-28T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 16871664,
+      "bid_price": 87.22
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-29T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 12266296,
+      "bid_price": 87.4
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-30T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 16367941,
+      "bid_price": 87.81
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-03-31T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 11778399,
+      "bid_price": 87.78
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-03T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 20664412,
+      "bid_price": 87.36
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-04T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 8473882,
+      "bid_price": 87.39
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-05T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 11102287,
+      "bid_price": 87.32
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-06T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 7234511,
+      "bid_price": 87.43
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-07T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 5457822,
+      "bid_price": 87.39
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-10T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 7996907,
+      "bid_price": 87.51
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-11T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 8005849,
+      "bid_price": 87.34
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-12T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 8723769,
+      "bid_price": 87.4
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-13T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 10446678,
+      "bid_price": 87.22
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-14T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 10446678,
+      "bid_price": 87.22
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-17T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 7158744,
+      "bid_price": 87.48
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-18T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 9062784,
+      "bid_price": 87.46
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-19T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 8643171,
+      "bid_price": 87.38
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-20T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 7765997,
+      "bid_price": 87.67
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-21T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 11328248,
+      "bid_price": 87.6
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-24T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 8904681,
+      "bid_price": 88.01
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-25T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 12493449,
+      "bid_price": 88.17
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-26T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7268976,
+      "bid_price": 88.09
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-27T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 6897880,
+      "bid_price": 88.15
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-04-28T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7542839,
+      "bid_price": 88.12
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-01T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 10335971,
+      "bid_price": 87.79
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-02T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 10792752,
+      "bid_price": 87.82
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-03T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 7413478,
+      "bid_price": 87.9
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-04T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 20562478,
+      "bid_price": 87.43
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-05T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 14935209,
+      "bid_price": 87.58
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-08T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 8199164,
+      "bid_price": 87.68
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-09T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 10810036,
+      "bid_price": 87.62
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-10T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 10824910,
+      "bid_price": 88
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-11T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 8461428,
+      "bid_price": 88.01
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-12T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 8929918,
+      "bid_price": 87.98
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-15T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 10690178,
+      "bid_price": 88.18
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-16T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 12638864,
+      "bid_price": 88.31
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-17T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 14055655,
+      "bid_price": 87.92
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-18T00:00:00Z",
+      "bid_ask_spread": 0.0117,
+      "volume": 10731838,
+      "bid_price": 88.02
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-19T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 15998810,
+      "bid_price": 88.18
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-22T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7181805,
+      "bid_price": 88.45
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-23T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 6998424,
+      "bid_price": 88.44
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-24T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 8533664,
+      "bid_price": 88.59
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-25T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7985459,
+      "bid_price": 88.52
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-26T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 2909501,
+      "bid_price": 88.57
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-29T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 2909501,
+      "bid_price": 88.57
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-30T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 5371116,
+      "bid_price": 88.66
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-05-31T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 13758355,
+      "bid_price": 88.65
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-01T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 19189306,
+      "bid_price": 88.53
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-02T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9491606,
+      "bid_price": 88.58
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-05T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 10384388,
+      "bid_price": 88.5
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-06T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 14386514,
+      "bid_price": 88.36
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-07T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 13328998,
+      "bid_price": 88.18
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-08T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 14208264,
+      "bid_price": 88.25
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-09T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 10414861,
+      "bid_price": 88.32
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-12T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9900029,
+      "bid_price": 88.47
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-13T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 8640381,
+      "bid_price": 88.63
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-14T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 8850694,
+      "bid_price": 88.64
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-15T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 10860506,
+      "bid_price": 88.3
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-16T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 11996074,
+      "bid_price": 88.15
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-19T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 6398396,
+      "bid_price": 88.42
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-20T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 18318543,
+      "bid_price": 88.11
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-21T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 26728090,
+      "bid_price": 87.6
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-22T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 18699394,
+      "bid_price": 87.84
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-23T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 11337694,
+      "bid_price": 88.2
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-26T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9504532,
+      "bid_price": 88.32
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-27T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 15293264,
+      "bid_price": 88.04
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-28T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 9755489,
+      "bid_price": 88.4
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-29T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 14548391,
+      "bid_price": 88.18
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-06-30T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 8201967,
+      "bid_price": 88.39
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-03T00:00:00Z",
+      "bid_ask_spread": 0.012,
+      "volume": 13882026,
+      "bid_price": 87.97
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-04T00:00:00Z",
+      "bid_ask_spread": 0.012,
+      "volume": 13882026,
+      "bid_price": 87.97
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-05T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 16269124,
+      "bid_price": 87.9
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-06T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 15867274,
+      "bid_price": 87.68
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-07T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 15731236,
+      "bid_price": 87.6
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-10T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 12286646,
+      "bid_price": 87.7
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-11T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 9261434,
+      "bid_price": 87.64
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-12T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 17979937,
+      "bid_price": 88.21
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-13T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 11744608,
+      "bid_price": 88.28
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-14T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 12626749,
+      "bid_price": 88.53
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-17T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 10158099,
+      "bid_price": 88.56
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-18T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9221143,
+      "bid_price": 88.6
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-19T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 8250879,
+      "bid_price": 88.75
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-20T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 11827785,
+      "bid_price": 88.8
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-21T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 8955796,
+      "bid_price": 88.73
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-24T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 4707504,
+      "bid_price": 88.8
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-25T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 7292857,
+      "bid_price": 88.84
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-26T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 7279763,
+      "bid_price": 88.97
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-27T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 11624833,
+      "bid_price": 88.9
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-28T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 4945307,
+      "bid_price": 88.91
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-07-31T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9779891,
+      "bid_price": 88.91
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-01T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 14939077,
+      "bid_price": 88.63
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-02T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7422694,
+      "bid_price": 88.65
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-03T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 9548318,
+      "bid_price": 88.48
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-04T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 6451631,
+      "bid_price": 88.5
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-07T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 5204732,
+      "bid_price": 88.46
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-08T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 18534740,
+      "bid_price": 88.08
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-09T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 15001681,
+      "bid_price": 87.74
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-10T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 24749701,
+      "bid_price": 87.18
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-11T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 17434265,
+      "bid_price": 87.33
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-14T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 12566036,
+      "bid_price": 87.79
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-15T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 6830522,
+      "bid_price": 87.82
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-16T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 11716096,
+      "bid_price": 87.83
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-17T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 14112325,
+      "bid_price": 87.34
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-18T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 14324354,
+      "bid_price": 87.47
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-21T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 7763442,
+      "bid_price": 87.56
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-22T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 12982173,
+      "bid_price": 87.92
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-23T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 6449680,
+      "bid_price": 87.93
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-24T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 8480125,
+      "bid_price": 88.06
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-25T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 6622822,
+      "bid_price": 88.22
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-28T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 5161690,
+      "bid_price": 88.23
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-29T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 8991645,
+      "bid_price": 88.12
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-30T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 13431110,
+      "bid_price": 88.36
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-08-31T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 12705169,
+      "bid_price": 88.6
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-01T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 10535657,
+      "bid_price": 88.32
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-04T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 10535657,
+      "bid_price": 88.32
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-05T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9560450,
+      "bid_price": 88.12
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-06T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9023303,
+      "bid_price": 88.06
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-07T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 8784020,
+      "bid_price": 88.07
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-08T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7688673,
+      "bid_price": 87.79
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-11T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 8047595,
+      "bid_price": 88.07
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-12T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 4752822,
+      "bid_price": 88.18
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-13T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 11725945,
+      "bid_price": 88.21
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-14T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9554556,
+      "bid_price": 88.33
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-15T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 8247993,
+      "bid_price": 88.41
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-18T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 7442169,
+      "bid_price": 88.37
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-19T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7208255,
+      "bid_price": 88.46
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-20T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 10087262,
+      "bid_price": 88.45
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-21T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 6932279,
+      "bid_price": 88.34
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-22T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7570548,
+      "bid_price": 88.43
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-25T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 4326207,
+      "bid_price": 88.48
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-26T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 8816461,
+      "bid_price": 88.59
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-27T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 7490067,
+      "bid_price": 88.63
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-28T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 5933980,
+      "bid_price": 88.63
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-09-29T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 8906904,
+      "bid_price": 88.76
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-02T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 13097552,
+      "bid_price": 88.35
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-03T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 5928796,
+      "bid_price": 88.51
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-04T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 5832397,
+      "bid_price": 88.42
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-05T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 5967924,
+      "bid_price": 88.53
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-06T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 5847373,
+      "bid_price": 88.4
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-09T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 3278424,
+      "bid_price": 88.41
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-10T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 8786479,
+      "bid_price": 88.48
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-11T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 7948704,
+      "bid_price": 88.39
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-12T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 6181140,
+      "bid_price": 88.29
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-13T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 3941233,
+      "bid_price": 88.33
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-16T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 6060263,
+      "bid_price": 88.38
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-17T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 7468169,
+      "bid_price": 88.51
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-18T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7974437,
+      "bid_price": 88.6
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-19T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 7270641,
+      "bid_price": 88.61
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-20T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7107034,
+      "bid_price": 88.69
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-23T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 7227164,
+      "bid_price": 88.59
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-24T00:00:00Z",
+      "bid_ask_spread": 0.0113,
+      "volume": 7103739,
+      "bid_price": 88.59
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-25T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 16817015,
+      "bid_price": 88.34
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-26T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 10649818,
+      "bid_price": 88.23
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-27T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 13719968,
+      "bid_price": 88.47
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-30T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 5954500,
+      "bid_price": 88.45
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-10-31T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7198363,
+      "bid_price": 88.47
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-01T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9505454,
+      "bid_price": 88.02
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-02T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 6096843,
+      "bid_price": 87.97
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-03T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 7003186,
+      "bid_price": 87.98
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-06T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 12262357,
+      "bid_price": 87.99
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-07T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 11805431,
+      "bid_price": 87.74
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-08T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 18119961,
+      "bid_price": 87.35
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-09T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 38343503,
+      "bid_price": 86.92
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-10T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 24521635,
+      "bid_price": 87.11
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-13T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 16280475,
+      "bid_price": 87.05
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-14T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 13870559,
+      "bid_price": 86.68
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-15T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 25382032,
+      "bid_price": 86.68
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-16T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 30075165,
+      "bid_price": 87.53
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-17T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 15942057,
+      "bid_price": 87.47
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-20T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 8930342,
+      "bid_price": 87.49
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-21T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 10102420,
+      "bid_price": 87.67
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-22T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9473834,
+      "bid_price": 87.81
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-23T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 9473834,
+      "bid_price": 87.81
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-24T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 3126527,
+      "bid_price": 87.87
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-27T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 10645375,
+      "bid_price": 87.6
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-28T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 10403694,
+      "bid_price": 87.87
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-29T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 11806229,
+      "bid_price": 87.76
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-11-30T00:00:00Z",
+      "bid_ask_spread": 0.0114,
+      "volume": 17981513,
+      "bid_price": 87.78
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-01T00:00:00Z",
+      "bid_ask_spread": 0.0118,
+      "volume": 15485800,
+      "bid_price": 87.38
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-04T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 14801746,
+      "bid_price": 87.35
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-05T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 9347645,
+      "bid_price": 87.3
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-06T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 10081734,
+      "bid_price": 87.22
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-07T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 8955923,
+      "bid_price": 87.26
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-08T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 9100415,
+      "bid_price": 87.35
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-11T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 11848241,
+      "bid_price": 87.37
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-12T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 8846770,
+      "bid_price": 87.33
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-13T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 7494952,
+      "bid_price": 87.38
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-14T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 19337043,
+      "bid_price": 87.2
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-15T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 14223851,
+      "bid_price": 87.21
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-18T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 11735165,
+      "bid_price": 87.3
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-19T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 10985023,
+      "bid_price": 87.12
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-20T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 11857432,
+      "bid_price": 87.19
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-21T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 11195955,
+      "bid_price": 86.92
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-22T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 11136911,
+      "bid_price": 87
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-25T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 11136911,
+      "bid_price": 87
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-26T00:00:00Z",
+      "bid_ask_spread": 0.0116,
+      "volume": 5798914,
+      "bid_price": 87.13
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-27T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 5625476,
+      "bid_price": 87.17
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-28T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 6116566,
+      "bid_price": 87.13
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2017-12-29T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 5116774,
+      "bid_price": 87.26
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-01T00:00:00Z",
+      "bid_ask_spread": 0.0115,
+      "volume": 5116774,
+      "bid_price": 87.26
+    }
+  ],
+  "predictions": [
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-02T00:00:00Z",
+      "bid_ask_spread": 0.011506183294579387,
+      "volume": 7080068.2511757165,
+      "bid_price": 87.15106209635735
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-03T00:00:00Z",
+      "bid_ask_spread": 0.011502752825804053,
+      "volume": 7306504.705465153,
+      "bid_price": 87.17794264554978
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-04T00:00:00Z",
+      "bid_ask_spread": 0.011500472808117047,
+      "volume": 7619991.614794746,
+      "bid_price": 87.19407034993172
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-05T00:00:00Z",
+      "bid_ask_spread": 0.011499061710201203,
+      "volume": 7908211.956427842,
+      "bid_price": 87.20375098109245
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-06T00:00:00Z",
+      "bid_ask_spread": 0.011498281910456716,
+      "volume": 8126538.842435822,
+      "bid_price": 87.20946845769882
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-07T00:00:00Z",
+      "bid_ask_spread": 0.011497945901565254,
+      "volume": 8256712.5535025,
+      "bid_price": 87.21260355710983
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-08T00:00:00Z",
+      "bid_ask_spread": 0.011497919575683772,
+      "volume": 8332583.030697867,
+      "bid_price": 87.21438244581223
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-09T00:00:00Z",
+      "bid_ask_spread": 0.011498079060576856,
+      "volume": 8359175.87123473,
+      "bid_price": 87.21506162047386
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-10T00:00:00Z",
+      "bid_ask_spread": 0.011498319503851235,
+      "volume": 8293165.244100884,
+      "bid_price": 87.2141441822052
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-11T00:00:00Z",
+      "bid_ask_spread": 0.011498615122400224,
+      "volume": 8218797.339315012,
+      "bid_price": 87.21277585268021
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-12T00:00:00Z",
+      "bid_ask_spread": 0.011498909531347452,
+      "volume": 8138971.352435812,
+      "bid_price": 87.21092274308205
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-13T00:00:00Z",
+      "bid_ask_spread": 0.01149916221871972,
+      "volume": 8064070.099073619,
+      "bid_price": 87.20890199899674
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-14T00:00:00Z",
+      "bid_ask_spread": 0.011499374988535418,
+      "volume": 7987138.434087142,
+      "bid_price": 87.2064073598385
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-15T00:00:00Z",
+      "bid_ask_spread": 0.011499555128673091,
+      "volume": 7916827.538376465,
+      "bid_price": 87.20436794400216
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-16T00:00:00Z",
+      "bid_ask_spread": 0.011499699979694558,
+      "volume": 7851933.828344643,
+      "bid_price": 87.20213355779649
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-17T00:00:00Z",
+      "bid_ask_spread": 0.011499813679931685,
+      "volume": 7792906.740753844,
+      "bid_price": 87.19987098574639
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-18T00:00:00Z",
+      "bid_ask_spread": 0.011499904331238939,
+      "volume": 7766552.074154124,
+      "bid_price": 87.19799742221832
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-19T00:00:00Z",
+      "bid_ask_spread": 0.011499946571793406,
+      "volume": 7763185.642357528,
+      "bid_price": 87.19568330407142
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-20T00:00:00Z",
+      "bid_ask_spread": 0.011499971444765104,
+      "volume": 7767849.74069421,
+      "bid_price": 87.19352571606636
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-21T00:00:00Z",
+      "bid_ask_spread": 0.011499990369752048,
+      "volume": 7781578.010147601,
+      "bid_price": 87.19134641289712
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-22T00:00:00Z",
+      "bid_ask_spread": 0.011500003496045247,
+      "volume": 7800038.609261304,
+      "bid_price": 87.18928942203522
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-23T00:00:00Z",
+      "bid_ask_spread": 0.011500012207077815,
+      "volume": 7812731.330644578,
+      "bid_price": 87.1873797762394
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-24T00:00:00Z",
+      "bid_ask_spread": 0.011500020604021846,
+      "volume": 7823922.327212438,
+      "bid_price": 87.18548219442368
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-25T00:00:00Z",
+      "bid_ask_spread": 0.01150002898829989,
+      "volume": 7832070.461024642,
+      "bid_price": 87.18359867811203
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-26T00:00:00Z",
+      "bid_ask_spread": 0.011500037310458719,
+      "volume": 7836871.022008583,
+      "bid_price": 87.18172695159912
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-27T00:00:00Z",
+      "bid_ask_spread": 0.01150004529962316,
+      "volume": 7838642.281742185,
+      "bid_price": 87.17986276507378
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-28T00:00:00Z",
+      "bid_ask_spread": 0.011500052604172377,
+      "volume": 7838068.0367513895,
+      "bid_price": 87.1780022251606
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-29T00:00:00Z",
+      "bid_ask_spread": 0.0115000589214731,
+      "volume": 7835787.372974291,
+      "bid_price": 87.176138586998
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-30T00:00:00Z",
+      "bid_ask_spread": 0.011500064056226982,
+      "volume": 7832481.544154584,
+      "bid_price": 87.17426787495613
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-01-31T00:00:00Z",
+      "bid_ask_spread": 0.01150006791963242,
+      "volume": 7829117.867038757,
+      "bid_price": 87.17239540815353
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-01T00:00:00Z",
+      "bid_ask_spread": 0.01150007049688138,
+      "volume": 7826147.261678621,
+      "bid_price": 87.17051934957504
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-02T00:00:00Z",
+      "bid_ask_spread": 0.011500071926275267,
+      "volume": 7823918.936836109,
+      "bid_price": 87.16863989114762
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-03T00:00:00Z",
+      "bid_ask_spread": 0.011500072438595816,
+      "volume": 7822623.177382708,
+      "bid_price": 87.16675738930702
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-04T00:00:00Z",
+      "bid_ask_spread": 0.01150007227952592,
+      "volume": 7822413.185948804,
+      "bid_price": 87.16487491488456
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-05T00:00:00Z",
+      "bid_ask_spread": 0.011500071708066387,
+      "volume": 7823298.074170783,
+      "bid_price": 87.16299350976944
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-06T00:00:00Z",
+      "bid_ask_spread": 0.011500070944847538,
+      "volume": 7825261.1020655185,
+      "bid_price": 87.16111586093903
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-07T00:00:00Z",
+      "bid_ask_spread": 0.011500070148101076,
+      "volume": 7828247.176017657,
+      "bid_price": 87.15924405217172
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-08T00:00:00Z",
+      "bid_ask_spread": 0.011500069458223879,
+      "volume": 7831999.475020245,
+      "bid_price": 87.15737605452537
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-09T00:00:00Z",
+      "bid_ask_spread": 0.011500068957870825,
+      "volume": 7836316.483580202,
+      "bid_price": 87.15551159381867
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-10T00:00:00Z",
+      "bid_ask_spread": 0.011500068706786258,
+      "volume": 7841057.077282816,
+      "bid_price": 87.1536505329609
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-11T00:00:00Z",
+      "bid_ask_spread": 0.011500068713026121,
+      "volume": 7846090.9385379255,
+      "bid_price": 87.15179232358933
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-12T00:00:00Z",
+      "bid_ask_spread": 0.011500068948464467,
+      "volume": 7851323.136808306,
+      "bid_price": 87.1499360883236
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-13T00:00:00Z",
+      "bid_ask_spread": 0.011500069364439695,
+      "volume": 7856740.746284202,
+      "bid_price": 87.14808192312718
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-14T00:00:00Z",
+      "bid_ask_spread": 0.011500069892872123,
+      "volume": 7862334.867227748,
+      "bid_price": 87.14622938930988
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-15T00:00:00Z",
+      "bid_ask_spread": 0.011500070459814741,
+      "volume": 7868118.637347221,
+      "bid_price": 87.14437817156315
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-16T00:00:00Z",
+      "bid_ask_spread": 0.011500071007711813,
+      "volume": 7874121.722435504,
+      "bid_price": 87.14252816021443
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-17T00:00:00Z",
+      "bid_ask_spread": 0.011500071483617648,
+      "volume": 7880377.81435737,
+      "bid_price": 87.14067925930023
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-18T00:00:00Z",
+      "bid_ask_spread": 0.01150007185335271,
+      "volume": 7886922.300165758,
+      "bid_price": 87.13883133172989
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-19T00:00:00Z",
+      "bid_ask_spread": 0.011500072096893563,
+      "volume": 7893782.938566864,
+      "bid_price": 87.1369843775034
+    },
+    {
+      "asset_type": "ETF_HYG",
+      "timestamp": "2018-02-20T00:00:00Z",
+      "bid_ask_spread": 0.01150007219975814,
+      "volume": 7900986.216875762,
+      "bid_price": 87.13513841032982
+    }
+  ],
+  "report": {
+    "asset_type": "ETF_HYG",
+    "total_records": 345,
+    "historical_records": 295,
+    "prediction_records": 50,
+    "high_risk_count": 0,
+    "moderate_risk_count": 49,
+    "current_warnings": null,
+    "predicted_warnings": null,
+    "current_high_risk_count": 0,
+    "predicted_high_risk_count": 0,
+    "current_moderate_risk_count": 49,
+    "predicted_moderate_risk_count": 0
+  }
+}
