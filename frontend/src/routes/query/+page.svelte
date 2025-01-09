@@ -1,6 +1,5 @@
 <script lang="ts">
-    import { enhance } from "$app/forms";
-    let start = "2016-01-01";
+  let start = "2016-01-01";
 	let end = "2018-01-01";
 	let asset = "";
 	let time_intervals = 50;
@@ -9,7 +8,7 @@
 
 <div class="flex flex-col items-center p-10">
     <h2 class="text-4xl mb-10">QUERY</h2>
-    <form method="post" use:enhance class="flex flex-col gap-5 w-1/2 text-xl items-center border-2 border-dotted rounded-lg p-5 mb-10">
+    <form method="post" class="flex flex-col gap-5 w-1/2 text-xl items-center border-2 border-dotted rounded-lg p-5 mb-10">
         <label class="w-full flex justify-between">
           <p class="flex items-center text-xl">
               Start Date:
@@ -43,7 +42,6 @@
               Time Interval:
           </p>
           <select name="time_interval_length" class="select w-2/3" bind:value={time_interval_length}>
-              <option value="3600">Hour</option>
               <option value="86400">Day</option>
               <option value="604800">Week</option>
               <option value="18144000">Month</option>

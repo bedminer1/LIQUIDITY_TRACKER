@@ -14,6 +14,7 @@ import (
 	"github.com/bedminer1/liquidity_tracker/internal/chatgpt"
 	"github.com/bedminer1/liquidity_tracker/internal/models"
 	riskassessment "github.com/bedminer1/liquidity_tracker/internal/riskAssessment"
+	"github.com/bedminer1/liquidity_tracker/internal/stats"
 	"github.com/joho/godotenv"
 	"github.com/labstack/echo/v4"
 	"gorm.io/driver/sqlite"
@@ -226,12 +227,13 @@ func (h *handler) handleGetChatGPTRecommendation(c echo.Context) error {
 			"error": err,
 		})
 	}
-	predictions, err := getPredictionsFromAI(records, intervalLength, intervals)
-	if err != nil {
-		return c.JSON(400, echo.Map{
-			"error": fmt.Sprintf("error interacting with microservice: %s", err.Error()),
-		})
-	}
+	// predictions, err := getPredictionsFromAI(records, intervalLength, intervals)
+	// if err != nil {
+	// 	return c.JSON(400, echo.Map{
+	// 		"error": fmt.Sprintf("error interacting with microservice: %s", err.Error()),
+	// 	})
+	// }
+	predictions := stats.GeneratePredictions(records, intervals, intervalLength)
 	liquidityReport := riskassessment.AssessLiquidity(records, predictions, 8)
 	response, err := chatgpt.FetchGPTResponse(liquidityReport)
 	if err != nil {

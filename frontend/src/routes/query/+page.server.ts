@@ -29,7 +29,8 @@ export const actions = {
       await saveResponseToFile(data, "recommendations.json");
 
       // Return the API response to the frontend
-      throw redirect(303, "/")
+      console.log("redirecting..")
+      redirect(303, "/")
     } catch (error) {
       return { error: "Something went wrong" };
     }
