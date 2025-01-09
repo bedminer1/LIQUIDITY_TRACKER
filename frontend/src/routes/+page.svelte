@@ -1,5 +1,6 @@
 <script lang="ts">
 	import LineChart from "$lib/components/LineChart.svelte"
+	import Card from "$lib/components/Card.svelte";
 
 	export let data: {
 		analysis: string,
@@ -23,68 +24,101 @@
 <div class="flex flex-col items-center p-10">
 	<h1 class="text-8xl mb-10">STABLETIDE</h1>
 
+	<!-- GRAPH AND ANALYSIS -->
+	<div class="flex w-full gap-4 items-start h-[100vh]">
+		<!-- ANALYSIS -->
+		<div class="w-5/12 justify-start flex flex-col gap-4 h-full">
+			<div class="flex flex-col gap-4">
+				<Card
+					{...{
+						title: "Asset",
+						body: data.report.asset_type,
+						subtitle: "Extra info about the asset",
+						icon: "&#9814;"
+					}}
+				/>
+				<Card
+					{...{
+						title: "Historical Illiquidity Rate",
+						body: historicalIlliquidityRate + "%",
+						subtitle: "Extra info about the asset",
+						icon: "&#9756;"
+					}}
+				/>
+				<Card
+					{...{
+						title: "Predicted Illiquidity Rate",
+						body: predictedIlliquidityRate + "%",
+						subtitle: "Extra info about the asset",
+						icon: "&#9758;"
+					}}
+				/>
+			</div>
+			<p class="card p-4">{@html styledAnalysis}</p>
+		</div>
+		<!-- GRAPH -->
+		<div class="flex flex-col gap-4 w-7/12">
+			<div class="card p-6">
+				<h2 class="text-3xl mb-3 text-center">Bid-Ask Spread Percentage</h2>
+				<div class="mb-3 border-2 border-dotted h-[30vh] rounded-lg px-4 py-2 w-full flex items-center">
+					<LineChart 
+					{...{
+						stats: [
+						{
+							label: 'Historical Bid-Ask Spread Percentage',
+							data: data.historicalSpreadData,
+							xAxis: data.xAxis,
+							borderColor: 'rgba(75, 192, 192, 1)',
+							backgroundColor: 'rgba(75, 192, 192, 0.2)',
+						},
+						{
+							label: 'Predicted Bid-Ask Spread Percentage',
+							data: data.predictedSpreadData,
+							xAxis: data.xAxis,
+							borderColor: 'rgba(255, 99, 132, 1)',
+							backgroundColor: 'rgba(255, 99, 132, 0.2)',
+						},
+						],
+						label: 'Bid-ask Spread / Bid-price',
+					}}
+					></LineChart>
+				</div>
+			</div>
+			<div class="card p-6">
+				<h2 class="text-3xl mb-5 text-center">Trading Volume</h2>
+				<div class="mb-3 border-2 border-dotted h-[30vh] rounded-lg px-4 py-2 w-full flex items-center">
+					<LineChart
+					{...{
+						stats: [
+						{
+							label: 'Historical Trading Volume Percentage',
+							data: data.historicalVolumeData,
+							xAxis: data.xAxis,
+							borderColor: 'rgba(75, 192, 192, 1)',
+							backgroundColor: 'rgba(75, 192, 192, 0.2)',
+						},
+						{
+							label: 'Predicted Trading Volume Percentage',
+							data: data.predictedVolumeData,
+							xAxis: data.xAxis,
+							borderColor: 'rgba(255, 99, 132, 1)',
+							backgroundColor: 'rgba(255, 99, 132, 0.2)',
+						},
+						],
+						label: 'Trading Volume',
+					}}
+					></LineChart>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
 	<div>
-		<p>Asset: {data.report.asset_type}</p>
-		<p>Historical Records Illiquidity Rate: {historicalIlliquidityRate} %</p>
-		<p>Predicted Records Illiquidity Rate: {predictedIlliquidityRate} %</p>
-	</div>
-	<div class="w-2/3 my-10">
-		<p class="">{@html styledAnalysis}</p>
-	</div>
-  
-	<h2 class="text-3xl my-5">Bid-Ask Spread Percentage</h2>
-	<div class="mb-10 border-2 border-dotted rounded-lg px-4 py-2 w-full">
-		<LineChart
-		{...{
-		  stats: [
-			{
-			  label: 'Historical Bid-Ask Spread Percentage',
-			  data: data.historicalSpreadData,
-			  xAxis: data.xAxis,
-			  borderColor: 'rgba(75, 192, 192, 1)',
-			  backgroundColor: 'rgba(75, 192, 192, 0.2)',
-			},
-			{
-			  label: 'Predicted Bid-Ask Spread Percentage',
-			  data: data.predictedSpreadData,
-			  xAxis: data.xAxis,
-			  borderColor: 'rgba(255, 99, 132, 1)',
-			  backgroundColor: 'rgba(255, 99, 132, 0.2)',
-			},
-		  ],
-		  label: 'Bid-ask Spread / Bid-price',
-		}}
-	  ></LineChart>
-	</div>
-  
-  <h2 class="text-3xl my-5">Trading Volume</h2>
-  <div class="mb-10 border-2 border-dotted rounded-lg px-4 py-2 w-full">
-	  <LineChart
-		{...{
-		  stats: [
-			{
-			  label: 'Historical Trading Volume Percentage',
-			  data: data.historicalVolumeData,
-			  xAxis: data.xAxis,
-			  borderColor: 'rgba(75, 192, 192, 1)',
-			  backgroundColor: 'rgba(75, 192, 192, 0.2)',
-			},
-			{
-			  label: 'Predicted Trading Volume Percentage',
-			  data: data.predictedVolumeData,
-			  xAxis: data.xAxis,
-			  borderColor: 'rgba(255, 99, 132, 1)',
-			  backgroundColor: 'rgba(255, 99, 132, 0.2)',
-			},
-		  ],
-		  label: 'Trading Volume',
-		}}
-	  ></LineChart>
-  </div>
-  
+	
+	
 	{#if data.error}
-	  <h2>Error:</h2>
-	  <p>{data.error}</p>
+		<h2>Error:</h2>
+		<p>{data.error}</p>
 	{/if}
 </div>
 
