@@ -29,7 +29,7 @@ export const actions = {
       await saveResponseToFile(data, "recommendations.json");
 
       console.log("redirecting..")
-      throw redirect(303, "/about")
+      throw redirect(303, "http://localhost:5173")
     } catch (error) {
       return { error: "Something went wrong" };
     }

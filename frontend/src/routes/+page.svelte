@@ -23,7 +23,9 @@
 
 <div class="flex flex-col items-center p-10">
 	<h1 class="text-8xl mb-10">STABLETIDE</h1>
-
+	<nav class="underline text-left w-full mb-4">
+		<a href="/query">New Query?</a>
+	</nav>
 	<!-- GRAPH AND ANALYSIS -->
 	<div class="flex w-full gap-4 items-start h-[100vh]">
 		<!-- ANALYSIS -->
@@ -33,24 +35,24 @@
 					{...{
 						title: "Asset",
 						body: data.report.asset_type,
-						subtitle: "Extra info about the asset",
+						subtitle: "ETF managed by JP Morgan",
 						icon: "&#9814;"
-					}}
-				/>
-				<Card
-					{...{
-						title: "Historical Illiquidity Rate",
-						body: historicalIlliquidityRate + "%",
-						subtitle: "Extra info about the asset",
-						icon: "&#9756;"
 					}}
 				/>
 				<Card
 					{...{
 						title: "Predicted Illiquidity Rate",
 						body: predictedIlliquidityRate + "%",
-						subtitle: "Extra info about the asset",
-						icon: "&#9758;"
+						subtitle: (predictedIlliquidityRate < historicalIlliquidityRate ? "down" : "up") + " compared to " + historicalIlliquidityRate + "% historically",
+						icon: "&#10150;"
+					}}
+				/>
+				<Card
+					{...{
+						title: "Period Analyzed",
+						body: data.xAxis[0] + " - " + data.xAxis[data.historicalSpreadData.length-1],
+						subtitle: "Predicting from " + data.xAxis[data.historicalSpreadData.length] + " - " + data.xAxis.at(-1),
+						icon: "&#9790;"
 					}}
 				/>
 			</div>

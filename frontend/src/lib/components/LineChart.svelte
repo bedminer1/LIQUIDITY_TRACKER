@@ -42,7 +42,7 @@
                     x: {
                         title: {
                             display: true,
-                            text: 'Weeks'
+                            text: 'Date'
                         }
                     }
                 },
