@@ -242,10 +242,4 @@ func (h *handler) handleGetChatGPTRecommendation(c echo.Context) error {
 		})
 	}
 
-	return c.JSON(201, echo.Map{
-		"analysis": response.Choices[0].Message.Content,
-		"report": liquidityReport,
-		"historical_data": records,
-		"predictions": predictions,
-	})
-}
+	return c.JSON(201, ec

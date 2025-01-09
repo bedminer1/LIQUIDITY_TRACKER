@@ -92,24 +92,4 @@ func FetchGPTResponse(report models.LiquidityReport) (ChatCompletionResponse, er
 	client := &http.Client{}
 	resp, err := client.Do(req)
 	if err != nil {
-		return ChatCompletionResponse{}, fmt.Errorf("error making HTTP request: %v", err)
-	}
-	defer resp.Body.Close()
-
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return ChatCompletionResponse{}, fmt.Errorf("error reading response body: %v", err)
-	}
-
-	if resp.StatusCode != http.StatusOK {
-		return ChatCompletionResponse{}, fmt.Errorf("OpenAI API error: %s", string(body))
-	}
-
-	var response ChatCompletionResponse
-	err = json.Unmarshal(body, &response)
-	if err != nil {
-		return ChatCompletionResponse{}, fmt.Errorf("error parsing response JSON: %v", err)
-	}
-
-	return response, nil
-}
+		return ChatCompletionResponse{}, fmt.Errorf("error
