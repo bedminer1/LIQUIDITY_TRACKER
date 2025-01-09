@@ -3,8 +3,10 @@
 
 	export let data: {
 		analysis: string
-		volumeData: number[],
-		spreadData: number[],
+		historicalVolumeData: number[],
+		historicalSpreadData: number[],
+		predictedVolumeData: number[],
+		predictedSpreadData: number[],
 		xAxis: string[],
 		error: string
 	}
@@ -28,11 +30,18 @@
 		{...{
 		  stats: [
 			{
-			  label: 'Bid-Ask Spread Percentage',
-			  data: data.spreadData,
+			  label: 'Historical Bid-Ask Spread Percentage',
+			  data: data.historicalSpreadData,
 			  xAxis: data.xAxis,
 			  borderColor: 'rgba(75, 192, 192, 1)',
 			  backgroundColor: 'rgba(75, 192, 192, 0.2)',
+			},
+			{
+			  label: 'Predicted Bid-Ask Spread Percentage',
+			  data: data.predictedSpreadData,
+			  xAxis: data.xAxis,
+			  borderColor: 'rgba(255, 99, 132, 1)',
+			  backgroundColor: 'rgba(255, 99, 132, 0.2)',
 			},
 		  ],
 		  label: 'Bid-ask Spread / Bid-price ',
@@ -46,8 +55,15 @@
 		{...{
 		  stats: [
 			{
-			  label: 'Trading Volume',
-			  data: data.volumeData,
+			  label: 'Historical Trading Volume Percentage',
+			  data: data.historicalVolumeData,
+			  xAxis: data.xAxis,
+			  borderColor: 'rgba(75, 192, 192, 1)',
+			  backgroundColor: 'rgba(75, 192, 192, 0.2)',
+			},
+			{
+			  label: 'Predicted Trading Volume Percentage',
+			  data: data.predictedVolumeData,
 			  xAxis: data.xAxis,
 			  borderColor: 'rgba(255, 99, 132, 1)',
 			  backgroundColor: 'rgba(255, 99, 132, 0.2)',

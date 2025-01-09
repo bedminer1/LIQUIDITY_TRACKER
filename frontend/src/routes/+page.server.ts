@@ -1,5 +1,5 @@
-import { saveResponseToFile } from '$lib/utils/saveResponse'
-import { readFile } from 'fs/promises';
+import { readFile } from 'fs/promises'
+// @ts-ignore
 import path from 'path';
 
 export async function load() {
@@ -11,12 +11,14 @@ export async function load() {
     let historicalData: LiquidityRecord[] = recommendations.historical_data
     let predictions: LiquidityRecord[] = recommendations.predictions
 
-    let { spreadData, volumeData, xAxis } = prepareChartData(historicalData, predictions)
+    let { historicalSpreadData, historicalVolumeData, predictedSpreadData, predictedVolumeData, xAxis } = prepareChartData(historicalData, predictions)
 
     return { 
         analysis: recommendations.analysis, 
-        spreadData: spreadData,
-        volumeData: volumeData,
+        historicalSpreadData: historicalSpreadData,
+        historicalVolumeData: historicalVolumeData,
+        predictedSpreadData: predictedSpreadData,
+        predictedVolumeData: predictedVolumeData,
         xAxis: xAxis,
        
     }
@@ -32,16 +34,26 @@ export async function load() {
 }
 
 function prepareChartData(historicalData: LiquidityRecord[], predictions: LiquidityRecord[]) {
-    const combinedData = [...historicalData, ...predictions];
-
-    const spreadData: number[] = []
-    const volumeData: number[] = []
+    const historicalSpreadData: (number | null)[] = []
+    const predictedSpreadData: (number | null)[] = []
+    const historicalVolumeData: (number | null)[] = []
+    const predictedVolumeData: (number | null)[] = []
     const xAxis: string[] = []
-    for (let record of combinedData) {
-        spreadData.push((record.bid_ask_spread/record.bid_price)*100)
-        volumeData.push(record.volume)
+    for (let record of historicalData) {
+        historicalSpreadData.push((record.bid_ask_spread/record.bid_price)*100)
+        historicalVolumeData.push(record.volume)
+        predictedSpreadData.push(null)
+        predictedVolumeData.push(null)
+        xAxis.push(record.timestamp.substring(0,10))
+    }
+    predictedSpreadData[historicalSpreadData.length-1] = historicalSpreadData.at(-1)!
+    predictedVolumeData[historicalVolumeData.length-1] = historicalVolumeData.at(-1)!
+
+    for (let record of predictions) {
+        predictedSpreadData.push((record.bid_ask_spread/record.bid_price)*100)
+        predictedVolumeData.push(record.volume)
         xAxis.push(record.timestamp.substring(0,10))
     }
 
-    return { spreadData, volumeData, xAxis };
+    return { historicalSpreadData, historicalVolumeData, predictedSpreadData, predictedVolumeData, xAxis };
 }
