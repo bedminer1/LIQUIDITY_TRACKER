@@ -22,7 +22,7 @@
   </script>
 
 <div class="flex flex-col items-center p-10">
-	<h1 class="text-8xl mb-10">STABLETIDE</h1>
+	<h1 class="text-8xl mb-10"><a href="https://github.com/bedminer1/LIQUIDITY_TRACKER/">STABLETIDE</a></h1>
 	<nav class="underline text-left w-full mb-4">
 		<a href="/query">New Query?</a>
 	</nav>
@@ -35,7 +35,7 @@
 					{...{
 						title: "Asset",
 						body: data.report.asset_type,
-						subtitle: "ETF managed by JP Morgan",
+						subtitle: "Represents 1/10 of the ETF by JP Morgan",
 						icon: "&#9814;"
 					}}
 				/>

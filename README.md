@@ -90,3 +90,5 @@ Example Request:
 - TensorFlow and supporting libraries installed in the Python environment.
 
 ---
+
+TODO: Write diagrams for the ideation report for the pipeline of the app
