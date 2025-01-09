@@ -15,6 +15,7 @@ export async function load() {
 
     return { 
         analysis: recommendations.analysis, 
+        report: recommendations.report,
         historicalSpreadData: historicalSpreadData,
         historicalVolumeData: historicalVolumeData,
         predictedSpreadData: predictedSpreadData,

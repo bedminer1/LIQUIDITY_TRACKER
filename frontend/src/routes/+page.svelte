@@ -2,7 +2,8 @@
 	import LineChart from "$lib/components/LineChart.svelte"
 
 	export let data: {
-		analysis: string
+		analysis: string,
+		report: LiquidityReport,
 		historicalVolumeData: number[],
 		historicalSpreadData: number[],
 		predictedVolumeData: number[],
@@ -15,11 +16,18 @@
 		.replace(/<h2>/g, '<h2 class="text-3xl text-center mb-4">')
 		.replace(/<p>/g, '<p class="text-xl mb-2">')
 		.replace(/<li>/g, '<li class="text-xl mb-2">')
+	let historicalIlliquidityRate = ((data.report.current_moderate_risk_count+data.report.current_high_risk_count)/data.report.historical_records).toFixed(3)
+	let predictedIlliquidityRate = ((data.report.predicted_moderate_risk_count+data.report.predicted_high_risk_count)/data.report.prediction_records).toFixed(3)
   </script>
 
 <div class="flex flex-col items-center p-10">
 	<h1 class="text-8xl mb-10">STABLETIDE</h1>
 
+	<div>
+		<p>Asset: {data.report.asset_type}</p>
+		<p>Historical Records Illiquidity Rate: {historicalIlliquidityRate} %</p>
+		<p>Predicted Records Illiquidity Rate: {predictedIlliquidityRate} %</p>
+	</div>
 	<div class="w-2/3 my-10">
 		<p class="">{@html styledAnalysis}</p>
 	</div>
@@ -44,7 +52,7 @@
 			  backgroundColor: 'rgba(255, 99, 132, 0.2)',
 			},
 		  ],
-		  label: 'Bid-ask Spread / Bid-price ',
+		  label: 'Bid-ask Spread / Bid-price',
 		}}
 	  ></LineChart>
 	</div>
