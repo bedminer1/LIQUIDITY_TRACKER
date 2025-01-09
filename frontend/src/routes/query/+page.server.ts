@@ -7,7 +7,7 @@ export const actions = {
     const start = formData.get("start");
     const end = formData.get("end");
     const asset = formData.get("asset");
-    const time_intervals = formData.get("time_intervals");
+    let time_intervals = formData.get("time_intervals");
     const time_interval_length = formData.get("time_interval_length");
 
     // Validate inputs
@@ -30,7 +30,7 @@ export const actions = {
 
       // Return the API response to the frontend
       console.log("redirecting..")
-      redirect(303, "/")
+      redirect(302, "/")
     } catch (error) {
       return { error: "Something went wrong" };
     }

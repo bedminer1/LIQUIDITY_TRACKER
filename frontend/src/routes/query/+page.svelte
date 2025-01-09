@@ -1,6 +1,6 @@
 <script lang="ts">
   let start = "2016-01-01";
-	let end = "2018-01-01";
+	let end = "2017-01-01";
 	let asset = "";
 	let time_intervals = 50;
 	let time_interval_length = 86400;
@@ -44,7 +44,7 @@
           <select name="time_interval_length" class="select w-2/3" bind:value={time_interval_length}>
               <option value="86400">Day</option>
               <option value="604800">Week</option>
-              <option value="18144000">Month</option>
+              <option value="2592000">Month</option>
           </select>
         </label>
       

@@ -216,6 +216,8 @@ func getPredictionsFromAI(currentRecords []models.Record, intervalLength, interv
 
 func (h *handler) handleGetChatGPTRecommendation(c echo.Context) error {
 	asset, start, end, intervalLength, intervals, err := parseQueryParams(c)
+	intervals *= (intervalLength/86400)
+
 	if err != nil {
 		return c.JSON(400, echo.Map{
 			"error": err,
@@ -227,13 +229,15 @@ func (h *handler) handleGetChatGPTRecommendation(c echo.Context) error {
 			"error": err,
 		})
 	}
+
 	// predictions, err := getPredictionsFromAI(records, intervalLength, intervals)
 	// if err != nil {
 	// 	return c.JSON(400, echo.Map{
 	// 		"error": fmt.Sprintf("error interacting with microservice: %s", err.Error()),
 	// 	})
 	// }
-	predictions := stats.GeneratePredictions(records, intervals, intervalLength)
+
+	predictions := stats.GeneratePredictions(records, intervals)
 	liquidityReport := riskassessment.AssessLiquidity(records, predictions, 8)
 	response, err := chatgpt.FetchGPTResponse(liquidityReport)
 	if err != nil {
@@ -242,4 +246,10 @@ func (h *handler) handleGetChatGPTRecommendation(c echo.Context) error {
 		})
 	}
 
-	return c.JSON(201, ec
+	return c.JSON(201, echo.Map{
+		"analysis": response.Choices[0].Message.Content,
+		"report": liquidityReport,
+		"historical_data": records,
+		"predictions": predictions,
+	})
+}

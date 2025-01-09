@@ -8,7 +8,7 @@ import (
 	"github.com/bedminer1/liquidity_tracker/internal/models"
 )
 
-func GeneratePredictions(records []models.Record, intervals int, intervalLength int) []models.Record {
+func GeneratePredictions(records []models.Record, intervals int) []models.Record {
 	if len(records) == 0 {
 		return nil // No historical data to base predictions on
 	}
@@ -31,15 +31,14 @@ func GeneratePredictions(records []models.Record, intervals int, intervalLength 
 
 	// Generate predictions
 	for i := 1; i <= intervals; i++ {
-		predictedTimestamp := lastTimestamp.Add(time.Duration(intervalLength*i) * time.Second)
+		predictedTimestamp := lastTimestamp.Add(time.Duration(i) * time.Hour * 24)
 
 		// Spread prediction
 		predictedSpread := movingAverage * (0.9999 + rand.Float64()*0.0002)
-		randomChoice := rand.Float64() // Random value between 0 and 1
-
+		randomChoice := rand.Float64()
 		if randomChoice < 0.05 {
 			// 10% chance of a spike (increase by 80%-200%)
-			spikeFactor := 1.1 + rand.Float64()*1.6 // Random multiplier between 0.8 and 2.0
+			spikeFactor := 1.1 + rand.Float64()*1.6
 			predictedSpread *= spikeFactor
 		}
 
