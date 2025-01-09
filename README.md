@@ -2,6 +2,9 @@
 
 StableTide is a powerful tool designed to monitor and assess liquidity risks for various financial assets, including tokenized assets and ETFs. It leverages AI-powered predictions to identify potential liquidity shortfalls and provide actionable insights for risk management.
 
+![Uploading image.png…]()
+
+
 ## About
 
 StableTide integrates a Go backend, a Python-based AI microservice, and a user-friendly front-end dashboard to streamline the monitoring and prediction of liquidity metrics. It works by analyzing bid-ask spreads, trading volumes, and other market data to assess potential risks and generate predictive insights.
