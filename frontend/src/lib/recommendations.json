@@ -1,2199 +1,4299 @@
 {
-  "analysis": "<h2>Liquidity Trends Analysis</h2>\n<p>The data indicates that liquidity shortfalls are occurring at specific intervals, potentially suggesting seasonal or market-driven trends. Notably, the fluctuating levels of liquidity, as evidenced by the varying figures, may reflect heightened demand during particular market conditions or inefficient capital allocation in on-chain mechanisms, requiring closer monitoring of user activity and market events.</p>\n<ol>\n    <li>Adjust the parameters of smart contracts to dynamically alter transaction fees or incentivize liquidity provision during periods of high trading volume to bolster market depth.</li>\n    <li>Implement yield farming incentives specifically for liquidity providers during identified shortfall intervals to attract more capital into the ecosystem and enhance asset utility.</li>\n</ol>",
+  "analysis": "<h2>Liquidity Shortfall Trends Analysis</h2>\n<p>The liquidity report indicates a pattern of significant shortfalls, particularly highlighting intervals with a sharp decline in liquidity reflected by the low numbers in specific asset liquidity levels. The absence of liquidity in certain time slots may suggest uneven trading behavior or market inefficiencies, urging a closer examination of trading activities and user engagement during those critical periods.</p>\n<ol>\n    <li>Adjust smart contract parameters to dynamically modify transaction fees during identified liquidity shortfall periods, incentivizing traders to execute optimal trades that improve market depth.</li>\n    <li>Implement enhanced liquidity mining incentives specifically targeting AMM pools; by rewarding liquidity providers with additional token bonuses during times of low liquidity, the institution can sustain asset availability and stabilize token values.</li>\n</ol>",
   "historical_data": [
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-01T00:00:00Z",
-      "bid_ask_spread": 0.0126,
-      "volume": 7935217,
-      "bid_price": 80.58
+      "bid_ask_spread": 0.0103,
+      "volume": 1228153,
+      "bid_price": 114.01
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-04T00:00:00Z",
-      "bid_ask_spread": 0.0127,
-      "volume": 14787768,
-      "bid_price": 80.1
+      "bid_ask_spread": 0.0103,
+      "volume": 8333727,
+      "bid_price": 113.95
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-05T00:00:00Z",
-      "bid_ask_spread": 0.0127,
-      "volume": 11491301,
-      "bid_price": 80.25
+      "bid_ask_spread": 0.0096,
+      "volume": 4474299,
+      "bid_price": 114.01
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-06T00:00:00Z",
-      "bid_ask_spread": 0.0127,
-      "volume": 11320141,
-      "bid_price": 80.25
+      "bid_ask_spread": 0.0101,
+      "volume": 4522392,
+      "bid_price": 114.46
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-07T00:00:00Z",
-      "bid_ask_spread": 0.0127,
-      "volume": 11004747,
-      "bid_price": 79.73
+      "bid_ask_spread": 0.0097,
+      "volume": 4819997,
+      "bid_price": 114.55
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-08T00:00:00Z",
-      "bid_ask_spread": 0.0127,
-      "volume": 17902081,
-      "bid_price": 79.52
+      "bid_ask_spread": 0.0097,
+      "volume": 4363505,
+      "bid_price": 114.64
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-11T00:00:00Z",
-      "bid_ask_spread": 0.0128,
-      "volume": 16917708,
-      "bid_price": 79.4
+      "bid_ask_spread": 0.0094,
+      "volume": 4161536,
+      "bid_price": 114.27
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-12T00:00:00Z",
-      "bid_ask_spread": 0.0127,
-      "volume": 15217665,
-      "bid_price": 79.48
+      "bid_ask_spread": 0.0096,
+      "volume": 2616573,
+      "bid_price": 114.53
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-13T00:00:00Z",
-      "bid_ask_spread": 0.0129,
-      "volume": 20352720,
-      "bid_price": 78.6
+      "bid_ask_spread": 0.0094,
+      "volume": 5649759,
+      "bid_price": 114.88
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-14T00:00:00Z",
-      "bid_ask_spread": 0.0129,
-      "volume": 18572684,
-      "bid_price": 78.95
+      "bid_ask_spread": 0.01,
+      "volume": 4735332,
+      "bid_price": 114.31
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-15T00:00:00Z",
-      "bid_ask_spread": 0.0131,
-      "volume": 27309934,
-      "bid_price": 77.91
+      "bid_ask_spread": 0.0103,
+      "volume": 5977932,
+      "bid_price": 114.14
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-18T00:00:00Z",
-      "bid_ask_spread": 0.0131,
-      "volume": 27309934,
-      "bid_price": 77.91
+      "bid_ask_spread": 0.0103,
+      "volume": 5977932,
+      "bid_price": 114.14
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-19T00:00:00Z",
-      "bid_ask_spread": 0.013,
-      "volume": 15975748,
-      "bid_price": 77.64
+      "bid_ask_spread": 0.0098,
+      "volume": 3374551,
+      "bid_price": 113.63
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-20T00:00:00Z",
-      "bid_ask_spread": 0.0133,
-      "volume": 25973482,
-      "bid_price": 77.12
+      "bid_ask_spread": 0.0102,
+      "volume": 6175288,
+      "bid_price": 113.8
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-21T00:00:00Z",
-      "bid_ask_spread": 0.0133,
-      "volume": 20065830,
-      "bid_price": 77.64
+      "bid_ask_spread": 0.011,
+      "volume": 3928293,
+      "bid_price": 113.47
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-22T00:00:00Z",
-      "bid_ask_spread": 0.0129,
-      "volume": 17653060,
-      "bid_price": 78.83
+      "bid_ask_spread": 0.0116,
+      "volume": 2932188,
+      "bid_price": 113.54
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-25T00:00:00Z",
-      "bid_ask_spread": 0.0129,
-      "volume": 16448362,
-      "bid_price": 78.05
+      "bid_ask_spread": 0.0153,
+      "volume": 2485187,
+      "bid_price": 113.42
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-26T00:00:00Z",
-      "bid_ask_spread": 0.013,
-      "volume": 12010881,
-      "bid_price": 78.75
+      "bid_ask_spread": 0.0127,
+      "volume": 4002232,
+      "bid_price": 113.74
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-27T00:00:00Z",
-      "bid_ask_spread": 0.0147,
-      "volume": 14562999,
-      "bid_price": 78.63
+      "bid_ask_spread": 0.0191,
+      "volume": 2535919,
+      "bid_price": 113.43
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-28T00:00:00Z",
-      "bid_ask_spread": 0.0129,
-      "volume": 14622612,
-      "bid_price": 79.03
+      "bid_ask_spread": 0.0251,
+      "volume": 4187095,
+      "bid_price": 113.56
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-01-29T00:00:00Z",
-      "bid_ask_spread": 0.0129,
-      "volume": 14218718,
-      "bid_price": 79.29
+      "bid_ask_spread": 0.0127,
+      "volume": 2022677,
+      "bid_price": 114.15
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-01T00:00:00Z",
-      "bid_ask_spread": 0.0131,
-      "volume": 8865485,
-      "bid_price": 78.43
+      "bid_ask_spread": 0.011,
+      "volume": 8696773,
+      "bid_price": 113.45
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-02T00:00:00Z",
-      "bid_ask_spread": 0.013,
-      "volume": 15442249,
-      "bid_price": 77.87
+      "bid_ask_spread": 0.0106,
+      "volume": 5881180,
+      "bid_price": 113.66
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-03T00:00:00Z",
-      "bid_ask_spread": 0.013,
-      "volume": 15465174,
-      "bid_price": 78.25
+      "bid_ask_spread": 0.0126,
+      "volume": 3732087,
+      "bid_price": 113.38
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-04T00:00:00Z",
-      "bid_ask_spread": 0.0131,
-      "volume": 8989918,
-      "bid_price": 78
+      "bid_ask_spread": 0.0109,
+      "volume": 3367458,
+      "bid_price": 113.43
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-05T00:00:00Z",
-      "bid_ask_spread": 0.013,
-      "volume": 14632304,
-      "bid_price": 77.41
+      "bid_ask_spread": 0.0103,
+      "volume": 4334435,
+      "bid_price": 113.41
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-08T00:00:00Z",
-      "bid_ask_spread": 0.0132,
-      "volume": 15649914,
-      "bid_price": 76.5
+      "bid_ask_spread": 0.0108,
+      "volume": 3265205,
+      "bid_price": 114
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-09T00:00:00Z",
-      "bid_ask_spread": 0.0133,
-      "volume": 18684977,
-      "bid_price": 76.21
+      "bid_ask_spread": 0.0127,
+      "volume": 3346936,
+      "bid_price": 113.61
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-10T00:00:00Z",
-      "bid_ask_spread": 0.0134,
-      "volume": 13085986,
-      "bid_price": 76.1
+      "bid_ask_spread": 0.0109,
+      "volume": 3738614,
+      "bid_price": 113.75
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-11T00:00:00Z",
-      "bid_ask_spread": 0.0134,
-      "volume": 22158243,
-      "bid_price": 75.59
+      "bid_ask_spread": 0.0099,
+      "volume": 5333732,
+      "bid_price": 114.13
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-12T00:00:00Z",
-      "bid_ask_spread": 0.0133,
-      "volume": 17751465,
-      "bid_price": 76.72
+      "bid_ask_spread": 0.0107,
+      "volume": 4180648,
+      "bid_price": 113.49
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-15T00:00:00Z",
-      "bid_ask_spread": 0.0133,
-      "volume": 17751465,
-      "bid_price": 76.72
+      "bid_ask_spread": 0.0107,
+      "volume": 4180648,
+      "bid_price": 113.49
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-16T00:00:00Z",
-      "bid_ask_spread": 0.0132,
-      "volume": 14105960,
-      "bid_price": 76.79
+      "bid_ask_spread": 0.01,
+      "volume": 4972156,
+      "bid_price": 112.95
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-17T00:00:00Z",
-      "bid_ask_spread": 0.0131,
-      "volume": 16353016,
-      "bid_price": 77.42
+      "bid_ask_spread": 0.011,
+      "volume": 5008407,
+      "bid_price": 112.92
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-18T00:00:00Z",
-      "bid_ask_spread": 0.0131,
-      "volume": 13247346,
-      "bid_price": 77.49
+      "bid_ask_spread": 0.0101,
+      "volume": 3810670,
+      "bid_price": 113.84
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-19T00:00:00Z",
-      "bid_ask_spread": 0.0131,
-      "volume": 12879948,
-      "bid_price": 77.64
+      "bid_ask_spread": 0.0141,
+      "volume": 3587683,
+      "bid_price": 113.76
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-22T00:00:00Z",
-      "bid_ask_spread": 0.0129,
-      "volume": 13826611,
-      "bid_price": 78.31
+      "bid_ask_spread": 0.0101,
+      "volume": 4556826,
+      "bid_price": 113.99
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-23T00:00:00Z",
-      "bid_ask_spread": 0.0129,
-      "volume": 16809651,
-      "bid_price": 78.15
+      "bid_ask_spread": 0.0141,
+      "volume": 2832095,
+      "bid_price": 114.22
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-24T00:00:00Z",
-      "bid_ask_spread": 0.013,
-      "volume": 13622070,
-      "bid_price": 78.28
+      "bid_ask_spread": 0.0096,
+      "volume": 3402259,
+      "bid_price": 114.33
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-25T00:00:00Z",
-      "bid_ask_spread": 0.0128,
-      "volume": 10699091,
-      "bid_price": 78.7
+      "bid_ask_spread": 0.0101,
+      "volume": 4531958,
+      "bid_price": 114.97
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-26T00:00:00Z",
-      "bid_ask_spread": 0.0127,
-      "volume": 12060219,
-      "bid_price": 79.23
+      "bid_ask_spread": 0.0094,
+      "volume": 5422653,
+      "bid_price": 114.93
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-02-29T00:00:00Z",
-      "bid_ask_spread": 0.0126,
-      "volume": 23746770,
-      "bid_price": 80.08
+      "bid_ask_spread": 0.0093,
+      "volume": 5231908,
+      "bid_price": 115.01
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-01T00:00:00Z",
-      "bid_ask_spread": 0.0126,
-      "volume": 24023186,
-      "bid_price": 80.92
+      "bid_ask_spread": 0.0103,
+      "volume": 8301842,
+      "bid_price": 114.05
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-02T00:00:00Z",
-      "bid_ask_spread": 0.0126,
-      "volume": 14987360,
-      "bid_price": 80.37
+      "bid_ask_spread": 0.0101,
+      "volume": 3519622,
+      "bid_price": 114.28
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-03T00:00:00Z",
-      "bid_ask_spread": 0.0126,
-      "volume": 12018420,
-      "bid_price": 80.64
+      "bid_ask_spread": 0.0094,
+      "volume": 3614649,
+      "bid_price": 114.82
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-04T00:00:00Z",
-      "bid_ask_spread": 0.0129,
-      "volume": 18029930,
-      "bid_price": 80.87
+      "bid_ask_spread": 0.0096,
+      "volume": 2040594,
+      "bid_price": 114.8
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-07T00:00:00Z",
-      "bid_ask_spread": 0.0126,
-      "volume": 12656193,
-      "bid_price": 80.97
+      "bid_ask_spread": 0.0096,
+      "volume": 3616935,
+      "bid_price": 114.93
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-08T00:00:00Z",
-      "bid_ask_spread": 0.0126,
-      "volume": 17813654,
-      "bid_price": 80.4
+      "bid_ask_spread": 0.0103,
+      "volume": 3279829,
+      "bid_price": 115.54
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-09T00:00:00Z",
-      "bid_ask_spread": 0.0126,
-      "volume": 7699592,
-      "bid_price": 80.6
+      "bid_ask_spread": 0.0094,
+      "volume": 3205817,
+      "bid_price": 115.41
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-10T00:00:00Z",
-      "bid_ask_spread": 0.0126,
-      "volume": 18167039,
-      "bid_price": 81.16
+      "bid_ask_spread": 0.0091,
+      "volume": 4458960,
+      "bid_price": 115.89
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-11T00:00:00Z",
-      "bid_ask_spread": 0.0123,
-      "volume": 18662714,
-      "bid_price": 82.14
+      "bid_ask_spread": 0.0107,
+      "volume": 4603629,
+      "bid_price": 116.22
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-14T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 12512374,
-      "bid_price": 81.91
+      "bid_ask_spread": 0.0095,
+      "volume": 2997389,
+      "bid_price": 116.56
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-15T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 16442570,
-      "bid_price": 81.15
+      "bid_ask_spread": 0.011,
+      "volume": 6599434,
+      "bid_price": 116.52
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-16T00:00:00Z",
-      "bid_ask_spread": 0.0135,
-      "volume": 21567092,
-      "bid_price": 81.69
+      "bid_ask_spread": 0.0133,
+      "volume": 3975394,
+      "bid_price": 117.08
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-17T00:00:00Z",
-      "bid_ask_spread": 0.0123,
-      "volume": 18422991,
-      "bid_price": 82.21
+      "bid_ask_spread": 0.0094,
+      "volume": 3341926,
+      "bid_price": 117.44
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-18T00:00:00Z",
-      "bid_ask_spread": 0.0122,
-      "volume": 12921969,
-      "bid_price": 82.4
+      "bid_ask_spread": 0.0094,
+      "volume": 3315282,
+      "bid_price": 117.71
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-21T00:00:00Z",
-      "bid_ask_spread": 0.0123,
-      "volume": 12653601,
-      "bid_price": 82.31
+      "bid_ask_spread": 0.0101,
+      "volume": 2948609,
+      "bid_price": 117.57
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-22T00:00:00Z",
-      "bid_ask_spread": 0.0123,
-      "volume": 8941231,
-      "bid_price": 82.09
+      "bid_ask_spread": 0.0097,
+      "volume": 3762937,
+      "bid_price": 117.35
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-23T00:00:00Z",
-      "bid_ask_spread": 0.0123,
-      "volume": 11354241,
-      "bid_price": 81.71
+      "bid_ask_spread": 0.0109,
+      "volume": 5338703,
+      "bid_price": 117.94
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-24T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 13497803,
-      "bid_price": 81.35
+      "bid_ask_spread": 0.0091,
+      "volume": 2601485,
+      "bid_price": 117.89
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-25T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 13497803,
-      "bid_price": 81.35
+      "bid_ask_spread": 0.0091,
+      "volume": 2601485,
+      "bid_price": 117.89
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-28T00:00:00Z",
-      "bid_ask_spread": 0.0126,
-      "volume": 11298887,
-      "bid_price": 80.98
+      "bid_ask_spread": 0.0094,
+      "volume": 3274504,
+      "bid_price": 117.96
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-29T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 11348447,
-      "bid_price": 81.29
+      "bid_ask_spread": 0.0092,
+      "volume": 3758535,
+      "bid_price": 118.49
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-30T00:00:00Z",
-      "bid_ask_spread": 0.0123,
-      "volume": 11796368,
-      "bid_price": 81.58
+      "bid_ask_spread": 0.0089,
+      "volume": 3877622,
+      "bid_price": 118.35
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-03-31T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 9436744,
-      "bid_price": 81.69
+      "bid_ask_spread": 0.0091,
+      "volume": 7853549,
+      "bid_price": 118.82
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-01T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 10822422,
-      "bid_price": 81.37
+      "bid_ask_spread": 0.0106,
+      "volume": 6809789,
+      "bid_price": 118.87
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-04T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 9269657,
-      "bid_price": 81.17
+      "bid_ask_spread": 0.0096,
+      "volume": 4138662,
+      "bid_price": 118.88
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-05T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 13254530,
-      "bid_price": 80.87
+      "bid_ask_spread": 0.0103,
+      "volume": 6944739,
+      "bid_price": 119.26
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-06T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 13935012,
-      "bid_price": 81.55
+      "bid_ask_spread": 0.0093,
+      "volume": 4793573,
+      "bid_price": 119.16
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-07T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 11306075,
-      "bid_price": 81.15
+      "bid_ask_spread": 0.0103,
+      "volume": 3592057,
+      "bid_price": 119.48
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-08T00:00:00Z",
-      "bid_ask_spread": 0.0123,
-      "volume": 7952966,
-      "bid_price": 81.52
+      "bid_ask_spread": 0.0092,
+      "volume": 2060957,
+      "bid_price": 119.21
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-11T00:00:00Z",
-      "bid_ask_spread": 0.0123,
-      "volume": 8126910,
-      "bid_price": 81.63
+      "bid_ask_spread": 0.0091,
+      "volume": 1998735,
+      "bid_price": 119.2
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-12T00:00:00Z",
-      "bid_ask_spread": 0.0123,
-      "volume": 11772795,
-      "bid_price": 82.11
+      "bid_ask_spread": 0.0104,
+      "volume": 3553440,
+      "bid_price": 118.73
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-13T00:00:00Z",
-      "bid_ask_spread": 0.0122,
-      "volume": 13596100,
-      "bid_price": 82.65
+      "bid_ask_spread": 0.0104,
+      "volume": 2502212,
+      "bid_price": 119.14
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-14T00:00:00Z",
-      "bid_ask_spread": 0.0122,
-      "volume": 10758444,
-      "bid_price": 82.62
+      "bid_ask_spread": 0.0096,
+      "volume": 1863981,
+      "bid_price": 119.06
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-15T00:00:00Z",
-      "bid_ask_spread": 0.0123,
-      "volume": 7857268,
-      "bid_price": 82.49
+      "bid_ask_spread": 0.0096,
+      "volume": 3789527,
+      "bid_price": 119.56
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-18T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 9211399,
-      "bid_price": 82.96
+      "bid_ask_spread": 0.0089,
+      "volume": 2827404,
+      "bid_price": 119.69
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-19T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 11623581,
-      "bid_price": 83.31
+      "bid_ask_spread": 0.0087,
+      "volume": 2577128,
+      "bid_price": 119.91
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-20T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 10128763,
-      "bid_price": 83.47
+      "bid_ask_spread": 0.0093,
+      "volume": 3041140,
+      "bid_price": 119.58
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-21T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 13349484,
-      "bid_price": 83.21
+      "bid_ask_spread": 0.0089,
+      "volume": 3579498,
+      "bid_price": 119.53
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-22T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 10982264,
-      "bid_price": 83.4
+      "bid_ask_spread": 0.009,
+      "volume": 1651842,
+      "bid_price": 119.66
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-25T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 8972889,
-      "bid_price": 83.08
+      "bid_ask_spread": 0.0087,
+      "volume": 2923614,
+      "bid_price": 119.38
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-26T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 8291020,
-      "bid_price": 83.36
+      "bid_ask_spread": 0.0089,
+      "volume": 3286577,
+      "bid_price": 119.33
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-27T00:00:00Z",
-      "bid_ask_spread": 0.0138,
-      "volume": 10505369,
-      "bid_price": 83.85
+      "bid_ask_spread": 0.0113,
+      "volume": 3091488,
+      "bid_price": 120.09
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-28T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 9229024,
-      "bid_price": 83.71
+      "bid_ask_spread": 0.0086,
+      "volume": 3503230,
+      "bid_price": 120.2
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-04-29T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 20284742,
-      "bid_price": 83.85
+      "bid_ask_spread": 0.0088,
+      "volume": 2924553,
+      "bid_price": 120.33
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-02T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 11420708,
-      "bid_price": 83.5
+      "bid_ask_spread": 0.0093,
+      "volume": 6771294,
+      "bid_price": 119.85
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-03T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 18449241,
-      "bid_price": 82.96
+      "bid_ask_spread": 0.0088,
+      "volume": 3732711,
+      "bid_price": 120.06
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-04T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 17645208,
-      "bid_price": 82.65
+      "bid_ask_spread": 0.0089,
+      "volume": 4228188,
+      "bid_price": 119.86
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-05T00:00:00Z",
-      "bid_ask_spread": 0.0122,
-      "volume": 18782129,
-      "bid_price": 82.58
+      "bid_ask_spread": 0.0089,
+      "volume": 4466057,
+      "bid_price": 120.1
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-06T00:00:00Z",
-      "bid_ask_spread": 0.0122,
-      "volume": 16204369,
-      "bid_price": 82.53
+      "bid_ask_spread": 0.0088,
+      "volume": 3044971,
+      "bid_price": 119.84
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-09T00:00:00Z",
-      "bid_ask_spread": 0.0122,
-      "volume": 11622832,
-      "bid_price": 82.38
+      "bid_ask_spread": 0.0092,
+      "volume": 6202773,
+      "bid_price": 119.72
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-10T00:00:00Z",
-      "bid_ask_spread": 0.0122,
-      "volume": 11420694,
-      "bid_price": 83.08
+      "bid_ask_spread": 0.0088,
+      "volume": 5469933,
+      "bid_price": 119.92
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-11T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 20692016,
-      "bid_price": 83.02
+      "bid_ask_spread": 0.0086,
+      "volume": 3416609,
+      "bid_price": 120.05
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-12T00:00:00Z",
-      "bid_ask_spread": 0.0123,
-      "volume": 11312568,
-      "bid_price": 83.15
+      "bid_ask_spread": 0.0094,
+      "volume": 2681957,
+      "bid_price": 119.8
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-13T00:00:00Z",
-      "bid_ask_spread": 0.0122,
-      "volume": 11332413,
-      "bid_price": 82.78
+      "bid_ask_spread": 0.0087,
+      "volume": 4328545,
+      "bid_price": 120.02
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-16T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 12981715,
-      "bid_price": 83.24
+      "bid_ask_spread": 0.0093,
+      "volume": 2968536,
+      "bid_price": 119.62
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-17T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 7489891,
-      "bid_price": 83.07
+      "bid_ask_spread": 0.0087,
+      "volume": 3386104,
+      "bid_price": 119.58
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-18T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 16612512,
-      "bid_price": 83.08
+      "bid_ask_spread": 0.0091,
+      "volume": 7022120,
+      "bid_price": 118.56
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-19T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 20290198,
-      "bid_price": 82.85
+      "bid_ask_spread": 0.0085,
+      "volume": 5760002,
+      "bid_price": 118.84
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-20T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 10556746,
-      "bid_price": 83.14
+      "bid_ask_spread": 0.0091,
+      "volume": 2977681,
+      "bid_price": 118.92
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-23T00:00:00Z",
-      "bid_ask_spread": 0.0125,
-      "volume": 10457384,
-      "bid_price": 83.16
+      "bid_ask_spread": 0.0089,
+      "volume": 2842097,
+      "bid_price": 118.92
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-24T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 10838438,
-      "bid_price": 83.66
+      "bid_ask_spread": 0.0091,
+      "volume": 3498140,
+      "bid_price": 118.72
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-25T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 15119571,
-      "bid_price": 83.79
+      "bid_ask_spread": 0.0086,
+      "volume": 4793811,
+      "bid_price": 118.93
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-26T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 12268990,
-      "bid_price": 83.55
+      "bid_ask_spread": 0.0087,
+      "volume": 4858587,
+      "bid_price": 119.27
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-27T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 6225587,
-      "bid_price": 83.69
+      "bid_ask_spread": 0.0091,
+      "volume": 2762763,
+      "bid_price": 119.18
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-30T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 6225587,
-      "bid_price": 83.69
+      "bid_ask_spread": 0.0091,
+      "volume": 2762763,
+      "bid_price": 119.18
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-05-31T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 11994106,
-      "bid_price": 83.61
+      "bid_ask_spread": 0.0087,
+      "volume": 3170592,
+      "bid_price": 119.39
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-01T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 16488560,
-      "bid_price": 83.34
+      "bid_ask_spread": 0.0087,
+      "volume": 5528705,
+      "bid_price": 119.14
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-02T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 12118867,
-      "bid_price": 83.36
+      "bid_ask_spread": 0.0092,
+      "volume": 2709355,
+      "bid_price": 119.38
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-03T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 13092988,
-      "bid_price": 83.51
+      "bid_ask_spread": 0.0094,
+      "volume": 2998754,
+      "bid_price": 120.34
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-06T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 16126163,
-      "bid_price": 83.88
+      "bid_ask_spread": 0.0091,
+      "volume": 6401472,
+      "bid_price": 120.05
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-07T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 18423553,
-      "bid_price": 84.25
+      "bid_ask_spread": 0.0086,
+      "volume": 3663373,
+      "bid_price": 120.23
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-08T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 14652755,
-      "bid_price": 84.57
+      "bid_ask_spread": 0.009,
+      "volume": 2478759,
+      "bid_price": 120.63
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-09T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 11188345,
-      "bid_price": 84.24
+      "bid_ask_spread": 0.0093,
+      "volume": 2885363,
+      "bid_price": 120.8
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-10T00:00:00Z",
-      "bid_ask_spread": 0.0122,
-      "volume": 15259866,
-      "bid_price": 83.83
+      "bid_ask_spread": 0.0085,
+      "volume": 4209237,
+      "bid_price": 120.94
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-13T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 17257927,
-      "bid_price": 83.27
+      "bid_ask_spread": 0.0088,
+      "volume": 3980260,
+      "bid_price": 120.76
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-14T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 20578773,
-      "bid_price": 82.99
+      "bid_ask_spread": 0.0088,
+      "volume": 6301065,
+      "bid_price": 120.49
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-15T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 14202842,
-      "bid_price": 83.03
+      "bid_ask_spread": 0.0093,
+      "volume": 5589546,
+      "bid_price": 120.94
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-16T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 19195484,
-      "bid_price": 83.075
+      "bid_ask_spread": 0.0086,
+      "volume": 4550657,
+      "bid_price": 121.12
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-17T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 16113795,
-      "bid_price": 83.13
+      "bid_ask_spread": 0.0089,
+      "volume": 2673192,
+      "bid_price": 120.76
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-20T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 13368443,
-      "bid_price": 83.62
+      "bid_ask_spread": 0.0086,
+      "volume": 4549675,
+      "bid_price": 120.61
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-21T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 12141761,
-      "bid_price": 83.94
+      "bid_ask_spread": 0.0085,
+      "volume": 4396354,
+      "bid_price": 120.5
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-22T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 10759502,
-      "bid_price": 84.02
+      "bid_ask_spread": 0.0087,
+      "volume": 4090405,
+      "bid_price": 120.72
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-23T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 9920242,
-      "bid_price": 84.64
+      "bid_ask_spread": 0.0086,
+      "volume": 3942717,
+      "bid_price": 120.6
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-24T00:00:00Z",
-      "bid_ask_spread": 0.0127,
-      "volume": 31416656,
-      "bid_price": 83.25
+      "bid_ask_spread": 0.0094,
+      "volume": 5295032,
+      "bid_price": 121.17
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-27T00:00:00Z",
-      "bid_ask_spread": 0.0122,
-      "volume": 27881399,
-      "bid_price": 82.05
+      "bid_ask_spread": 0.0086,
+      "volume": 7454604,
+      "bid_price": 121.68
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-28T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 13910259,
-      "bid_price": 83.08
+      "bid_ask_spread": 0.0087,
+      "volume": 5555734,
+      "bid_price": 122.35
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-29T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 23604319,
-      "bid_price": 84.13
+      "bid_ask_spread": 0.0084,
+      "volume": 5325796,
+      "bid_price": 122.31
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-06-30T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 26304560,
-      "bid_price": 84.7
+      "bid_ask_spread": 0.0086,
+      "volume": 5398350,
+      "bid_price": 122.735
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-01T00:00:00Z",
-      "bid_ask_spread": 0.0131,
-      "volume": 16342982,
-      "bid_price": 84.47
+      "bid_ask_spread": 0.0172,
+      "volume": 4396312,
+      "bid_price": 123.05
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-04T00:00:00Z",
-      "bid_ask_spread": 0.0131,
-      "volume": 16342982,
-      "bid_price": 84.47
+      "bid_ask_spread": 0.0172,
+      "volume": 4396312,
+      "bid_price": 123.05
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-05T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 12078495,
-      "bid_price": 83.99
+      "bid_ask_spread": 0.0086,
+      "volume": 4414993,
+      "bid_price": 123.47
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-06T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 9607010,
-      "bid_price": 84.36
+      "bid_ask_spread": 0.0087,
+      "volume": 6770299,
+      "bid_price": 123.69
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-07T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 13058086,
-      "bid_price": 84.47
+      "bid_ask_spread": 0.0086,
+      "volume": 2597108,
+      "bid_price": 123.71
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-08T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 21395667,
-      "bid_price": 85.59
+      "bid_ask_spread": 0.0084,
+      "volume": 3835292,
+      "bid_price": 124.4
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-11T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 18313488,
-      "bid_price": 85.64
+      "bid_ask_spread": 0.0082,
+      "volume": 3000200,
+      "bid_price": 124.08
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-12T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 16074255,
-      "bid_price": 85.88
+      "bid_ask_spread": 0.0083,
+      "volume": 4363041,
+      "bid_price": 123.38
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-13T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 13040307,
-      "bid_price": 85.63
+      "bid_ask_spread": 0.0084,
+      "volume": 3738461,
+      "bid_price": 123.86
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-14T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 7764396,
-      "bid_price": 85.8
+      "bid_ask_spread": 0.0087,
+      "volume": 7254895,
+      "bid_price": 123.56
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-15T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 9163787,
-      "bid_price": 85.63
+      "bid_ask_spread": 0.0087,
+      "volume": 4442632,
+      "bid_price": 123.09
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-18T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 7447247,
-      "bid_price": 85.92
+      "bid_ask_spread": 0.0086,
+      "volume": 4737302,
+      "bid_price": 123.09
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-19T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 7349692,
-      "bid_price": 85.69
+      "bid_ask_spread": 0.0084,
+      "volume": 7196268,
+      "bid_price": 123.31
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-20T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 7247477,
-      "bid_price": 85.91
+      "bid_ask_spread": 0.0088,
+      "volume": 3676757,
+      "bid_price": 123.27
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-21T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 11265003,
-      "bid_price": 85.79
+      "bid_ask_spread": 0.0083,
+      "volume": 3570149,
+      "bid_price": 123.41
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-22T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 10523454,
-      "bid_price": 86.17
+      "bid_ask_spread": 0.0084,
+      "volume": 3748200,
+      "bid_price": 123.34
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-25T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 14768409,
-      "bid_price": 85.76
+      "bid_ask_spread": 0.0083,
+      "volume": 3295679,
+      "bid_price": 123.27
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-26T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 14292611,
-      "bid_price": 85.43
+      "bid_ask_spread": 0.0084,
+      "volume": 4929297,
+      "bid_price": 123.15
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-27T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 11730793,
-      "bid_price": 85.69
+      "bid_ask_spread": 0.0096,
+      "volume": 5976791,
+      "bid_price": 123.66
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-28T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 17968119,
-      "bid_price": 85.33
+      "bid_ask_spread": 0.0085,
+      "volume": 5276110,
+      "bid_price": 123.54
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-07-29T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 15202444,
-      "bid_price": 85.41
+      "bid_ask_spread": 0.0083,
+      "volume": 4226177,
+      "bid_price": 123.99
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-01T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 18335323,
-      "bid_price": 84.55
+      "bid_ask_spread": 0.0083,
+      "volume": 4827733,
+      "bid_price": 122.97
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-02T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 21959757,
-      "bid_price": 84.43
+      "bid_ask_spread": 0.0089,
+      "volume": 4526686,
+      "bid_price": 122.28
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-03T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 13733711,
-      "bid_price": 84.81
+      "bid_ask_spread": 0.0084,
+      "volume": 6037642,
+      "bid_price": 122.44
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-04T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 11831989,
-      "bid_price": 85.35
+      "bid_ask_spread": 0.0084,
+      "volume": 3413293,
+      "bid_price": 122.96
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-05T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 12314872,
-      "bid_price": 85.54
+      "bid_ask_spread": 0.0086,
+      "volume": 3888331,
+      "bid_price": 122.46
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-08T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 10800901,
-      "bid_price": 85.89
+      "bid_ask_spread": 0.0086,
+      "volume": 4161326,
+      "bid_price": 122.54
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-09T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 13772340,
-      "bid_price": 86.19
+      "bid_ask_spread": 0.0083,
+      "volume": 4259135,
+      "bid_price": 123.26
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-10T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 7250387,
-      "bid_price": 86.03
+      "bid_ask_spread": 0.0085,
+      "volume": 6338790,
+      "bid_price": 123.61
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-11T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 6732586,
-      "bid_price": 86.24
+      "bid_ask_spread": 0.0084,
+      "volume": 4227595,
+      "bid_price": 123.2
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-12T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 3996539,
-      "bid_price": 86.31
+      "bid_ask_spread": 0.0085,
+      "volume": 6585166,
+      "bid_price": 123.76
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-15T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 9396390,
-      "bid_price": 86.565
+      "bid_ask_spread": 0.0084,
+      "volume": 2980736,
+      "bid_price": 123.38
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-16T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 8104411,
-      "bid_price": 86.39
+      "bid_ask_spread": 0.0084,
+      "volume": 4526328,
+      "bid_price": 123.16
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-17T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 14139860,
-      "bid_price": 86.51
+      "bid_ask_spread": 0.0086,
+      "volume": 4566865,
+      "bid_price": 123.5
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-18T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 8582912,
-      "bid_price": 86.85
+      "bid_ask_spread": 0.0084,
+      "volume": 4237884,
+      "bid_price": 123.8
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-19T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 7474048,
-      "bid_price": 86.59
+      "bid_ask_spread": 0.0085,
+      "volume": 5272091,
+      "bid_price": 123.43
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-22T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 5364696,
-      "bid_price": 86.45
+      "bid_ask_spread": 0.0084,
+      "volume": 5220975,
+      "bid_price": 123.85
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-23T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 7476397,
-      "bid_price": 86.74
+      "bid_ask_spread": 0.0082,
+      "volume": 5398848,
+      "bid_price": 123.99
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-24T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 6655311,
-      "bid_price": 86.5
+      "bid_ask_spread": 0.0086,
+      "volume": 3871400,
+      "bid_price": 123.91
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-25T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 7482793,
-      "bid_price": 86.66
+      "bid_ask_spread": 0.0084,
+      "volume": 3679334,
+      "bid_price": 123.79
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-26T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 10544877,
-      "bid_price": 86.56
+      "bid_ask_spread": 0.0091,
+      "volume": 3388063,
+      "bid_price": 123.4
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-29T00:00:00Z",
-      "bid_ask_spread": 0.0115,
-      "volume": 10038539,
-      "bid_price": 86.99
+      "bid_ask_spread": 0.0088,
+      "volume": 2668007,
+      "bid_price": 124.1
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-30T00:00:00Z",
-      "bid_ask_spread": 0.0115,
-      "volume": 16157380,
-      "bid_price": 87.04
+      "bid_ask_spread": 0.0083,
+      "volume": 10626534,
+      "bid_price": 123.94
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-08-31T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 16984982,
-      "bid_price": 86.7
+      "bid_ask_spread": 0.0085,
+      "volume": 5300028,
+      "bid_price": 123.89
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-01T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 14952718,
-      "bid_price": 86.5
+      "bid_ask_spread": 0.0084,
+      "volume": 10146265,
+      "bid_price": 123.57
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-02T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 13540095,
-      "bid_price": 86.9
+      "bid_ask_spread": 0.0086,
+      "volume": 4155998,
+      "bid_price": 123.35
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-05T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 13540095,
-      "bid_price": 86.9
+      "bid_ask_spread": 0.0086,
+      "volume": 4155998,
+      "bid_price": 123.35
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-06T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 12662032,
-      "bid_price": 87
+      "bid_ask_spread": 0.0086,
+      "volume": 6387436,
+      "bid_price": 123.78
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-07T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 8245073,
-      "bid_price": 86.76
+      "bid_ask_spread": 0.0085,
+      "volume": 2983409,
+      "bid_price": 123.61
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-08T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 8430747,
-      "bid_price": 86.6
+      "bid_ask_spread": 0.0086,
+      "volume": 4632338,
+      "bid_price": 122.74
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-09T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 25087603,
-      "bid_price": 85.77
+      "bid_ask_spread": 0.0084,
+      "volume": 8136128,
+      "bid_price": 121.82
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-12T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 17718268,
-      "bid_price": 86.07
+      "bid_ask_spread": 0.0084,
+      "volume": 5164069,
+      "bid_price": 121.83
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-13T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 21907173,
-      "bid_price": 85.41
+      "bid_ask_spread": 0.0084,
+      "volume": 13637119,
+      "bid_price": 121.43
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-14T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 14257701,
-      "bid_price": 85.39
+      "bid_ask_spread": 0.0084,
+      "volume": 4444049,
+      "bid_price": 121.51
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-15T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 10004590,
-      "bid_price": 85.89
+      "bid_ask_spread": 0.0084,
+      "volume": 3441145,
+      "bid_price": 121.59
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-16T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 8396618,
-      "bid_price": 85.91
+      "bid_ask_spread": 0.0084,
+      "volume": 6832350,
+      "bid_price": 121.73
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-19T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 9855478,
-      "bid_price": 85.96
+      "bid_ask_spread": 0.0084,
+      "volume": 5997099,
+      "bid_price": 121.69
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-20T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 8705627,
-      "bid_price": 85.86
+      "bid_ask_spread": 0.0083,
+      "volume": 5026114,
+      "bid_price": 121.85
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-21T00:00:00Z",
-      "bid_ask_spread": 0.0124,
-      "volume": 17484290,
-      "bid_price": 86.57
+      "bid_ask_spread": 0.0111,
+      "volume": 4651545,
+      "bid_price": 122.47
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-22T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 11813595,
-      "bid_price": 86.86
+      "bid_ask_spread": 0.0084,
+      "volume": 8544275,
+      "bid_price": 122.97
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-23T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 13122575,
-      "bid_price": 86.76
+      "bid_ask_spread": 0.0083,
+      "volume": 6284642,
+      "bid_price": 122.88
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-26T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 6590521,
-      "bid_price": 86.38
+      "bid_ask_spread": 0.0096,
+      "volume": 5027048,
+      "bid_price": 123.07
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-27T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 8516547,
-      "bid_price": 86.63
+      "bid_ask_spread": 0.0083,
+      "volume": 4571879,
+      "bid_price": 123.37
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-28T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 11149314,
-      "bid_price": 87.21
+      "bid_ask_spread": 0.0083,
+      "volume": 8094655,
+      "bid_price": 123.45
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-29T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 13425776,
-      "bid_price": 86.88
+      "bid_ask_spread": 0.0083,
+      "volume": 5409109,
+      "bid_price": 123.4
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-09-30T00:00:00Z",
-      "bid_ask_spread": 0.0115,
-      "volume": 12157988,
-      "bid_price": 87.26
+      "bid_ask_spread": 0.0084,
+      "volume": 5224623,
+      "bid_price": 123.18
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-03T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 10708797,
-      "bid_price": 86.82
+      "bid_ask_spread": 0.0085,
+      "volume": 5555881,
+      "bid_price": 122.51
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-04T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 11057458,
-      "bid_price": 86.67
+      "bid_ask_spread": 0.0085,
+      "volume": 6890050,
+      "bid_price": 121.94
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-05T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 9424538,
-      "bid_price": 86.9
+      "bid_ask_spread": 0.0087,
+      "volume": 4168845,
+      "bid_price": 121.81
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-06T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 9455243,
-      "bid_price": 86.95
+      "bid_ask_spread": 0.0083,
+      "volume": 5909287,
+      "bid_price": 121.82
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-07T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 10824226,
-      "bid_price": 87.15
+      "bid_ask_spread": 0.0085,
+      "volume": 2545869,
+      "bid_price": 122.11
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-10T00:00:00Z",
-      "bid_ask_spread": 0.0115,
-      "volume": 4182319,
-      "bid_price": 87.4
+      "bid_ask_spread": 0.0086,
+      "volume": 2246107,
+      "bid_price": 122.11
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-11T00:00:00Z",
-      "bid_ask_spread": 0.0115,
-      "volume": 8855364,
-      "bid_price": 86.91
+      "bid_ask_spread": 0.0086,
+      "volume": 3416550,
+      "bid_price": 121.73
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-12T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 7915303,
-      "bid_price": 86.88
+      "bid_ask_spread": 0.0085,
+      "volume": 2327840,
+      "bid_price": 121.89
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-13T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 10614836,
-      "bid_price": 86.66
+      "bid_ask_spread": 0.0083,
+      "volume": 4204259,
+      "bid_price": 122.19
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-14T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 6766271,
-      "bid_price": 86.86
+      "bid_ask_spread": 0.0084,
+      "volume": 2208889,
+      "bid_price": 121.62
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-17T00:00:00Z",
-      "bid_ask_spread": 0.0115,
-      "volume": 7790023,
-      "bid_price": 86.74
+      "bid_ask_spread": 0.0084,
+      "volume": 2698844,
+      "bid_price": 122.02
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-18T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 8404621,
-      "bid_price": 87.09
+      "bid_ask_spread": 0.0084,
+      "volume": 2944094,
+      "bid_price": 122.32
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-19T00:00:00Z",
-      "bid_ask_spread": 0.0115,
-      "volume": 9874255,
-      "bid_price": 87.34
+      "bid_ask_spread": 0.0084,
+      "volume": 5010629,
+      "bid_price": 122.48
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-20T00:00:00Z",
-      "bid_ask_spread": 0.0114,
-      "volume": 12558049,
-      "bid_price": 87.35
+      "bid_ask_spread": 0.0084,
+      "volume": 2646812,
+      "bid_price": 122.44
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-21T00:00:00Z",
-      "bid_ask_spread": 0.0115,
-      "volume": 8332923,
-      "bid_price": 87.37
+      "bid_ask_spread": 0.0084,
+      "volume": 3502517,
+      "bid_price": 122.51
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-24T00:00:00Z",
-      "bid_ask_spread": 0.0114,
-      "volume": 7200804,
-      "bid_price": 87.42
+      "bid_ask_spread": 0.0086,
+      "volume": 3816453,
+      "bid_price": 122.16
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-25T00:00:00Z",
-      "bid_ask_spread": 0.0114,
-      "volume": 6906547,
-      "bid_price": 87.37
+      "bid_ask_spread": 0.0084,
+      "volume": 6611625,
+      "bid_price": 122.07
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-26T00:00:00Z",
-      "bid_ask_spread": 0.0115,
-      "volume": 13813263,
-      "bid_price": 87.02
+      "bid_ask_spread": 0.0084,
+      "volume": 10256014,
+      "bid_price": 121.56
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-27T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 19333124,
-      "bid_price": 86.7
+      "bid_ask_spread": 0.0084,
+      "volume": 11643240,
+      "bid_price": 121.01
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-28T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 19745645,
-      "bid_price": 86.28
+      "bid_ask_spread": 0.0085,
+      "volume": 5629790,
+      "bid_price": 120.87
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-10-31T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 21174567,
-      "bid_price": 86.02
+      "bid_ask_spread": 0.0086,
+      "volume": 5377344,
+      "bid_price": 120.98
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-01T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 26183972,
-      "bid_price": 85.3
+      "bid_ask_spread": 0.0086,
+      "volume": 9303137,
+      "bid_price": 120.51
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-02T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 19593645,
-      "bid_price": 84.92
+      "bid_ask_spread": 0.0095,
+      "volume": 4798219,
+      "bid_price": 120.69
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-03T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 12699701,
-      "bid_price": 84.94
+      "bid_ask_spread": 0.0088,
+      "volume": 6320503,
+      "bid_price": 120.45
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-04T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 10970430,
-      "bid_price": 84.98
+      "bid_ask_spread": 0.0086,
+      "volume": 4243123,
+      "bid_price": 120.81
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-07T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 14416180,
-      "bid_price": 86.17
+      "bid_ask_spread": 0.0092,
+      "volume": 4352375,
+      "bid_price": 120.73
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-08T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 20370611,
-      "bid_price": 85.98
+      "bid_ask_spread": 0.0086,
+      "volume": 3632409,
+      "bid_price": 120.46
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-09T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 24858896,
-      "bid_price": 85.38
+      "bid_ask_spread": 0.0087,
+      "volume": 9216217,
+      "bid_price": 118.69
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-10T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 33213398,
-      "bid_price": 84.26
+      "bid_ask_spread": 0.0086,
+      "volume": 9063943,
+      "bid_price": 118.59
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-11T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 16442862,
-      "bid_price": 83.47
+      "bid_ask_spread": 0.0087,
+      "volume": 6011875,
+      "bid_price": 118.08
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-14T00:00:00Z",
-      "bid_ask_spread": 0.012,
-      "volume": 21036044,
-      "bid_price": 84.09
+      "bid_ask_spread": 0.0093,
+      "volume": 7148652,
+      "bid_price": 117.47
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-15T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 17888585,
-      "bid_price": 85.2
+      "bid_ask_spread": 0.0108,
+      "volume": 4840261,
+      "bid_price": 117.83
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-16T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 11965652,
-      "bid_price": 84.86
+      "bid_ask_spread": 0.0089,
+      "volume": 5417760,
+      "bid_price": 118
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-17T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 12017624,
-      "bid_price": 84.63
+      "bid_ask_spread": 0.0088,
+      "volume": 6106245,
+      "bid_price": 117.25
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-18T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 17781837,
-      "bid_price": 84.63
+      "bid_ask_spread": 0.0088,
+      "volume": 9801354,
+      "bid_price": 116.59
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-21T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 11581632,
-      "bid_price": 85.31
+      "bid_ask_spread": 0.0089,
+      "volume": 5077176,
+      "bid_price": 116.71
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-22T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 16648052,
-      "bid_price": 85.94
+      "bid_ask_spread": 0.0089,
+      "volume": 3693315,
+      "bid_price": 117.01
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-23T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 10662934,
-      "bid_price": 85.62
+      "bid_ask_spread": 0.009,
+      "volume": 6098253,
+      "bid_price": 116.58
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-24T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 10662934,
-      "bid_price": 85.62
+      "bid_ask_spread": 0.009,
+      "volume": 6098253,
+      "bid_price": 116.58
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-25T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 2009630,
-      "bid_price": 85.73
+      "bid_ask_spread": 0.0091,
+      "volume": 876143,
+      "bid_price": 116.59
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-28T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 16897356,
-      "bid_price": 85.72
+      "bid_ask_spread": 0.0089,
+      "volume": 3125189,
+      "bid_price": 117.12
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-29T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 9164012,
-      "bid_price": 85.61
+      "bid_ask_spread": 0.0087,
+      "volume": 3926198,
+      "bid_price": 117.28
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-11-30T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 15211276,
-      "bid_price": 85.65
+      "bid_ask_spread": 0.0087,
+      "volume": 11333398,
+      "bid_price": 116.84
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-01T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 18249412,
-      "bid_price": 84.87
+      "bid_ask_spread": 0.0089,
+      "volume": 11597814,
+      "bid_price": 115.87
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-02T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 9360396,
-      "bid_price": 85.38
+      "bid_ask_spread": 0.0088,
+      "volume": 7533542,
+      "bid_price": 116.4
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-05T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 9782060,
-      "bid_price": 85.6
+      "bid_ask_spread": 0.0091,
+      "volume": 4107515,
+      "bid_price": 116.65
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-06T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 16090631,
-      "bid_price": 86.03
+      "bid_ask_spread": 0.0088,
+      "volume": 9040134,
+      "bid_price": 116.64
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-07T00:00:00Z",
-      "bid_ask_spread": 0.0116,
-      "volume": 20886382,
-      "bid_price": 86.46
+      "bid_ask_spread": 0.0089,
+      "volume": 8069285,
+      "bid_price": 117.13
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-08T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 10782102,
-      "bid_price": 86.45
+      "bid_ask_spread": 0.0089,
+      "volume": 5941669,
+      "bid_price": 116.65
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-09T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 6463369,
-      "bid_price": 86.49
+      "bid_ask_spread": 0.0088,
+      "volume": 8875111,
+      "bid_price": 116.2
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-12T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 8457086,
-      "bid_price": 86.37
+      "bid_ask_spread": 0.0087,
+      "volume": 7302755,
+      "bid_price": 116.09
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-13T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 10739171,
-      "bid_price": 86.58
+      "bid_ask_spread": 0.0088,
+      "volume": 6232717,
+      "bid_price": 116.35
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-14T00:00:00Z",
-      "bid_ask_spread": 0.0122,
-      "volume": 15672431,
-      "bid_price": 85.93
+      "bid_ask_spread": 0.0103,
+      "volume": 6133787,
+      "bid_price": 115.61
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-15T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 11221733,
-      "bid_price": 85.97
+      "bid_ask_spread": 0.0087,
+      "volume": 9352848,
+      "bid_price": 115.69
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-16T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 15722155,
-      "bid_price": 86.05
+      "bid_ask_spread": 0.0088,
+      "volume": 7852037,
+      "bid_price": 115.6
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-19T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 5897912,
-      "bid_price": 86.27
+      "bid_ask_spread": 0.0089,
+      "volume": 5777415,
+      "bid_price": 116.16
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-20T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 11072391,
-      "bid_price": 86.39
+      "bid_ask_spread": 0.0091,
+      "volume": 3750008,
+      "bid_price": 116.09
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-21T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 17461370,
-      "bid_price": 86.54
+      "bid_ask_spread": 0.0091,
+      "volume": 4199568,
+      "bid_price": 116.46
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-22T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 8507586,
-      "bid_price": 86.44
+      "bid_ask_spread": 0.0089,
+      "volume": 3773390,
+      "bid_price": 116.15
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-23T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 4230488,
-      "bid_price": 86.6
+      "bid_ask_spread": 0.0091,
+      "volume": 1291655,
+      "bid_price": 116.33
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-26T00:00:00Z",
-      "bid_ask_spread": 0.0121,
-      "volume": 4230488,
-      "bid_price": 86.6
+      "bid_ask_spread": 0.0091,
+      "volume": 1291655,
+      "bid_price": 116.33
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-27T00:00:00Z",
-      "bid_ask_spread": 0.0117,
-      "volume": 5840557,
-      "bid_price": 86.52
+      "bid_ask_spread": 0.0091,
+      "volume": 2542797,
+      "bid_price": 116.12
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-28T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 6961239,
-      "bid_price": 86.4
+      "bid_ask_spread": 0.0089,
+      "volume": 1731683,
+      "bid_price": 116.55
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-29T00:00:00Z",
-      "bid_ask_spread": 0.0118,
-      "volume": 3794317,
-      "bid_price": 86.52
+      "bid_ask_spread": 0.0092,
+      "volume": 3309602,
+      "bid_price": 117
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-30T00:00:00Z",
-      "bid_ask_spread": 0.0119,
-      "volume": 7513353,
-      "bid_price": 86.55
+      "bid_ask_spread": 0.0098,
+      "volume": 2388445,
+      "bid_price": 117.18
     }
   ],
   "predictions": [
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2016-12-31T00:00:00Z",
-      "bid_ask_spread": 0.011837008768159895,
-      "volume": 24724044.951038647,
-      "bid_price": 90.00413545158867
+      "bid_ask_spread": 0.008996861288664483,
+      "volume": 4321178.621665913,
+      "bid_price": 119.80603292565651
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-01T00:00:00Z",
-      "bid_ask_spread": 0.011836376864610951,
-      "volume": 16159337.485212753,
-      "bid_price": 94.11392299879556
+      "bid_ask_spread": 0.008996148363085876,
+      "volume": 3789228.7497775964,
+      "bid_price": 127.42689122371577
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-02T00:00:00Z",
-      "bid_ask_spread": 0.011837149784874877,
-      "volume": 18261929.602624234,
-      "bid_price": 93.92363168549483
+      "bid_ask_spread": 0.008997034382383511,
+      "volume": 4122086.707507371,
+      "bid_price": 106.77228125522808
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-03T00:00:00Z",
-      "bid_ask_spread": 0.011836318028626138,
-      "volume": 17124063.966647804,
-      "bid_price": 89.94086075311436
+      "bid_ask_spread": 0.008997197572981395,
+      "volume": 4384842.983799549,
+      "bid_price": 108.26459388960663
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-04T00:00:00Z",
-      "bid_ask_spread": 0.011837037035949415,
-      "volume": 23407752.214516982,
-      "bid_price": 88.17669930303899
+      "bid_ask_spread": 0.008997063431370925,
+      "volume": 2970870.3202412166,
+      "bid_price": 119.63595670846301
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-05T00:00:00Z",
-      "bid_ask_spread": 0.011837355963373134,
-      "volume": 24175716.301033765,
-      "bid_price": 92.19533137423531
+      "bid_ask_spread": 0.008996007557196971,
+      "volume": 2582169.579581892,
+      "bid_price": 109.92829450847604
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-06T00:00:00Z",
-      "bid_ask_spread": 0.01183658155224686,
-      "volume": 25214387.07247839,
-      "bid_price": 84.13503802507063
+      "bid_ask_spread": 0.00899713625047423,
+      "volume": 3920089.460630255,
+      "bid_price": 109.70504925688866
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-07T00:00:00Z",
-      "bid_ask_spread": 0.011835496076758286,
-      "volume": 26646703.018366344,
-      "bid_price": 88.42768151083904
+      "bid_ask_spread": 0.008997010849872126,
+      "volume": 4090271.1434977585,
+      "bid_price": 105.62154631294098
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-08T00:00:00Z",
-      "bid_ask_spread": 0.01183607098573264,
-      "volume": 23567236.667077098,
-      "bid_price": 86.96204263365385
+      "bid_ask_spread": 0.008996969687247369,
+      "volume": 2784070.0301702875,
+      "bid_price": 126.93224564742897
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-09T00:00:00Z",
-      "bid_ask_spread": 0.011835586999199657,
-      "volume": 14714387.603927441,
-      "bid_price": 89.05110505284682
+      "bid_ask_spread": 0.008996108703649325,
+      "volume": 4068628.5190806417,
+      "bid_price": 114.86321282588888
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-10T00:00:00Z",
-      "bid_ask_spread": 0.01806718177820235,
-      "volume": 21481757.48208368,
-      "bid_price": 87.17031720608121
+      "bid_ask_spread": 0.020765620264038262,
+      "volume": 4632026.358056294,
+      "bid_price": 127.14690776646898
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-11T00:00:00Z",
-      "bid_ask_spread": 0.011836575967677914,
-      "volume": 16544624.335074073,
-      "bid_price": 90.53256040659437
+      "bid_ask_spread": 0.008997564759404228,
+      "volume": 4669270.439552592,
+      "bid_price": 126.86813122421098
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-12T00:00:00Z",
-      "bid_ask_spread": 0.01183725420803078,
-      "volume": 18833582.73333799,
-      "bid_price": 89.82818496750828
+      "bid_ask_spread": 0.008995990431247563,
+      "volume": 2661233.944173513,
+      "bid_price": 109.1188201996273
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-13T00:00:00Z",
-      "bid_ask_spread": 0.011836424444808985,
-      "volume": 20880272.099388085,
-      "bid_price": 94.59758800623352
+      "bid_ask_spread": 0.02197407075001652,
+      "volume": 2426260.388973481,
+      "bid_price": 117.43534747159796
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-14T00:00:00Z",
-      "bid_ask_spread": 0.01183607156222466,
-      "volume": 28297830.19713646,
-      "bid_price": 82.72018765170314
+      "bid_ask_spread": 0.008997506047632354,
+      "volume": 2678603.5325345336,
+      "bid_price": 106.0279025779081
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-15T00:00:00Z",
-      "bid_ask_spread": 0.011835985794677198,
-      "volume": 23510452.119573228,
-      "bid_price": 88.57575038929953
+      "bid_ask_spread": 0.008996813421083561,
+      "volume": 2709449.2758734953,
+      "bid_price": 122.89901611004206
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-16T00:00:00Z",
-      "bid_ask_spread": 0.01183727228607726,
-      "volume": 21021713.330803875,
-      "bid_price": 81.4701594638867
+      "bid_ask_spread": 0.008997096222750856,
+      "volume": 4746180.566157747,
+      "bid_price": 118.46055471226146
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-17T00:00:00Z",
-      "bid_ask_spread": 0.01183710589644951,
-      "volume": 26687728.55732008,
-      "bid_price": 83.050282282241
+      "bid_ask_spread": 0.008997429332513216,
+      "volume": 3202515.37757907,
+      "bid_price": 108.66389301685722
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-18T00:00:00Z",
-      "bid_ask_spread": 0.011836017001655331,
-      "volume": 29169410.627951525,
-      "bid_price": 90.578551027845
+      "bid_ask_spread": 0.008997206323846868,
+      "volume": 3886177.6842770223,
+      "bid_price": 122.30642691892072
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-19T00:00:00Z",
-      "bid_ask_spread": 0.01183699512047069,
-      "volume": 17245852.65706935,
-      "bid_price": 83.1280133577373
+      "bid_ask_spread": 0.0089965776316626,
+      "volume": 2969247.4242084725,
+      "bid_price": 119.18358863692491
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-20T00:00:00Z",
-      "bid_ask_spread": 0.01183758785917635,
-      "volume": 24614044.999662057,
-      "bid_price": 88.60610277417418
+      "bid_ask_spread": 0.008996461866626925,
+      "volume": 2792256.9829424676,
+      "bid_price": 128.13220899683742
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-21T00:00:00Z",
-      "bid_ask_spread": 0.01183702310139862,
-      "volume": 18486301.91570891,
-      "bid_price": 94.90072728495034
+      "bid_ask_spread": 0.008997432508419917,
+      "volume": 2843467.2871726025,
+      "bid_price": 110.58984639226395
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-22T00:00:00Z",
-      "bid_ask_spread": 0.011837054750756273,
-      "volume": 16732933.70418916,
-      "bid_price": 91.19857452352949
+      "bid_ask_spread": 0.008996962620902871,
+      "volume": 4346679.846272015,
+      "bid_price": 118.98176875595905
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-23T00:00:00Z",
-      "bid_ask_spread": 0.011836947051460524,
-      "volume": 21583950.200812798,
-      "bid_price": 83.86299226016051
+      "bid_ask_spread": 0.008996672162188968,
+      "volume": 3158276.5254541663,
+      "bid_price": 119.20732584799978
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-24T00:00:00Z",
-      "bid_ask_spread": 0.011836922676689348,
-      "volume": 24204035.438986227,
-      "bid_price": 93.80864543479983
+      "bid_ask_spread": 0.00899696183385674,
+      "volume": 4337468.224376257,
+      "bid_price": 127.03429086138483
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-25T00:00:00Z",
-      "bid_ask_spread": 0.011836474540381515,
-      "volume": 24900313.13706846,
-      "bid_price": 79.83310894853994
+      "bid_ask_spread": 0.008996844884453374,
+      "volume": 3733462.674955474,
+      "bid_price": 110.15626307780553
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-26T00:00:00Z",
-      "bid_ask_spread": 0.011835986842675386,
-      "volume": 25097000.481046986,
-      "bid_price": 78.80071971883042
+      "bid_ask_spread": 0.00899683424928306,
+      "volume": 2950839.8177789594,
+      "bid_price": 119.30215183449563
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-27T00:00:00Z",
-      "bid_ask_spread": 0.011835652354455778,
-      "volume": 29186611.446783047,
-      "bid_price": 78.83264002753329
+      "bid_ask_spread": 0.008995850384001454,
+      "volume": 4084993.473688911,
+      "bid_price": 121.82513210145424
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-28T00:00:00Z",
-      "bid_ask_spread": 0.011837317316897022,
-      "volume": 23104957.88098509,
-      "bid_price": 79.3370363273166
+      "bid_ask_spread": 0.00899697612278413,
+      "volume": 2954373.8732860633,
+      "bid_price": 121.5510671311977
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-29T00:00:00Z",
-      "bid_ask_spread": 0.011836717928600813,
-      "volume": 14606384.433638358,
-      "bid_price": 88.37917722059797
+      "bid_ask_spread": 0.00899628230019671,
+      "volume": 3319837.053966682,
+      "bid_price": 107.84033453878934
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-30T00:00:00Z",
-      "bid_ask_spread": 0.011835914003213906,
-      "volume": 19343478.647012096,
-      "bid_price": 91.20765185232968
+      "bid_ask_spread": 0.008996566613190914,
+      "volume": 4274598.605057821,
+      "bid_price": 116.72519895444803
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-01-31T00:00:00Z",
-      "bid_ask_spread": 0.011837687662497806,
-      "volume": 19415574.53013025,
-      "bid_price": 92.0453672749175
+      "bid_ask_spread": 0.008996916256577637,
+      "volume": 3405414.749433294,
+      "bid_price": 115.4907013262477
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-01T00:00:00Z",
-      "bid_ask_spread": 0.011837492499026736,
-      "volume": 21405974.546731405,
-      "bid_price": 90.2743004047033
+      "bid_ask_spread": 0.008996700152493754,
+      "volume": 2496601.076075363,
+      "bid_price": 125.88539526257145
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-02T00:00:00Z",
-      "bid_ask_spread": 0.011837309244260706,
-      "volume": 20431499.72833826,
-      "bid_price": 91.3248054944545
+      "bid_ask_spread": 0.008996831720166474,
+      "volume": 3991909.5652139154,
+      "bid_price": 119.0289393953479
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-03T00:00:00Z",
-      "bid_ask_spread": 0.011836172832076951,
-      "volume": 26230026.383590434,
-      "bid_price": 91.69467581329313
+      "bid_ask_spread": 0.008996439439627734,
+      "volume": 2594031.9944463815,
+      "bid_price": 113.89443339350152
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-04T00:00:00Z",
-      "bid_ask_spread": 0.01183604200001714,
-      "volume": 23146666.581732355,
-      "bid_price": 83.1672836911671
+      "bid_ask_spread": 0.008997208549051493,
+      "volume": 4810382.098243284,
+      "bid_price": 116.61523763412666
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-05T00:00:00Z",
-      "bid_ask_spread": 0.02191562987195051,
-      "volume": 20794532.373972148,
-      "bid_price": 89.14232086889115
+      "bid_ask_spread": 0.008996704331762433,
+      "volume": 4405187.5808268115,
+      "bid_price": 110.87414548604585
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-06T00:00:00Z",
-      "bid_ask_spread": 0.011836554268217205,
-      "volume": 30897624.97582774,
-      "bid_price": 83.0310655279346
+      "bid_ask_spread": 0.00899676868555,
+      "volume": 3651660.564514185,
+      "bid_price": 120.17789457071696
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-07T00:00:00Z",
-      "bid_ask_spread": 0.011835508406490362,
-      "volume": 28969136.213782936,
-      "bid_price": 83.09992366485746
+      "bid_ask_spread": 0.00899654628838618,
+      "volume": 2688470.38010274,
+      "bid_price": 115.9335295237015
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-08T00:00:00Z",
-      "bid_ask_spread": 0.011835677438530699,
-      "volume": 13830183.496518653,
-      "bid_price": 78.21020103040887
+      "bid_ask_spread": 0.008996523003744076,
+      "volume": 3818408.3394036633,
+      "bid_price": 106.64589483032444
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-09T00:00:00Z",
-      "bid_ask_spread": 0.011835860610611449,
-      "volume": 19759360.76128411,
-      "bid_price": 82.99953010514886
+      "bid_ask_spread": 0.00899630384104674,
+      "volume": 3427517.6220212504,
+      "bid_price": 121.08649958443903
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-10T00:00:00Z",
-      "bid_ask_spread": 0.01183568817810392,
-      "volume": 16223971.187561844,
-      "bid_price": 95.06411189159185
+      "bid_ask_spread": 0.008996426100353375,
+      "volume": 2944851.801081923,
+      "bid_price": 124.04176785268373
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-11T00:00:00Z",
-      "bid_ask_spread": 0.011836193191744645,
-      "volume": 15881460.382667271,
-      "bid_price": 85.34695760232503
+      "bid_ask_spread": 0.008996619792847224,
+      "volume": 4643494.196514678,
+      "bid_price": 106.35027860796932
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-12T00:00:00Z",
-      "bid_ask_spread": 0.011836722534414474,
-      "volume": 20060408.363555137,
-      "bid_price": 90.05146093256431
+      "bid_ask_spread": 0.008996289931901139,
+      "volume": 4082450.740530678,
+      "bid_price": 121.2954950795969
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-13T00:00:00Z",
-      "bid_ask_spread": 0.011837199575153343,
-      "volume": 25557710.04626582,
-      "bid_price": 87.29787344997472
+      "bid_ask_spread": 0.008996445261683313,
+      "volume": 3604705.4168907427,
+      "bid_price": 116.46742656653294
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-14T00:00:00Z",
-      "bid_ask_spread": 0.011835553007745086,
-      "volume": 23927381.91973515,
-      "bid_price": 90.06946392262712
+      "bid_ask_spread": 0.008997433939697791,
+      "volume": 2770746.1168696033,
+      "bid_price": 109.98610890000975
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-15T00:00:00Z",
-      "bid_ask_spread": 0.011836554439777318,
-      "volume": 19679513.372028407,
-      "bid_price": 94.41778010147573
+      "bid_ask_spread": 0.008996249128999349,
+      "volume": 4849601.68010786,
+      "bid_price": 116.39078685704378
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-16T00:00:00Z",
-      "bid_ask_spread": 0.011837579977142356,
-      "volume": 26996961.776939232,
-      "bid_price": 87.19173243189302
+      "bid_ask_spread": 0.008995988781448623,
+      "volume": 3641156.8656383683,
+      "bid_price": 119.56674443128034
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-17T00:00:00Z",
-      "bid_ask_spread": 0.01183714596458529,
-      "volume": 24256512.056465514,
-      "bid_price": 92.90478086392315
+      "bid_ask_spread": 0.008995821418504323,
+      "volume": 2663199.9356833473,
+      "bid_price": 119.84497348756088
     },
     {
-      "asset_type": "ETF_HYG",
+      "asset_type": "ETF_LQD",
       "timestamp": "2017-02-18T00:00:00Z",
-      "bid_ask_spread": 0.011837263639805402,
-      "volume": 13690099.811319994,
-      "bid_price": 83.29480940241005
+      "bid_ask_spread": 0.008997214258443619,
+      "volume": 3975251.4862975506,
+      "bid_price": 124.11431667036092
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-02-19T00:00:00Z",
+      "bid_ask_spread": 0.008997186853208146,
+      "volume": 2724692.8566754507,
+      "bid_price": 123.4534221943149
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-02-20T00:00:00Z",
+      "bid_ask_spread": 0.00899618066704975,
+      "volume": 3020837.808306641,
+      "bid_price": 126.90371238256974
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-02-21T00:00:00Z",
+      "bid_ask_spread": 0.008996440535418107,
+      "volume": 4850957.188784543,
+      "bid_price": 115.05083178676212
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-02-22T00:00:00Z",
+      "bid_ask_spread": 0.008997234595475053,
+      "volume": 4500598.936107512,
+      "bid_price": 111.69582107993796
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-02-23T00:00:00Z",
+      "bid_ask_spread": 0.008995917627700039,
+      "volume": 3743804.21740447,
+      "bid_price": 111.37499360591472
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-02-24T00:00:00Z",
+      "bid_ask_spread": 0.008997088245179358,
+      "volume": 3640617.8466768977,
+      "bid_price": 110.47834386473589
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-02-25T00:00:00Z",
+      "bid_ask_spread": 0.008996584591271306,
+      "volume": 3904034.0029674983,
+      "bid_price": 124.12551067637915
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-02-26T00:00:00Z",
+      "bid_ask_spread": 0.008996472469186988,
+      "volume": 2724768.760294983,
+      "bid_price": 128.87490722904735
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-02-27T00:00:00Z",
+      "bid_ask_spread": 0.008997350264626657,
+      "volume": 4499666.067457627,
+      "bid_price": 119.95746496828774
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-02-28T00:00:00Z",
+      "bid_ask_spread": 0.02172631564035328,
+      "volume": 4328982.197362607,
+      "bid_price": 114.25131106723751
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-01T00:00:00Z",
+      "bid_ask_spread": 0.008996494514256494,
+      "volume": 2717447.3120876662,
+      "bid_price": 128.6663807693076
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-02T00:00:00Z",
+      "bid_ask_spread": 0.008997522934942874,
+      "volume": 4523300.085925094,
+      "bid_price": 128.65197228842396
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-03T00:00:00Z",
+      "bid_ask_spread": 0.008996109130713595,
+      "volume": 3978129.822234601,
+      "bid_price": 125.5223937677823
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-04T00:00:00Z",
+      "bid_ask_spread": 0.0089969904437,
+      "volume": 5083116.081993275,
+      "bid_price": 115.48703685623076
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-05T00:00:00Z",
+      "bid_ask_spread": 0.008996450936697821,
+      "volume": 2817827.3748093583,
+      "bid_price": 109.30073189187347
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-06T00:00:00Z",
+      "bid_ask_spread": 0.008996648605246701,
+      "volume": 3414971.0503806276,
+      "bid_price": 120.01715720361875
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-07T00:00:00Z",
+      "bid_ask_spread": 0.008997482347364822,
+      "volume": 4732421.32211674,
+      "bid_price": 113.42716799746519
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-08T00:00:00Z",
+      "bid_ask_spread": 0.008996842052744303,
+      "volume": 3558368.7183754286,
+      "bid_price": 108.13176663348652
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-09T00:00:00Z",
+      "bid_ask_spread": 0.019230395389297356,
+      "volume": 2729810.233257881,
+      "bid_price": 109.21633845446516
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-10T00:00:00Z",
+      "bid_ask_spread": 0.008996041805701334,
+      "volume": 4660467.489628999,
+      "bid_price": 107.03862577145021
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-11T00:00:00Z",
+      "bid_ask_spread": 0.008997111740433232,
+      "volume": 4496083.763660608,
+      "bid_price": 110.83708584869814
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-12T00:00:00Z",
+      "bid_ask_spread": 0.008997235047222803,
+      "volume": 2981219.02082475,
+      "bid_price": 115.2497212321537
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-13T00:00:00Z",
+      "bid_ask_spread": 0.008995917986076407,
+      "volume": 4041452.825845643,
+      "bid_price": 117.91428943467845
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-14T00:00:00Z",
+      "bid_ask_spread": 0.008997300932491405,
+      "volume": 4822729.09348947,
+      "bid_price": 118.34606431356218
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-15T00:00:00Z",
+      "bid_ask_spread": 0.008996291580817512,
+      "volume": 3252727.797122095,
+      "bid_price": 124.79723539283803
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-16T00:00:00Z",
+      "bid_ask_spread": 0.008996065053129294,
+      "volume": 3640503.140869588,
+      "bid_price": 120.23594054951589
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-17T00:00:00Z",
+      "bid_ask_spread": 0.008996584097608278,
+      "volume": 5119164.974862986,
+      "bid_price": 112.58883952939335
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-18T00:00:00Z",
+      "bid_ask_spread": 0.008996848143140902,
+      "volume": 2796118.719726775,
+      "bid_price": 109.84473067453028
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-19T00:00:00Z",
+      "bid_ask_spread": 0.008996162777979133,
+      "volume": 4149832.6510145236,
+      "bid_price": 107.99436812092746
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-20T00:00:00Z",
+      "bid_ask_spread": 0.00899604141294943,
+      "volume": 4040908.987895087,
+      "bid_price": 120.66324416048847
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-21T00:00:00Z",
+      "bid_ask_spread": 0.011616845654012675,
+      "volume": 3008493.7931884723,
+      "bid_price": 125.72967015021865
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-22T00:00:00Z",
+      "bid_ask_spread": 0.008996629107672304,
+      "volume": 4039845.0312151145,
+      "bid_price": 121.51163202760979
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-23T00:00:00Z",
+      "bid_ask_spread": 0.008996085877915307,
+      "volume": 4732147.068207787,
+      "bid_price": 123.66476950957346
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-24T00:00:00Z",
+      "bid_ask_spread": 0.008995985290653775,
+      "volume": 3288866.130621828,
+      "bid_price": 113.83491911507356
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-25T00:00:00Z",
+      "bid_ask_spread": 0.008996084239428888,
+      "volume": 3796293.66995206,
+      "bid_price": 105.48225177663835
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-26T00:00:00Z",
+      "bid_ask_spread": 0.008996262495816186,
+      "volume": 5095728.769505784,
+      "bid_price": 124.62482141526837
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-27T00:00:00Z",
+      "bid_ask_spread": 0.008996976413058735,
+      "volume": 3907982.0486411103,
+      "bid_price": 111.00354878558113
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-28T00:00:00Z",
+      "bid_ask_spread": 0.008997115342452145,
+      "volume": 5055176.383938597,
+      "bid_price": 105.99824923362726
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-29T00:00:00Z",
+      "bid_ask_spread": 0.008996867704461993,
+      "volume": 4186630.151940017,
+      "bid_price": 124.14569340771554
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-30T00:00:00Z",
+      "bid_ask_spread": 0.008996494329563532,
+      "volume": 4775128.541390127,
+      "bid_price": 106.6128535654964
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-03-31T00:00:00Z",
+      "bid_ask_spread": 0.019132157258232387,
+      "volume": 4362230.624154011,
+      "bid_price": 124.84798018455453
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-01T00:00:00Z",
+      "bid_ask_spread": 0.008995813452805217,
+      "volume": 5203652.349125431,
+      "bid_price": 109.19640907792063
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-02T00:00:00Z",
+      "bid_ask_spread": 0.008996777521540818,
+      "volume": 3201410.6000752347,
+      "bid_price": 115.87893573433006
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-03T00:00:00Z",
+      "bid_ask_spread": 0.008996249150843117,
+      "volume": 3845122.476748769,
+      "bid_price": 110.5348713515188
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-04T00:00:00Z",
+      "bid_ask_spread": 0.008997424859627106,
+      "volume": 2897673.2486186614,
+      "bid_price": 107.89647083832094
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-05T00:00:00Z",
+      "bid_ask_spread": 0.00899721827871825,
+      "volume": 3798327.489470748,
+      "bid_price": 120.12853203406456
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-06T00:00:00Z",
+      "bid_ask_spread": 0.008996604633175635,
+      "volume": 4539245.09066845,
+      "bid_price": 122.45088923438921
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-07T00:00:00Z",
+      "bid_ask_spread": 0.008995944409094387,
+      "volume": 4586239.674168929,
+      "bid_price": 127.02319469752108
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-08T00:00:00Z",
+      "bid_ask_spread": 0.008997156364225907,
+      "volume": 4589099.403250776,
+      "bid_price": 128.5513009001774
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-09T00:00:00Z",
+      "bid_ask_spread": 0.008996372736713804,
+      "volume": 4709005.369581681,
+      "bid_price": 113.51968357529569
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-10T00:00:00Z",
+      "bid_ask_spread": 0.008996077409185788,
+      "volume": 4425903.912968607,
+      "bid_price": 122.55502154179842
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-11T00:00:00Z",
+      "bid_ask_spread": 0.008995783405738452,
+      "volume": 5187693.454942342,
+      "bid_price": 120.75386629780553
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-12T00:00:00Z",
+      "bid_ask_spread": 0.008995797443007054,
+      "volume": 3169213.5557738687,
+      "bid_price": 123.22520602583872
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-13T00:00:00Z",
+      "bid_ask_spread": 0.008997091012992944,
+      "volume": 3698382.7004442685,
+      "bid_price": 118.5693474750805
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-14T00:00:00Z",
+      "bid_ask_spread": 0.008997348966222724,
+      "volume": 4302960.635242741,
+      "bid_price": 115.45881255323086
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-15T00:00:00Z",
+      "bid_ask_spread": 0.008996127231119531,
+      "volume": 3997624.203977035,
+      "bid_price": 113.30082422932124
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-16T00:00:00Z",
+      "bid_ask_spread": 0.00899582064137134,
+      "volume": 4872161.585522525,
+      "bid_price": 108.68803330858997
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-17T00:00:00Z",
+      "bid_ask_spread": 0.00899595046180618,
+      "volume": 3894501.3141340297,
+      "bid_price": 115.70533180379545
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-18T00:00:00Z",
+      "bid_ask_spread": 0.008996172655159684,
+      "volume": 4181708.2204354596,
+      "bid_price": 122.3269827208087
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-19T00:00:00Z",
+      "bid_ask_spread": 0.008996885736826011,
+      "volume": 3245379.874951507,
+      "bid_price": 110.0893065052442
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-20T00:00:00Z",
+      "bid_ask_spread": 0.008996157479545519,
+      "volume": 4024449.0690536117,
+      "bid_price": 125.02575938489888
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-21T00:00:00Z",
+      "bid_ask_spread": 0.008996376610211533,
+      "volume": 3309548.38953553,
+      "bid_price": 110.57558808777911
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-22T00:00:00Z",
+      "bid_ask_spread": 0.008996490094576539,
+      "volume": 2897384.261933107,
+      "bid_price": 107.45407160060944
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-23T00:00:00Z",
+      "bid_ask_spread": 0.00899585700012298,
+      "volume": 5011557.537770603,
+      "bid_price": 127.60134199465922
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-24T00:00:00Z",
+      "bid_ask_spread": 0.008997224375259938,
+      "volume": 5008621.140627153,
+      "bid_price": 126.90534247045682
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-25T00:00:00Z",
+      "bid_ask_spread": 0.00899737177924259,
+      "volume": 3680579.747269581,
+      "bid_price": 122.88673383557577
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-26T00:00:00Z",
+      "bid_ask_spread": 0.008995885260621807,
+      "volume": 4189573.396370401,
+      "bid_price": 121.405086213016
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-27T00:00:00Z",
+      "bid_ask_spread": 0.008997398384320851,
+      "volume": 4685720.622148886,
+      "bid_price": 105.95469250980462
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-28T00:00:00Z",
+      "bid_ask_spread": 0.008996317250246594,
+      "volume": 4701178.834497768,
+      "bid_price": 125.06630932335032
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-29T00:00:00Z",
+      "bid_ask_spread": 0.008996186920934773,
+      "volume": 3967057.4671885427,
+      "bid_price": 120.99654427675023
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-04-30T00:00:00Z",
+      "bid_ask_spread": 0.008997017174699308,
+      "volume": 3634258.706574793,
+      "bid_price": 127.19916768015942
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-01T00:00:00Z",
+      "bid_ask_spread": 0.008996906077257063,
+      "volume": 3050571.0643231245,
+      "bid_price": 116.08391596573807
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-02T00:00:00Z",
+      "bid_ask_spread": 0.012971627210955374,
+      "volume": 4058895.7516554273,
+      "bid_price": 119.9531268017558
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-03T00:00:00Z",
+      "bid_ask_spread": 0.008996134634439441,
+      "volume": 5304618.402030777,
+      "bid_price": 114.45215346560039
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-04T00:00:00Z",
+      "bid_ask_spread": 0.008997050677847169,
+      "volume": 4891034.986261422,
+      "bid_price": 128.38171764710512
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-05T00:00:00Z",
+      "bid_ask_spread": 0.008996923514526597,
+      "volume": 3380127.5734848143,
+      "bid_price": 127.16057035752134
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-06T00:00:00Z",
+      "bid_ask_spread": 0.008996796513159653,
+      "volume": 2930640.6511843842,
+      "bid_price": 108.61900623048696
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-07T00:00:00Z",
+      "bid_ask_spread": 0.0089968867339518,
+      "volume": 3204916.624765491,
+      "bid_price": 105.84400935282214
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-08T00:00:00Z",
+      "bid_ask_spread": 0.00899691883830117,
+      "volume": 4680561.147015623,
+      "bid_price": 106.5275677089255
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-09T00:00:00Z",
+      "bid_ask_spread": 0.008996060817779915,
+      "volume": 3506536.705380171,
+      "bid_price": 112.42231394782782
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-10T00:00:00Z",
+      "bid_ask_spread": 0.00899660728613173,
+      "volume": 3257460.146699888,
+      "bid_price": 108.49685418215084
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-11T00:00:00Z",
+      "bid_ask_spread": 0.0089975174385643,
+      "volume": 4785788.845769613,
+      "bid_price": 128.69235192501597
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-12T00:00:00Z",
+      "bid_ask_spread": 0.008996153503386093,
+      "volume": 5271286.9072224405,
+      "bid_price": 122.15954267688751
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-13T00:00:00Z",
+      "bid_ask_spread": 0.008995852649192101,
+      "volume": 3533761.320674178,
+      "bid_price": 109.91352010781321
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-14T00:00:00Z",
+      "bid_ask_spread": 0.008996276961657636,
+      "volume": 3838291.1002345677,
+      "bid_price": 109.95551892962484
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-15T00:00:00Z",
+      "bid_ask_spread": 0.008996481069837923,
+      "volume": 4541447.768163739,
+      "bid_price": 119.22844398543393
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-16T00:00:00Z",
+      "bid_ask_spread": 0.01526605182270979,
+      "volume": 3068291.012182107,
+      "bid_price": 108.25255247790156
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-17T00:00:00Z",
+      "bid_ask_spread": 0.008997047423659938,
+      "volume": 4278347.01376049,
+      "bid_price": 109.85141614544796
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-18T00:00:00Z",
+      "bid_ask_spread": 0.008997475111181878,
+      "volume": 5379457.456221937,
+      "bid_price": 112.07957254430508
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-19T00:00:00Z",
+      "bid_ask_spread": 0.008997220893120309,
+      "volume": 3911718.9325581393,
+      "bid_price": 128.5399248419994
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-20T00:00:00Z",
+      "bid_ask_spread": 0.00899669348674724,
+      "volume": 4476390.67298815,
+      "bid_price": 108.67961423103606
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-21T00:00:00Z",
+      "bid_ask_spread": 0.008996163091477266,
+      "volume": 4047853.610627582,
+      "bid_price": 125.64974780544142
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-22T00:00:00Z",
+      "bid_ask_spread": 0.00899645829236017,
+      "volume": 4058842.197218119,
+      "bid_price": 114.23685018830756
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-23T00:00:00Z",
+      "bid_ask_spread": 0.008996673658791258,
+      "volume": 3784385.495936031,
+      "bid_price": 117.54797032832275
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-24T00:00:00Z",
+      "bid_ask_spread": 0.008996186507733836,
+      "volume": 3129654.2180518233,
+      "bid_price": 126.46430057357097
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-25T00:00:00Z",
+      "bid_ask_spread": 0.008996891300600227,
+      "volume": 4030904.0249669063,
+      "bid_price": 113.80830846103078
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-26T00:00:00Z",
+      "bid_ask_spread": 0.00899693763931201,
+      "volume": 4786033.3524570055,
+      "bid_price": 115.95304468277668
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-27T00:00:00Z",
+      "bid_ask_spread": 0.008997041635888138,
+      "volume": 4534666.517767901,
+      "bid_price": 111.00893796459331
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-28T00:00:00Z",
+      "bid_ask_spread": 0.008997008777896469,
+      "volume": 5157009.86594513,
+      "bid_price": 123.08016814216073
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-29T00:00:00Z",
+      "bid_ask_spread": 0.008997487199869428,
+      "volume": 5350259.643642211,
+      "bid_price": 106.40407831352266
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-30T00:00:00Z",
+      "bid_ask_spread": 0.008996812991333605,
+      "volume": 4061945.229711918,
+      "bid_price": 123.85028083285722
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-05-31T00:00:00Z",
+      "bid_ask_spread": 0.008997347985015365,
+      "volume": 3193478.464012609,
+      "bid_price": 122.7785758498216
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-01T00:00:00Z",
+      "bid_ask_spread": 0.00899614719507229,
+      "volume": 3984377.524757087,
+      "bid_price": 115.72382511704862
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-02T00:00:00Z",
+      "bid_ask_spread": 0.02202530384950273,
+      "volume": 3178096.774705975,
+      "bid_price": 105.84945726650014
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-03T00:00:00Z",
+      "bid_ask_spread": 0.008997218657578587,
+      "volume": 4559942.984449964,
+      "bid_price": 115.8163347506369
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-04T00:00:00Z",
+      "bid_ask_spread": 0.008997241363062574,
+      "volume": 5056756.647831625,
+      "bid_price": 116.21057481101728
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-05T00:00:00Z",
+      "bid_ask_spread": 0.008997251258664048,
+      "volume": 4226212.766752574,
+      "bid_price": 115.13410202289076
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-06T00:00:00Z",
+      "bid_ask_spread": 0.008996315876473112,
+      "volume": 3383009.2388784653,
+      "bid_price": 109.30624182504899
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-07T00:00:00Z",
+      "bid_ask_spread": 0.0089967139768321,
+      "volume": 5300235.526341546,
+      "bid_price": 107.29568157701416
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-08T00:00:00Z",
+      "bid_ask_spread": 0.008996444593040066,
+      "volume": 4100477.851372446,
+      "bid_price": 127.9262874601757
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-09T00:00:00Z",
+      "bid_ask_spread": 0.008995930146749787,
+      "volume": 4659702.25110673,
+      "bid_price": 110.49093244849738
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-10T00:00:00Z",
+      "bid_ask_spread": 0.008997423208494138,
+      "volume": 5013759.617926938,
+      "bid_price": 122.11992230910133
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-11T00:00:00Z",
+      "bid_ask_spread": 0.00899650296379602,
+      "volume": 3791059.170556275,
+      "bid_price": 126.7440514767989
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-12T00:00:00Z",
+      "bid_ask_spread": 0.008996285308249837,
+      "volume": 4154203.6307398886,
+      "bid_price": 114.752593625528
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-13T00:00:00Z",
+      "bid_ask_spread": 0.008996014106197749,
+      "volume": 5184631.835453783,
+      "bid_price": 107.73120668408221
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-14T00:00:00Z",
+      "bid_ask_spread": 0.014002245430024424,
+      "volume": 4099029.38398183,
+      "bid_price": 126.00617764178563
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-15T00:00:00Z",
+      "bid_ask_spread": 0.016897153948497053,
+      "volume": 3503338.194324813,
+      "bid_price": 121.02742698444214
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-16T00:00:00Z",
+      "bid_ask_spread": 0.008996891863155176,
+      "volume": 5045909.640563843,
+      "bid_price": 125.91416922649208
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-17T00:00:00Z",
+      "bid_ask_spread": 0.008996090948332713,
+      "volume": 5439484.685347572,
+      "bid_price": 112.91520077211894
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-18T00:00:00Z",
+      "bid_ask_spread": 0.00899659063348758,
+      "volume": 3686411.7484862404,
+      "bid_price": 118.81710369203445
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-19T00:00:00Z",
+      "bid_ask_spread": 0.008996533887262771,
+      "volume": 4950381.1309221815,
+      "bid_price": 115.64975354815654
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-20T00:00:00Z",
+      "bid_ask_spread": 0.008997088943951846,
+      "volume": 3552419.8582294243,
+      "bid_price": 106.28140104624583
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-21T00:00:00Z",
+      "bid_ask_spread": 0.008996142150302446,
+      "volume": 3662566.701559076,
+      "bid_price": 124.8469277382185
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-22T00:00:00Z",
+      "bid_ask_spread": 0.008997479832000737,
+      "volume": 4433534.48743162,
+      "bid_price": 114.91696439000597
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-23T00:00:00Z",
+      "bid_ask_spread": 0.00899681828346704,
+      "volume": 3270846.8061009236,
+      "bid_price": 112.9510192962932
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-24T00:00:00Z",
+      "bid_ask_spread": 0.008995798884486834,
+      "volume": 3619984.543640913,
+      "bid_price": 106.35639819044081
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-25T00:00:00Z",
+      "bid_ask_spread": 0.02345138584857987,
+      "volume": 4906910.822656451,
+      "bid_price": 105.72559989338077
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-26T00:00:00Z",
+      "bid_ask_spread": 0.008996548969819428,
+      "volume": 3991303.66533225,
+      "bid_price": 110.32758500609167
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-27T00:00:00Z",
+      "bid_ask_spread": 0.008995852529117908,
+      "volume": 4355997.823428564,
+      "bid_price": 108.09580494671347
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-28T00:00:00Z",
+      "bid_ask_spread": 0.008996509852153086,
+      "volume": 4098917.0253880145,
+      "bid_price": 113.24984881754177
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-29T00:00:00Z",
+      "bid_ask_spread": 0.008996777160974925,
+      "volume": 4486445.678755946,
+      "bid_price": 127.97572543619145
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-06-30T00:00:00Z",
+      "bid_ask_spread": 0.00899615532503798,
+      "volume": 4200051.09529616,
+      "bid_price": 127.172887434378
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-01T00:00:00Z",
+      "bid_ask_spread": 0.008996178794807673,
+      "volume": 4900584.6486142045,
+      "bid_price": 123.81717767510257
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-02T00:00:00Z",
+      "bid_ask_spread": 0.008996951430547358,
+      "volume": 4191756.626560205,
+      "bid_price": 113.34434674219811
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-03T00:00:00Z",
+      "bid_ask_spread": 0.00899604471666613,
+      "volume": 4999950.191865534,
+      "bid_price": 112.23495194058893
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-04T00:00:00Z",
+      "bid_ask_spread": 0.008996376036360684,
+      "volume": 3175164.439989497,
+      "bid_price": 113.54125942222271
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-05T00:00:00Z",
+      "bid_ask_spread": 0.008996522858605424,
+      "volume": 3997406.313321436,
+      "bid_price": 109.28927980011855
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-06T00:00:00Z",
+      "bid_ask_spread": 0.008996887858719108,
+      "volume": 5589542.830095141,
+      "bid_price": 122.39276318370887
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-07T00:00:00Z",
+      "bid_ask_spread": 0.008995872794541513,
+      "volume": 3892492.317338426,
+      "bid_price": 125.12954997528354
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-08T00:00:00Z",
+      "bid_ask_spread": 0.008996892376552884,
+      "volume": 4410282.807830211,
+      "bid_price": 116.10632919679365
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-09T00:00:00Z",
+      "bid_ask_spread": 0.008997377505885383,
+      "volume": 4495160.092163974,
+      "bid_price": 106.33878240891957
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-10T00:00:00Z",
+      "bid_ask_spread": 0.008995808188390731,
+      "volume": 3597748.246630527,
+      "bid_price": 117.33184116496648
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-11T00:00:00Z",
+      "bid_ask_spread": 0.008996316234048424,
+      "volume": 4169509.3447521627,
+      "bid_price": 119.7438544704093
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-12T00:00:00Z",
+      "bid_ask_spread": 0.008996395076256306,
+      "volume": 5697692.059700704,
+      "bid_price": 118.37806486026584
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-13T00:00:00Z",
+      "bid_ask_spread": 0.008996741846108195,
+      "volume": 5144368.172518525,
+      "bid_price": 119.66378347780694
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-14T00:00:00Z",
+      "bid_ask_spread": 0.008996735922845129,
+      "volume": 5663053.961972975,
+      "bid_price": 111.44538028370644
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-15T00:00:00Z",
+      "bid_ask_spread": 0.008997217874703664,
+      "volume": 3393609.2091125958,
+      "bid_price": 115.14372893849087
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-16T00:00:00Z",
+      "bid_ask_spread": 0.008997013345995007,
+      "volume": 5308341.518254583,
+      "bid_price": 126.6999745089527
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-17T00:00:00Z",
+      "bid_ask_spread": 0.008996184464120528,
+      "volume": 5132294.096611426,
+      "bid_price": 125.64013647557817
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-18T00:00:00Z",
+      "bid_ask_spread": 0.008996125515539247,
+      "volume": 5730365.217424126,
+      "bid_price": 110.3834326801496
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-19T00:00:00Z",
+      "bid_ask_spread": 0.008996392562391828,
+      "volume": 5547481.1181096155,
+      "bid_price": 125.19709474514715
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-20T00:00:00Z",
+      "bid_ask_spread": 0.008997042458729669,
+      "volume": 4109142.18833912,
+      "bid_price": 111.50374193292782
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-21T00:00:00Z",
+      "bid_ask_spread": 0.008997409716915646,
+      "volume": 5140858.879258092,
+      "bid_price": 118.99309060882658
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-22T00:00:00Z",
+      "bid_ask_spread": 0.008996136247643317,
+      "volume": 4335441.8347796835,
+      "bid_price": 106.74281887310772
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-23T00:00:00Z",
+      "bid_ask_spread": 0.008997113652968044,
+      "volume": 4929249.062375124,
+      "bid_price": 125.80762837363055
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-24T00:00:00Z",
+      "bid_ask_spread": 0.008996410872552593,
+      "volume": 5504306.3039065935,
+      "bid_price": 115.92484732833745
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-25T00:00:00Z",
+      "bid_ask_spread": 0.008996966085945203,
+      "volume": 3298688.215085879,
+      "bid_price": 128.81179773009555
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-26T00:00:00Z",
+      "bid_ask_spread": 0.008996118798209345,
+      "volume": 5465609.432632097,
+      "bid_price": 109.1866510178251
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-27T00:00:00Z",
+      "bid_ask_spread": 0.008996442128399755,
+      "volume": 5323199.402975137,
+      "bid_price": 115.7878761533149
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-28T00:00:00Z",
+      "bid_ask_spread": 0.008996428578027198,
+      "volume": 4377288.358768253,
+      "bid_price": 117.04910424778649
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-29T00:00:00Z",
+      "bid_ask_spread": 0.00899648377162031,
+      "volume": 5240447.686491732,
+      "bid_price": 109.46459230851758
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-30T00:00:00Z",
+      "bid_ask_spread": 0.008995872454220405,
+      "volume": 5393083.50603019,
+      "bid_price": 126.61962807909927
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-07-31T00:00:00Z",
+      "bid_ask_spread": 0.008996186586259334,
+      "volume": 3971001.821097742,
+      "bid_price": 120.44668463063822
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-01T00:00:00Z",
+      "bid_ask_spread": 0.008997545612923156,
+      "volume": 4642323.7064812,
+      "bid_price": 105.71885224476938
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-02T00:00:00Z",
+      "bid_ask_spread": 0.008995918045716691,
+      "volume": 4855579.593052108,
+      "bid_price": 115.49063747409645
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-03T00:00:00Z",
+      "bid_ask_spread": 0.00899712389104055,
+      "volume": 5121152.0043200515,
+      "bid_price": 115.39167607665765
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-04T00:00:00Z",
+      "bid_ask_spread": 0.008997391146448723,
+      "volume": 4242712.752590544,
+      "bid_price": 110.97082452433324
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-05T00:00:00Z",
+      "bid_ask_spread": 0.008997204882828708,
+      "volume": 3746362.5084098377,
+      "bid_price": 112.15980331266576
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-06T00:00:00Z",
+      "bid_ask_spread": 0.008996030447403089,
+      "volume": 5654061.195356627,
+      "bid_price": 124.19971255376441
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-07T00:00:00Z",
+      "bid_ask_spread": 0.008996074680579523,
+      "volume": 3860723.3665601136,
+      "bid_price": 127.75585639617272
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-08T00:00:00Z",
+      "bid_ask_spread": 0.008997150446696486,
+      "volume": 5363030.078904898,
+      "bid_price": 121.54044191717364
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-09T00:00:00Z",
+      "bid_ask_spread": 0.008995829415172478,
+      "volume": 3858325.5539230015,
+      "bid_price": 106.49109902276842
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-10T00:00:00Z",
+      "bid_ask_spread": 0.0089973433238505,
+      "volume": 4851960.165966068,
+      "bid_price": 113.51460961719559
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-11T00:00:00Z",
+      "bid_ask_spread": 0.008997423040295554,
+      "volume": 5699516.589656193,
+      "bid_price": 107.1459180976658
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-12T00:00:00Z",
+      "bid_ask_spread": 0.00899753262649592,
+      "volume": 5427307.381374928,
+      "bid_price": 121.9525772911814
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-13T00:00:00Z",
+      "bid_ask_spread": 0.008996586858509374,
+      "volume": 4997116.185310611,
+      "bid_price": 107.89882439323975
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-14T00:00:00Z",
+      "bid_ask_spread": 0.008995853472850234,
+      "volume": 4433804.3149455935,
+      "bid_price": 112.93357636832938
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-15T00:00:00Z",
+      "bid_ask_spread": 0.008996098922696268,
+      "volume": 5903827.819060218,
+      "bid_price": 115.71923438816548
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-16T00:00:00Z",
+      "bid_ask_spread": 0.008995945887226558,
+      "volume": 4005444.025857451,
+      "bid_price": 108.37774752714277
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-17T00:00:00Z",
+      "bid_ask_spread": 0.008995988143543432,
+      "volume": 5585131.081618715,
+      "bid_price": 118.91051862622967
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-18T00:00:00Z",
+      "bid_ask_spread": 0.008995898466922416,
+      "volume": 5107954.107802464,
+      "bid_price": 109.2148623126592
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-19T00:00:00Z",
+      "bid_ask_spread": 0.00899610768774071,
+      "volume": 4692758.227971538,
+      "bid_price": 121.19787519919143
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-20T00:00:00Z",
+      "bid_ask_spread": 0.008996081118921046,
+      "volume": 4675659.089418076,
+      "bid_price": 113.44330251804912
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-21T00:00:00Z",
+      "bid_ask_spread": 0.008996135963991594,
+      "volume": 4592662.5019687135,
+      "bid_price": 122.2567961836208
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-22T00:00:00Z",
+      "bid_ask_spread": 0.008996833279547334,
+      "volume": 3490600.59456645,
+      "bid_price": 110.02233316350612
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-23T00:00:00Z",
+      "bid_ask_spread": 0.008997311589406781,
+      "volume": 4647770.465090175,
+      "bid_price": 107.48139139183188
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-24T00:00:00Z",
+      "bid_ask_spread": 0.008997344852202507,
+      "volume": 5369348.9392863745,
+      "bid_price": 108.0089559925467
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-25T00:00:00Z",
+      "bid_ask_spread": 0.008996024522578664,
+      "volume": 5667450.740382017,
+      "bid_price": 118.61370521956347
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-26T00:00:00Z",
+      "bid_ask_spread": 0.008996909586890955,
+      "volume": 4892379.395286043,
+      "bid_price": 122.39697591826737
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-27T00:00:00Z",
+      "bid_ask_spread": 0.008996122220090214,
+      "volume": 5917690.206450313,
+      "bid_price": 111.56505704174263
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-28T00:00:00Z",
+      "bid_ask_spread": 0.008996338272290079,
+      "volume": 5667261.354424417,
+      "bid_price": 125.8024320581804
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-29T00:00:00Z",
+      "bid_ask_spread": 0.01348314006149787,
+      "volume": 4785892.039391442,
+      "bid_price": 111.36436937445454
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-30T00:00:00Z",
+      "bid_ask_spread": 0.00899707951745223,
+      "volume": 5708185.106132289,
+      "bid_price": 116.8615690912138
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-08-31T00:00:00Z",
+      "bid_ask_spread": 0.008996356304850583,
+      "volume": 4206343.848207133,
+      "bid_price": 111.66235799881278
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-01T00:00:00Z",
+      "bid_ask_spread": 0.008996118611982662,
+      "volume": 4276559.8539265515,
+      "bid_price": 109.08853154342876
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-02T00:00:00Z",
+      "bid_ask_spread": 0.008996957984433627,
+      "volume": 5546307.907145916,
+      "bid_price": 121.05311852527588
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-03T00:00:00Z",
+      "bid_ask_spread": 0.008996420086945962,
+      "volume": 5754628.219063417,
+      "bid_price": 124.40640313355772
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-04T00:00:00Z",
+      "bid_ask_spread": 0.008997287356876682,
+      "volume": 3555285.0657457504,
+      "bid_price": 128.53253706294646
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-05T00:00:00Z",
+      "bid_ask_spread": 0.00899585654964543,
+      "volume": 5032430.779410761,
+      "bid_price": 109.42439481663743
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-06T00:00:00Z",
+      "bid_ask_spread": 0.008997430244182987,
+      "volume": 4184884.1772179073,
+      "bid_price": 119.23825644103333
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-07T00:00:00Z",
+      "bid_ask_spread": 0.008996120777927294,
+      "volume": 3714991.881645917,
+      "bid_price": 116.46835769819829
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-08T00:00:00Z",
+      "bid_ask_spread": 0.008997040657115127,
+      "volume": 4685687.108406178,
+      "bid_price": 122.3383508312852
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-09T00:00:00Z",
+      "bid_ask_spread": 0.008996729285360175,
+      "volume": 4679800.13234402,
+      "bid_price": 115.6574430732097
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-10T00:00:00Z",
+      "bid_ask_spread": 0.008996245995015513,
+      "volume": 3899511.5235314593,
+      "bid_price": 123.47539341645773
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-11T00:00:00Z",
+      "bid_ask_spread": 0.008997546455714031,
+      "volume": 4646623.332087005,
+      "bid_price": 117.48627677792352
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-12T00:00:00Z",
+      "bid_ask_spread": 0.008996675246181715,
+      "volume": 4671921.549585836,
+      "bid_price": 108.84826225885338
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-13T00:00:00Z",
+      "bid_ask_spread": 0.008996430201116408,
+      "volume": 3649829.360978309,
+      "bid_price": 114.26331736109937
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-14T00:00:00Z",
+      "bid_ask_spread": 0.008996776789701295,
+      "volume": 4895952.15115667,
+      "bid_price": 120.49616806571858
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-15T00:00:00Z",
+      "bid_ask_spread": 0.008996208727532753,
+      "volume": 5564203.466794286,
+      "bid_price": 123.54171759531481
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-16T00:00:00Z",
+      "bid_ask_spread": 0.008996196115482481,
+      "volume": 4939918.309628483,
+      "bid_price": 106.07463728894204
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-17T00:00:00Z",
+      "bid_ask_spread": 0.008996572801922635,
+      "volume": 5528194.14892218,
+      "bid_price": 122.94679042550521
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-18T00:00:00Z",
+      "bid_ask_spread": 0.008996458205795598,
+      "volume": 3901279.1433735033,
+      "bid_price": 124.52958502281588
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-19T00:00:00Z",
+      "bid_ask_spread": 0.008997097062118842,
+      "volume": 4296097.6334693525,
+      "bid_price": 119.37752152631195
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-20T00:00:00Z",
+      "bid_ask_spread": 0.008996033684211372,
+      "volume": 4119872.5828459333,
+      "bid_price": 108.23578285607846
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-21T00:00:00Z",
+      "bid_ask_spread": 0.008996109184026234,
+      "volume": 5363561.538833492,
+      "bid_price": 122.91229081296005
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-22T00:00:00Z",
+      "bid_ask_spread": 0.00899627806173695,
+      "volume": 3967043.0349188643,
+      "bid_price": 117.60766540347241
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-23T00:00:00Z",
+      "bid_ask_spread": 0.008997116503464206,
+      "volume": 4241115.2965621045,
+      "bid_price": 107.90295200265854
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-24T00:00:00Z",
+      "bid_ask_spread": 0.008996417036581685,
+      "volume": 4679754.032868021,
+      "bid_price": 117.30943337675942
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-25T00:00:00Z",
+      "bid_ask_spread": 0.008997290543172982,
+      "volume": 4568930.891870782,
+      "bid_price": 117.19151756659475
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-26T00:00:00Z",
+      "bid_ask_spread": 0.008995786459254543,
+      "volume": 5947466.2119481005,
+      "bid_price": 121.539477500079
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-27T00:00:00Z",
+      "bid_ask_spread": 0.008996064870196536,
+      "volume": 4572452.120384191,
+      "bid_price": 108.86263091218859
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-28T00:00:00Z",
+      "bid_ask_spread": 0.008995866707060615,
+      "volume": 5471815.837521957,
+      "bid_price": 105.93363439685551
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-29T00:00:00Z",
+      "bid_ask_spread": 0.008997300679410392,
+      "volume": 5133527.815316316,
+      "bid_price": 107.56106301015932
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-09-30T00:00:00Z",
+      "bid_ask_spread": 0.0089963299698518,
+      "volume": 4914460.781905682,
+      "bid_price": 128.25460428103472
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-01T00:00:00Z",
+      "bid_ask_spread": 0.008996032689392941,
+      "volume": 4771814.870092677,
+      "bid_price": 112.54459364919663
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-02T00:00:00Z",
+      "bid_ask_spread": 0.008996641903123758,
+      "volume": 6107229.620561412,
+      "bid_price": 122.15649177024723
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-03T00:00:00Z",
+      "bid_ask_spread": 0.008997104268067274,
+      "volume": 4754623.606869335,
+      "bid_price": 110.22445605399794
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-04T00:00:00Z",
+      "bid_ask_spread": 0.00899615952294334,
+      "volume": 4207375.64803739,
+      "bid_price": 112.59337700957906
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-05T00:00:00Z",
+      "bid_ask_spread": 0.008996998924152766,
+      "volume": 4961408.028744206,
+      "bid_price": 120.49336113311381
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-06T00:00:00Z",
+      "bid_ask_spread": 0.008997045814898645,
+      "volume": 4340471.9310594,
+      "bid_price": 118.68610242001614
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-07T00:00:00Z",
+      "bid_ask_spread": 0.008997028451113834,
+      "volume": 4684033.795539088,
+      "bid_price": 117.55337391982717
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-08T00:00:00Z",
+      "bid_ask_spread": 0.00899738834379919,
+      "volume": 5420360.219687559,
+      "bid_price": 122.05982054705557
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-09T00:00:00Z",
+      "bid_ask_spread": 0.008996006863228947,
+      "volume": 5641498.860162418,
+      "bid_price": 128.09151888905012
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-10T00:00:00Z",
+      "bid_ask_spread": 0.008996780885046272,
+      "volume": 4132676.9804000175,
+      "bid_price": 121.72495958643835
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-11T00:00:00Z",
+      "bid_ask_spread": 0.008996168936009408,
+      "volume": 3779928.664687384,
+      "bid_price": 123.00039081782013
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-12T00:00:00Z",
+      "bid_ask_spread": 0.00899748192915691,
+      "volume": 3917289.6070924695,
+      "bid_price": 114.47215953513476
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-13T00:00:00Z",
+      "bid_ask_spread": 0.0089970740091271,
+      "volume": 5888297.086771382,
+      "bid_price": 114.86091673000998
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-14T00:00:00Z",
+      "bid_ask_spread": 0.008997122882341526,
+      "volume": 3892955.251723585,
+      "bid_price": 118.29345386334103
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-15T00:00:00Z",
+      "bid_ask_spread": 0.008996241250570917,
+      "volume": 5361987.057889749,
+      "bid_price": 106.65658963789598
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-16T00:00:00Z",
+      "bid_ask_spread": 0.008996196953610178,
+      "volume": 6157625.096735293,
+      "bid_price": 127.51729242633672
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-17T00:00:00Z",
+      "bid_ask_spread": 0.008996216334675906,
+      "volume": 5277238.913698654,
+      "bid_price": 107.72400006113564
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-18T00:00:00Z",
+      "bid_ask_spread": 0.008997261909174645,
+      "volume": 4519373.427907306,
+      "bid_price": 114.82252969796662
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-19T00:00:00Z",
+      "bid_ask_spread": 0.00899613216672822,
+      "volume": 5178875.238998936,
+      "bid_price": 108.86282979136618
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-20T00:00:00Z",
+      "bid_ask_spread": 0.00899733382135863,
+      "volume": 6119291.047890166,
+      "bid_price": 115.64400814708904
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-21T00:00:00Z",
+      "bid_ask_spread": 0.008996527298642093,
+      "volume": 6012893.427124511,
+      "bid_price": 110.52575880840594
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-22T00:00:00Z",
+      "bid_ask_spread": 0.008995916345304247,
+      "volume": 4381903.93116085,
+      "bid_price": 116.75548778675088
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-23T00:00:00Z",
+      "bid_ask_spread": 0.008996685732919826,
+      "volume": 5221045.941437766,
+      "bid_price": 112.01363477134609
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-24T00:00:00Z",
+      "bid_ask_spread": 0.008996700892146615,
+      "volume": 5947740.119841318,
+      "bid_price": 106.49380592783955
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-25T00:00:00Z",
+      "bid_ask_spread": 0.008995888402549715,
+      "volume": 4969833.021440537,
+      "bid_price": 117.35005730666954
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-26T00:00:00Z",
+      "bid_ask_spread": 0.008997204008235626,
+      "volume": 4843823.624470445,
+      "bid_price": 120.78093572939984
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-27T00:00:00Z",
+      "bid_ask_spread": 0.008996581954762514,
+      "volume": 5463305.796072373,
+      "bid_price": 113.09160135925558
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-28T00:00:00Z",
+      "bid_ask_spread": 0.00899750379038696,
+      "volume": 5767364.492538741,
+      "bid_price": 108.7745027962423
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-29T00:00:00Z",
+      "bid_ask_spread": 0.008996272764418275,
+      "volume": 4804389.424491633,
+      "bid_price": 127.72941481098346
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-30T00:00:00Z",
+      "bid_ask_spread": 0.008997462775143104,
+      "volume": 4800127.318006753,
+      "bid_price": 127.26096811658708
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-10-31T00:00:00Z",
+      "bid_ask_spread": 0.008996605645767687,
+      "volume": 5478634.110540552,
+      "bid_price": 120.7274755641085
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-01T00:00:00Z",
+      "bid_ask_spread": 0.008997549551486315,
+      "volume": 5851697.118452177,
+      "bid_price": 123.547346057015
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-02T00:00:00Z",
+      "bid_ask_spread": 0.00899619151612223,
+      "volume": 4797042.683266262,
+      "bid_price": 123.23423691907085
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-03T00:00:00Z",
+      "bid_ask_spread": 0.008996842166474357,
+      "volume": 4413471.98921693,
+      "bid_price": 112.32001889144397
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-04T00:00:00Z",
+      "bid_ask_spread": 0.008996826743159006,
+      "volume": 6045329.10788322,
+      "bid_price": 106.16048484054363
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-05T00:00:00Z",
+      "bid_ask_spread": 0.008997128604184598,
+      "volume": 5305812.186788447,
+      "bid_price": 114.39123417635408
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-06T00:00:00Z",
+      "bid_ask_spread": 0.008996567341206567,
+      "volume": 4921859.188312879,
+      "bid_price": 114.79388355495159
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-07T00:00:00Z",
+      "bid_ask_spread": 0.008996353795489262,
+      "volume": 3800913.2734117564,
+      "bid_price": 107.56772412445405
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-08T00:00:00Z",
+      "bid_ask_spread": 0.008996191959202772,
+      "volume": 5202768.6257826835,
+      "bid_price": 110.96251440155315
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-09T00:00:00Z",
+      "bid_ask_spread": 0.008997093407880736,
+      "volume": 4357089.162559904,
+      "bid_price": 124.99955251659088
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-10T00:00:00Z",
+      "bid_ask_spread": 0.008995903520648855,
+      "volume": 5620087.130462022,
+      "bid_price": 114.83021434656942
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-11T00:00:00Z",
+      "bid_ask_spread": 0.008997518648254429,
+      "volume": 4056706.162020864,
+      "bid_price": 119.95339912340864
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-12T00:00:00Z",
+      "bid_ask_spread": 0.008996517496027532,
+      "volume": 3920454.422943745,
+      "bid_price": 112.53416556967706
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-13T00:00:00Z",
+      "bid_ask_spread": 0.008997515054003747,
+      "volume": 5460305.082924243,
+      "bid_price": 105.51851938815375
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-14T00:00:00Z",
+      "bid_ask_spread": 0.008995832633984771,
+      "volume": 3828654.6138998303,
+      "bid_price": 121.13275221766963
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-15T00:00:00Z",
+      "bid_ask_spread": 0.008996544177934296,
+      "volume": 5898060.496597877,
+      "bid_price": 122.5360253137927
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-16T00:00:00Z",
+      "bid_ask_spread": 0.021301399532955827,
+      "volume": 5112509.200855416,
+      "bid_price": 106.0052566450987
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-17T00:00:00Z",
+      "bid_ask_spread": 0.008997134654035815,
+      "volume": 5299718.486723026,
+      "bid_price": 121.88142052875793
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-18T00:00:00Z",
+      "bid_ask_spread": 0.008996313497017282,
+      "volume": 4014133.5146412523,
+      "bid_price": 106.72851664519264
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-19T00:00:00Z",
+      "bid_ask_spread": 0.008996749340814009,
+      "volume": 5350807.382417566,
+      "bid_price": 123.96397151690496
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-20T00:00:00Z",
+      "bid_ask_spread": 0.008996941596606986,
+      "volume": 3962347.517514198,
+      "bid_price": 119.43801534182886
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-21T00:00:00Z",
+      "bid_ask_spread": 0.008997207974939568,
+      "volume": 5580544.17633718,
+      "bid_price": 106.18143653333136
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-22T00:00:00Z",
+      "bid_ask_spread": 0.008996534934900364,
+      "volume": 4333080.853592058,
+      "bid_price": 120.91208510202661
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-23T00:00:00Z",
+      "bid_ask_spread": 0.008996671457543737,
+      "volume": 5632818.695254026,
+      "bid_price": 126.70717941583928
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-24T00:00:00Z",
+      "bid_ask_spread": 0.008996774715106265,
+      "volume": 5977658.719248564,
+      "bid_price": 113.50675410864574
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-25T00:00:00Z",
+      "bid_ask_spread": 0.008996860488006075,
+      "volume": 4177940.694832308,
+      "bid_price": 122.49010937002001
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-26T00:00:00Z",
+      "bid_ask_spread": 0.008997207788467996,
+      "volume": 4247575.397134011,
+      "bid_price": 114.97547574280478
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-27T00:00:00Z",
+      "bid_ask_spread": 0.00899750613390271,
+      "volume": 4420765.033113867,
+      "bid_price": 111.38248741510921
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-28T00:00:00Z",
+      "bid_ask_spread": 0.008996136428575432,
+      "volume": 5631009.243432058,
+      "bid_price": 106.32882024975919
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-29T00:00:00Z",
+      "bid_ask_spread": 0.008995931775487433,
+      "volume": 5184309.015903523,
+      "bid_price": 128.1759792371185
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-11-30T00:00:00Z",
+      "bid_ask_spread": 0.008996777334626305,
+      "volume": 5619571.077299314,
+      "bid_price": 128.57997522168645
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-01T00:00:00Z",
+      "bid_ask_spread": 0.008996840124079631,
+      "volume": 4269677.990598416,
+      "bid_price": 116.03218995319602
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-02T00:00:00Z",
+      "bid_ask_spread": 0.01724367578754756,
+      "volume": 4648387.775342386,
+      "bid_price": 109.64192137378437
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-03T00:00:00Z",
+      "bid_ask_spread": 0.008996238697672273,
+      "volume": 4802776.564053968,
+      "bid_price": 123.72046800489771
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-04T00:00:00Z",
+      "bid_ask_spread": 0.008996868801754725,
+      "volume": 5899500.798008355,
+      "bid_price": 126.78025701037495
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-05T00:00:00Z",
+      "bid_ask_spread": 0.008997308194629428,
+      "volume": 6281049.925425783,
+      "bid_price": 120.49082495893539
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-06T00:00:00Z",
+      "bid_ask_spread": 0.008996381751148926,
+      "volume": 5790207.8336191885,
+      "bid_price": 119.38613126574501
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-07T00:00:00Z",
+      "bid_ask_spread": 0.00899704741620829,
+      "volume": 6270991.026427731,
+      "bid_price": 114.69057850301732
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-08T00:00:00Z",
+      "bid_ask_spread": 0.008996839524468921,
+      "volume": 5858961.440606251,
+      "bid_price": 119.21901229403109
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-09T00:00:00Z",
+      "bid_ask_spread": 0.008997342705503867,
+      "volume": 5907104.001640033,
+      "bid_price": 110.76247133134034
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-10T00:00:00Z",
+      "bid_ask_spread": 0.008996461459382833,
+      "volume": 4680530.889257344,
+      "bid_price": 124.58591866073924
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-11T00:00:00Z",
+      "bid_ask_spread": 0.008996448870515768,
+      "volume": 6081387.698508037,
+      "bid_price": 112.79340420880615
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-12T00:00:00Z",
+      "bid_ask_spread": 0.008996669852508667,
+      "volume": 4692385.165375201,
+      "bid_price": 124.46819202879112
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-13T00:00:00Z",
+      "bid_ask_spread": 0.008996441519529606,
+      "volume": 4447375.6231061015,
+      "bid_price": 123.03483494544565
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-14T00:00:00Z",
+      "bid_ask_spread": 0.008997210379468417,
+      "volume": 5552778.832604068,
+      "bid_price": 107.21227829335302
+    },
+    {
+      "asset_type": "ETF_LQD",
+      "timestamp": "2017-12-15T00:00:00Z",
+      "bid_ask_spread": 0.00899619756157497,
+      "volume": 3986995.766224133,
+      "bid_price": 118.87220135798515
     }
   ],
   "report": {
-    "asset_type": "ETF_HYG",
-    "total_records": 311,
+    "asset_type": "ETF_LQD",
+    "total_records": 611,
     "historical_records": 261,
-    "prediction_records": 50,
+    "prediction_records": 350,
     "high_risk_count": 0,
-    "moderate_risk_count": 47,
+    "moderate_risk_count": 69,
     "current_warnings": null,
     "predicted_warnings": null,
     "current_high_risk_count": 0,
     "predicted_high_risk_count": 0,
-    "current_moderate_risk_count": 41,
-    "predicted_moderate_risk_count": 6
+    "current_moderate_risk_count": 53,
+    "predicted_moderate_risk_count": 16
   },
   "current_day": "2017-01-01"
 }
