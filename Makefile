@@ -20,3 +20,11 @@ init_microservice:
 .PHONY: microservice
 microservice:
 	@cd ai_microservice && . .venv/bin/activate && python microservice.py
+
+.PHONY: init_all
+init_all: init_frontend init_microservice
+	@echo "All services initialized!"
+
+.PHONY: run_all
+run_all:
+	@make -j3 frontend backend microservice
