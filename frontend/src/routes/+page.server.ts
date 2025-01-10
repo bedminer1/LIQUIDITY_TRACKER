@@ -21,6 +21,7 @@ export async function load() {
         predictedSpreadData: predictedSpreadData,
         predictedVolumeData: predictedVolumeData,
         xAxis: xAxis,
+        currentDay: recommendations.current_day
        
     }
   } catch (error) {

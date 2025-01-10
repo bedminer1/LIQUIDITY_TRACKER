@@ -17,21 +17,17 @@ export const actions = {
 
     const apiUrl = `http://localhost:4000/recommendations?start=${start}&end=${end}&asset=${asset}&time_intervals=${time_intervals}&time_interval_length=${time_interval_length}`;
 
-    try {
-      // Fetch data from the backend
-      const response = await fetch(apiUrl);
+    // Fetch data from the backend
+    const response = await fetch(apiUrl);
 
-      if (!response.ok) {
-        throw new Error(`API request failed with status ${response.status}`);
-      }
-
-      const data = await response.json();
-      await saveResponseToFile(data, "recommendations.json");
-
-      console.log("redirecting..")
-      throw redirect(303, "http://localhost:5173")
-    } catch (error) {
-      return { error: "Something went wrong" };
+    if (!response.ok) {
+      throw new Error(`API request failed with status ${response.status}`);
     }
+
+    const data = await response.json()
+    data.current_day = end
+    await saveResponseToFile(data, "recommendations.json")
+
+    redirect(303, "/")
   },
-};
+}

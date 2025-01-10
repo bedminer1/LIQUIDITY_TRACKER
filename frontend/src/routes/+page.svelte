@@ -1,6 +1,7 @@
 <script lang="ts">
 	import LineChart from "$lib/components/LineChart.svelte"
 	import Card from "$lib/components/Card.svelte";
+	import { onMount } from "svelte"
 
 	export let data: {
 		analysis: string,
@@ -10,7 +11,8 @@
 		predictedVolumeData: number[],
 		predictedSpreadData: number[],
 		xAxis: string[],
-		error: string
+		error: string,
+		currentDay: string,
 	}
 
 	$: styledAnalysis = data.analysis
@@ -19,10 +21,34 @@
 		.replace(/<li>/g, '<li class="text-xl mb-2">')
 	let historicalIlliquidityRate = ((data.report.current_moderate_risk_count+data.report.current_high_risk_count)/data.report.historical_records).toFixed(3)
 	let predictedIlliquidityRate = ((data.report.predicted_moderate_risk_count+data.report.predicted_high_risk_count)/data.report.prediction_records).toFixed(3)
+
+	function formatDate(dateString: string): string {
+		const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+		const [year, month, day] = dateString.split("-");
+		const monthShort = months[parseInt(month, 10) - 1];
+		return `${parseInt(day, 10)} ${monthShort} ${year}`;
+	}
+
+	let time = ""
+	function updateClock() {
+		const now = new Date();
+		const hours = now.getHours().toString().padStart(2, "0");
+		const minutes = now.getMinutes().toString().padStart(2, "0");
+		const seconds = now.getSeconds().toString().padStart(2, "0");
+		time = `${hours}:${minutes}:${seconds}`;
+	}
+	$: displayDate = time + " " + formatDate(data.currentDay)
+	let interval: ReturnType<typeof setInterval>;
+	onMount(() => {
+		updateClock(); // Initialize the clock immediately
+		interval = setInterval(updateClock, 1000); // Update every second
+		return () => clearInterval(interval); // Cleanup on component destroy
+	});
   </script>
 
 <div class="flex flex-col items-center p-10">
-	<h1 class="text-8xl mb-10"><a href="https://github.com/bedminer1/LIQUIDITY_TRACKER/">STABLETIDE</a></h1>
+	<h1 class="text-8xl mb-3"><a href="https://github.com/bedminer1/LIQUIDITY_TRACKER/">STABLETIDE</a></h1>
+	<p class="mb-8">{displayDate}</p>
 	<nav class="underline text-left w-full mb-4">
 		<a href="/query">New Query?</a>
 	</nav>
@@ -50,8 +76,8 @@
 				<Card
 					{...{
 						title: "Period Analyzed",
-						body: data.xAxis[0] + " - " + data.xAxis[data.historicalSpreadData.length-1],
-						subtitle: "Predicting from " + data.xAxis[data.historicalSpreadData.length] + " - " + data.xAxis.at(-1),
+						body: formatDate(data.xAxis[0]) + " to " + formatDate(data.currentDay),
+						subtitle: "Predicting from " + formatDate(data.currentDay) + " to " + formatDate(data.xAxis.at(-1)!),
 						icon: "&#9790;"
 					}}
 				/>

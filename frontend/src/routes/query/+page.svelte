@@ -14,35 +14,35 @@
     <form method="post" class="flex flex-col gap-5 w-1/2 text-xl items-center p-5 mb-10">
       <label class="w-full flex justify-between">
         <p class="flex items-center text-xl">
-            Asset:
+            Asset Name
         </p>
         <input type="text" class="input w-2/3" name="asset" bind:value={asset} placeholder="e.g., ETF_EMB" required />
       </label> 
 
         <label class="w-full flex justify-between">
           <p class="flex items-center text-xl">
-              Start Date:
+              Starting Date
           </p>
           <input type="date" class="input w-2/3" name="start" bind:value={start} required />
         </label>
       
         <label class="w-full flex justify-between">
           <p class="flex items-center text-xl">
-              End Date:
+              End Date (demo)
           </p>
           <input type="date" class="input w-2/3" name="end" bind:value={end} required />
         </label>
       
         <label class="w-full flex justify-between">
           <p class="flex items-center text-xl">
-              Time Intervals:
+              Time Intervals
           </p>
           <input type="number" class="input w-2/3" name="time_intervals" bind:value={time_intervals} min="1" required />
         </label>
       
         <label class="w-full flex justify-between mb-4">
           <p class="flex items-center text-xl">
-              Time Interval:
+              Time Interval
           </p>
           <select name="time_interval_length" class="select w-2/3" bind:value={time_interval_length}>
               <option value="86400">Day</option>
