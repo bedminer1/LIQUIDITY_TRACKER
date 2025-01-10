@@ -88,11 +88,11 @@ However, without robust tools like StableTide, institutions risk systemic failur
 - **AI Microservice**: Python 3.11 with required libraries.
 
 ### Setting Up  
-1. **Clone the Repository**:  
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/StableTide.git
    cd StableTide
-  ```
+   ```
 2. **Initialize the Program**:
    ```bash
    make init_all
