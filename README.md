@@ -93,4 +93,18 @@ However, without robust tools like StableTide, institutions risk systemic failur
    git clone https://github.com/yourusername/StableTide.git
    cd StableTide
   ```
-2. Initialize the program
+2. **Initialize the Program**:
+   ```bash
+   make init_all
+   ```
+3. **Run the Programs**:
+   ```bash
+      make run_all
+   ```
+
+### Requirements
+- Python3.11
+- Go 1.18+
+- Node 16.x+
+- Make
+- SQLite
