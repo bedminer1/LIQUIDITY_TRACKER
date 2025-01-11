@@ -53,7 +53,6 @@ func (h *handler) handleGetRecords(c echo.Context) error {
 	})
 }
 
-
 func (h *handler) handleGetBlockchainData(c echo.Context) error {
 	contractAddress := c.QueryParam("contact_address")
 	if contractAddress == "" {
@@ -178,7 +177,6 @@ func fetchRecordsFromDB(db *gorm.DB, asset string, start, end time.Time) ([]mode
 	return records, nil
 }
 
-
 func getPredictionsFromAI(currentRecords []models.Record, intervalLength, intervals int) ([]models.Record, error) {
 	// Convert records to JSON
 	jsonData, err := json.Marshal(currentRecords)
@@ -216,7 +214,7 @@ func getPredictionsFromAI(currentRecords []models.Record, intervalLength, interv
 
 func (h *handler) handleGetChatGPTRecommendation(c echo.Context) error {
 	asset, start, end, intervalLength, intervals, err := parseQueryParams(c)
-	intervals *= (intervalLength/86400)
+	intervals *= (intervalLength / 86400)
 
 	if err != nil {
 		return c.JSON(400, echo.Map{
@@ -230,16 +228,16 @@ func (h *handler) handleGetChatGPTRecommendation(c echo.Context) error {
 		})
 	}
 
-	predictions, err := getPredictionsFromAI(records, intervalLength, intervals)
-	if err != nil {
-		return c.JSON(400, echo.Map{
-			"error": fmt.Sprintf("error interacting with microservice: %s", err.Error()),
-		})
-	}
+	// predictions, err := getPredictionsFromAI(records, intervalLength, intervals)
+	// if err != nil {
+	// 	return c.JSON(400, echo.Map{
+	// 		"error": fmt.Sprintf("error interacting with microservice: %s", err.Error()),
+	// 	})
+	// }
 
 	// PREDICTIONS USING HOLT-WINTERS MODEL
-	// predictions := stats.GeneratePredictions(records, intervals)
-	
+	predictions := stats.GeneratePredictions(records, intervals)
+
 	liquidityReport := riskassessment.AssessLiquidity(records, predictions, 8)
 	response, err := chatgpt.FetchGPTResponse(liquidityReport)
 	if err != nil {
@@ -249,9 +247,9 @@ func (h *handler) handleGetChatGPTRecommendation(c echo.Context) error {
 	}
 
 	return c.JSON(201, echo.Map{
-		"analysis": response.Choices[0].Message.Content,
-		"report": liquidityReport,
+		"analysis":        response.Choices[0].Message.Content,
+		"report":          liquidityReport,
 		"historical_data": records,
-		"predictions": predictions,
+		"predictions":     predictions,
 	})
 }
