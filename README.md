@@ -33,6 +33,8 @@ However, without robust tools like StableTide, institutions risk systemic failur
 ### Recommendations via OpenAI  
 - Generates actionable recommendations tailored to specific tokenized assets using OpenAI's GPT models.
 
+![image](https://github.com/user-attachments/assets/98c12f79-c56a-4c25-b25c-a492512ed6be)
+
 ---
 
 ## Technical Overview
