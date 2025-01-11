@@ -230,14 +230,16 @@ func (h *handler) handleGetChatGPTRecommendation(c echo.Context) error {
 		})
 	}
 
-	// predictions, err := getPredictionsFromAI(records, intervalLength, intervals)
-	// if err != nil {
-	// 	return c.JSON(400, echo.Map{
-	// 		"error": fmt.Sprintf("error interacting with microservice: %s", err.Error()),
-	// 	})
-	// }
+	predictions, err := getPredictionsFromAI(records, intervalLength, intervals)
+	if err != nil {
+		return c.JSON(400, echo.Map{
+			"error": fmt.Sprintf("error interacting with microservice: %s", err.Error()),
+		})
+	}
 
-	predictions := stats.GeneratePredictions(records, intervals)
+	// PREDICTIONS USING HOLT-WINTERS MODEL
+	// predictions := stats.GeneratePredictions(records, intervals)
+	
 	liquidityReport := riskassessment.AssessLiquidity(records, predictions, 8)
 	response, err := chatgpt.FetchGPTResponse(liquidityReport)
 	if err != nil {
